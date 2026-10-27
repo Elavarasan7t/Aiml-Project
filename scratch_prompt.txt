@@ -1,0 +1,396 @@
+<USER_REQUEST>
+TASK: Step 11 — Complete End-to-End Testing and Fix All Integration Issues
+
+I have completed the React frontend and FastAPI backend integration for my Business Entity Resolution project.
+
+Now I want you to test the COMPLETE application from frontend to ML pipeline and fix any issues.
+
+IMPORTANT:
+Do not add MongoDB.
+Do not add MySQL.
+Do not replace my XGBoost model.
+Do not change the core ML algorithm unless required to fix an actual integration error.
+Do not use fake/mock data.
+Do not remove TSV input/output support.
+
+==================================================
+1. INSPECT THE COMPLETE PROJECT
+==================================================
+
+Inspect:
+
+dataset/
+models/
+output/
+src/
+backend/
+frontend/
+
+Verify that all required files exist.
+
+Check:
+
+- XGBoost model
+- feature_columns.json
+- threshold.json
+- ML scripts
+- FastAPI backend
+- React frontend
+- API service
+- output directories
+
+==================================================
+2. TEST THE BACKEND
+==================================================
+
+Start:
+
+python -m uvicorn backend.main:app --reload --port 8000
+
+Test:
+
+GET /api/health
+
+Verify that it returns a successful response.
+
+Test:
+
+GET /api/model-info
+
+Verify that the trained XGBoost model can be loaded.
+
+Test all existing backend endpoints.
+
+==================================================
+3. TEST THE FRONTEND
+==================================================
+
+Start:
+
+cd frontend
+npm install
+npm run dev
+
+Open:
+
+http://localhost:5173
+
+Verify:
+
+- Dashboard loads
+- Navbar works
+- Upload controls work
+- Backend connection status works
+- Results page works
+- Download buttons work
+- No console errors
+- No broken API requests
+
+==================================================
+4. TEST FILE UPLOAD
+==================================================
+
+Use the actual dataset files:
+
+dataset/test/test_source1.tsv
+dataset/test/test_source2.tsv
+dataset/test/test_source3.tsv
+
+Upload all three through the React interface.
+
+Verify that:
+
+- Files are accepted
+- File names appear
+- Invalid files are rejected
+- Required columns are validated
+
+Required columns:
+
+entity_id
+business_name
+business_address
+country
+
+==================================================
+5. TEST PROCESSING
+==================================================
+
+Click:
+
+Run Entity Matching
+
+Verify the complete backend pipeline:
+
+Upload
+ ↓
+Validation
+ ↓
+Data Cleaning
+ ↓
+Candidate Generation
+ ↓
+Feature Engineering
+ ↓
+XGBoost Prediction
+ ↓
+Threshold Filtering
+ ↓
+Matching Results
+ ↓
+TSV Output
+
+Do not bypass any existing ML stage.
+
+==================================================
+6. VERIFY MODEL
+==================================================
+
+Verify that the backend loads:
+
+models/entity_resolution_xgboost.json
+
+and:
+
+models/feature_columns.json
+
+and:
+
+models/threshold.json
+
+Verify that the feature order used during prediction matches:
+
+feature_columns.json
+
+Do not retrain the model during API processing.
+
+==================================================
+7. VERIFY OUTPUT
+==================================================
+
+After processing, verify:
+
+output/matching_results.tsv
+
+and:
+
+output/candidate_pairs.tsv
+
+exist.
+
+Verify:
+
+- matching_results.tsv contains every Source 1 test entity exactly once
+- matched IDs are valid
+- no duplicate matched IDs
+- empty matches are represented correctly
+- candidate pairs contain valid S2/S3 IDs
+- final matches are a subset of candidate pairs
+
+==================================================
+8. VERIFY FRONTEND RESULTS
+==================================================
+
+The React Results page must display actual results from the backend.
+
+Verify:
+
+Source 1 Entity ID
+Matched Entity IDs
+Match Count
+
+Do not hard-code any result.
+
+Verify that searching/filtering works.
+
+==================================================
+9. VERIFY DOWNLOADS
+==================================================
+
+Test:
+
+Download Matching Results
+
+Download Candidate Pairs
+
+Open both downloaded files.
+
+Verify they are valid TSV files.
+
+==================================================
+10. TEST ERROR HANDLING
+==================================================
+
+Test these cases:
+
+1. Backend stopped
+2. Only Source 1 uploaded
+3. Wrong file format
+4. Missing required column
+5. Empty TSV
+6. Invalid TSV
+7. Model file missing
+8. Threshold file missing
+9. ML processing failure
+
+The frontend should show a clear user-friendly error.
+
+Do not display Python stack traces to the user.
+
+==================================================
+11. TEST CORS
+==================================================
+
+Verify that:
+
+http://localhost:5173
+
+can communicate with:
+
+http://localhost:8000
+
+Fix CORS configuration if required.
+
+==================================================
+12. CHECK API REQUESTS
+==================================================
+
+Open browser Developer Tools → Network.
+
+Verify:
+
+POST /api/process
+
+is successful.
+
+Verify:
+
+GET /api/results
+
+returns actual results.
+
+Verify download requests work.
+
+Fix any:
+
+404
+400
+422
+500
+CORS
+network
+JSON parsing
+file upload
+
+errors.
+
+==================================================
+13. RUN OFFICIAL VALIDATOR
+==================================================
+
+After successful processing, run:
+
+python3 utils/validate_submission.py --matching output/matching_results.tsv --candidate output/candidate_pairs.tsv --test-dir dataset/test
+
+Fix every validation error.
+
+Do not modify the validator.
+
+==================================================
+14. CHECK FOR FAKE DATA
+==================================================
+
+Search the frontend and backend for:
+
+mock data
+dummy data
+sample results
+hard-coded statistics
+fake candidate counts
+placeholder entity IDs
+
+Remove these from the production application.
+
+Everything displayed on the dashboard must come from the actual backend/ML pipeline.
+
+==================================================
+15. PERFORMANCE CHECK
+==================================================
+
+Check whether the test dataset can be processed without:
+
+- excessive memory usage
+- unnecessary nested loops
+- repeated model loading
+- repeated file processing
+- browser freezing
+
+Do not rewrite working algorithms unnecessarily.
+
+==================================================
+16. FINAL TEST
+==================================================
+
+Perform one complete clean test:
+
+1. Start backend
+2. Start frontend
+3. Open dashboard
+4. Upload all 3 test TSV files
+5. Run entity matching
+6. Wait for completion
+7. View statistics
+8. Open results
+9. Search results
+10. Download matching_results.tsv
+11. Download candidate_pairs.tsv
+12. Run official validator
+
+Everything must work without manually editing generated files.
+
+==================================================
+17. FINAL REPORT
+==================================================
+
+After testing, give me:
+
+A. Test results
+
+B. Errors found
+
+C. Errors fixed
+
+D. Files modified
+
+E. API endpoints tested
+
+F. ML pipeline stages verified
+
+G. Official validator result
+
+H. Any remaining issues
+
+I. Exact commands to run the complete application
+
+Use this format:
+
+BACKEND:
+python -m uvicorn backend.main:app --reload --port 8000
+
+FRONTEND:
+cd frontend
+npm run dev
+
+Do not claim that a test passed unless you actually tested it.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-09-30T14:31:13+05:30.
+
+The user's current state is as follows:
+Active Document: d:\AIML final\synthetic_entity_resolution_dataset\synthetic_entity_resolution_dataset\frontend\src\styles\main.css (LANGUAGE_CSS)
+Cursor is on line: 1
+Other open documents:
+- d:\AIML final\synthetic_entity_resolution_dataset\synthetic_entity_resolution_dataset\frontend\src\styles\main.css (LANGUAGE_CSS)
+- d:\AIML final\synthetic_entity_resolution_dataset\synthetic_entity_resolution_dataset\requirements.txt (LANGUAGE_UNSPECIFIED)
+- d:\AIML final\synthetic_entity_resolution_dataset\synthetic_entity_resolution_dataset\frontend\src\components\StatisticsCards.jsx (LANGUAGE_JAVASCRIPT)
+</ADDITIONAL_METADATA>

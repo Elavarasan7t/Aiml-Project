@@ -1,0 +1,2401 @@
+entity_id	source	master_entity_id	record_kind	noise_profile	name_ops	addr_ops	country_mode
+S2-00001	S2	M000357	match	complex	abbrev|legal_drop	typo|accent|drop_bno|punct|append_country	canon
+S2-00002	S2	M000035	match	abbrev	legal_variant|abbrev	abbr	variant
+S2-00003	S2	M000031	match	abbrev	legal_variant|abbrev	pin_prefix	canon
+S2-00004	S2	M000525	match	address	legal_variant	drop_pin	missing
+S2-00005	S2	M000485	match	missing	shorten	unit_lead	missing
+S2-00006	S2	M000292	match	typo	typo|vowel_drop		canon
+S2-00007	S2	D000075	decoy_same_name_diff_addr	complex	punct|spaces|abbrev	typo|sep	variant
+S2-00008	S2	M000294	match	order	case|punct		canon
+S2-00009	S2	M000518	match	typo	typo	typo	canon
+S2-00010	S2	M000324	match	abbrev	legal_variant	abbr|state_abbr|unit_lead	canon
+S2-00011	S2	M000246	match	complex	reorder|case	drop_state|drop_pin|typo	canon
+S2-00012	S2	M000408	match	address	legal_variant	state_abbr|numstyle|drop_pin	canon
+S2-00013	S2	M000532	match	abbrev	abbrev|initials		canon
+S2-00014	S2	M000226	match	typo	typo|vowel_drop	typo	variant
+S2-00015	S2	M000184	match	abbrev	abbrev	pin_prefix|drop_pin	canon
+S2-00016	S2	M000347	match	exact	case		variant
+S2-00017	S2	M000353	match	address	legal_variant	punct	canon
+S2-00018	S2	M000089	match	address	group_suffix	drop_pin|abbr	canon
+S2-00019	S2	M000486	match	order	spaces|punct|vowel_drop	append_country	canon
+S2-00020	S2	M000309	match	missing	shorten	drop_pin|drop_state	canon
+S2-00021	S2	M000165	match	abbrev	initials|legal_variant|abbrev|the_prefix	abbr|state_abbr	canon
+S2-00022	S2	D000039	decoy_same_name_diff_addr	typo	typo|legal_variant	typo	canon
+S2-00023	S2	M000237	match	complex	legal_variant|punct|group_suffix	drop_city|punct	missing
+S2-00024	S2	M000498	match	order	reorder|spaces	upper	canon
+S2-00025	S2	M000313	match	typo	typo	typo|append_country	canon
+S2-00026	S2	M000020	match	exact		abbr	variant
+S2-00027	S2	M000263	match	order	case|punct|umlaut_expand	upper	canon
+S2-00028	S2	M000363	match	order	punct|case|group_suffix	punct	missing
+S2-00029	S2	M000188	match	missing	drop_word	missing_addr|pin_prefix	canon
+S2-00030	S2	D000074	decoy_random	abbrev	shorten|abbrev|the_prefix	abbr|state_abbr	variant
+S2-00031	S2	M000156	match	abbrev	legal_variant|abbrev|umlaut_expand	state_abbr	canon
+S2-00032	S2	M000009	match	missing		drop_pin|drop_state	canon
+S2-00033	S2	D000026	decoy_same_name_diff_addr	exact	punct		variant
+S2-00034	S2	M000055	match	order	spaces|case	pin_prefix	canon
+S2-00035	S2	M000182	match	address	the_prefix	dotted	canon
+S2-00036	S2	M000073	match	complex	abbrev|typo|shorten	drop_pin|pinfmt|typo|landmark	missing
+S2-00037	S2	M000550	match	missing	drop_word|vowel_drop	drop_street|drop_pin|drop_unit	canon
+S2-00038	S2	M000158	match	abbrev	legal_variant|abbrev|vowel_drop	abbr	canon
+S2-00039	S2	M000254	match	order	case|spaces|vowel_drop	punct|sep	canon
+S2-00040	S2	M000443	match	complex	translit|typo|legal_variant|punct	state_abbr|pinfmt|landmark	canon
+S2-00041	S2	M000237	match	address	case|umlaut_expand	missing_addr	variant
+S2-00042	S2	D000011	decoy_same_name_diff_addr	address	legal_variant	punct|drop_pin	canon
+S2-00043	S2	M000081	match	abbrev	abbrev|umlaut_expand	state_abbr	canon
+S2-00044	S2	M000352	match	missing		drop_pin|drop_state	canon
+S2-00045	S2	M000343	match	address	case|vowel_drop	numstyle|append_country	variant
+S2-00046	S2	M000328	match	exact	punct		canon
+S2-00047	S2	M000121	match	typo	typo	typo	canon
+S2-00048	S2	M000079	match	abbrev	abbrev	abbr	canon
+S2-00049	S2	M000294	match	typo	typo	unit_lead	canon
+S2-00050	S2	M000389	match	address	the_prefix	abbr|drop_unit|append_country	canon
+S2-00051	S2	D000061	decoy_similar_addr_diff_name	address		abbr|state_abbr|dotted|pin_prefix	canon
+S2-00052	S2	M000005	match	order	punct|case|the_prefix		canon
+S2-00053	S2	M000025	match	complex	initials|typo|legal_variant|translit|vowel_drop	landmark|drop_pin|drop_unit|accent	canon
+S2-00054	S2	M000526	match	address	legal_variant|group_suffix	drop_pin	canon
+S2-00055	S2	M000161	match	address	group_suffix	numstyle	canon
+S2-00056	S2	D000006	decoy_same_city_diff_biz	exact			canon
+S2-00057	S2	M000266	match	order	reorder|punct	spaces	canon
+S2-00058	S2	M000039	match	address	case|the_prefix	sep|punct	canon
+S2-00059	S2	M000338	match	exact			canon
+S2-00060	S2	M000563	match	missing	the_prefix	drop_pin|drop_state	canon
+S2-00061	S2	M000538	match	exact		drop_pin	canon
+S2-00062	S2	M000466	match	complex	initials|spaces|legal_drop|typo	drop_state|drop_pin	missing
+S2-00063	S2	M000158	match	typo	typo|legal_variant|umlaut_expand	typo|pin_prefix	canon
+S2-00064	S2	M000167	match	address	case	dotted|abbr|state_abbr	canon
+S2-00065	S2	M000089	match	exact			variant
+S2-00066	S2	M000313	match	typo	typo	append_country	canon
+S2-00067	S2	D000086	decoy_similar_name_diff_addr	order	reorder|punct|group_suffix	punct|sep	canon
+S2-00068	S2	M000345	match	order	punct|case	spaces|append_country	canon
+S2-00069	S2	M000555	match	complex	translit|initials	landmark|drop_bno|pin_prefix	canon
+S2-00070	S2	D000007	decoy_similar_name_diff_addr	missing	legal_drop	drop_pin|drop_state	missing
+S2-00071	S2	M000356	match	complex	punct|legal_variant	state_abbr|accent|abbr|unit_lead	canon
+S2-00072	S2	M000322	match	abbrev	initials|abbrev	missing_addr	canon
+S2-00073	S2	M000359	match	address	vowel_drop	state_abbr	canon
+S2-00074	S2	D000078	decoy_same_name_diff_addr	exact			canon
+S2-00075	S2	M000340	match	complex	typo|legal_drop	punct|state_abbr|drop_unit	variant
+S2-00076	S2	M000083	match	missing			missing
+S2-00077	S2	M000065	match	order	case|reorder		canon
+S2-00078	S2	M000431	match	abbrev	abbrev|legal_variant	missing_addr	canon
+S2-00079	S2	M000006	match	missing	legal_drop	missing_addr	variant
+S2-00080	S2	M000262	match	typo	typo		canon
+S2-00081	S2	M000485	match	address		numstyle|sep|append_country	canon
+S2-00082	S2	M000405	match	order	case|spaces|the_prefix		canon
+S2-00083	S2	M000274	match	abbrev	abbrev|initials	abbr|drop_pin	canon
+S2-00084	S2	M000583	match	typo	typo	typo|append_country	canon
+S2-00085	S2	M000350	match	address	case	numstyle|drop_unit|append_country	canon
+S2-00086	S2	M000477	match	missing	shorten	drop_pin|drop_state	variant
+S2-00087	S2	M000044	match	abbrev	legal_variant|initials|abbrev	abbr|append_country	canon
+S2-00088	S2	M000600	match	typo	typo|legal_variant|group_suffix	pin_prefix	canon
+S2-00089	S2	M000090	match	typo	typo|legal_variant	typo|pin_prefix	variant
+S2-00090	S2	D000017	decoy_similar_name_diff_addr	exact			canon
+S2-00091	S2	M000267	match	abbrev	legal_variant|abbrev|vowel_drop		canon
+S2-00092	S2	M000523	match	complex	translit|punct|case|legal_variant|group_suffix	typo|punct|drop_bno	canon
+S2-00093	S2	D000089	decoy_similar_name_diff_addr	missing			missing
+S2-00094	S2	M000598	match	typo	typo		canon
+S2-00095	S2	M000134	match	abbrev	abbrev|legal_variant|group_suffix	state_abbr	canon
+S2-00096	S2	M000574	match	missing	the_prefix	missing_addr|append_country	canon
+S2-00097	S2	D000090	decoy_similar_name_diff_addr	abbrev	legal_variant|abbrev	abbr	canon
+S2-00098	S2	M000256	match	abbrev	abbrev|legal_variant	state_abbr|unit_lead	canon
+S2-00099	S2	D000062	decoy_same_name_diff_addr	exact			canon
+S2-00100	S2	M000399	match	order	case|punct|the_prefix	spaces|punct	variant
+S2-00101	S2	M000069	match	abbrev	abbrev|initials	abbr	canon
+S2-00102	S2	D000100	decoy_same_name_diff_addr	abbrev	legal_variant|abbrev	state_abbr	variant
+S2-00103	S2	M000591	match	address	case|the_prefix	sep	canon
+S2-00104	S2	M000354	match	missing	group_suffix	missing_addr	canon
+S2-00105	S2	M000318	match	abbrev	abbrev	abbr|unit_lead	canon
+S2-00106	S2	M000556	match	abbrev	abbrev|legal_variant		canon
+S2-00107	S2	M000436	match	typo	typo|legal_variant	typo	canon
+S2-00108	S2	M000049	match	abbrev	abbrev	append_country	canon
+S2-00109	S2	M000578	match	abbrev	legal_variant|initials|group_suffix	abbr	canon
+S2-00110	S2	M000208	match	typo	typo	typo	canon
+S2-00111	S2	M000139	match	order	punct|case|the_prefix	missing_addr	canon
+S2-00112	S2	M000021	match	abbrev	initials|abbrev|the_prefix	abbr|append_country	canon
+S2-00113	S2	M000199	match	abbrev	abbrev|initials		canon
+S2-00114	S2	M000093	match	complex	abbrev|case|typo	abbr|accent|typo|drop_unit|append_country	missing
+S2-00115	S2	M000216	match	typo	typo|umlaut_expand		canon
+S2-00116	S2	M000591	match	abbrev	abbrev|the_prefix	abbr	canon
+S2-00117	S2	M000345	match	address		drop_unit|numstyle	missing
+S2-00118	S2	M000211	match	order	punct|reorder	punct|append_country	canon
+S2-00119	S2	M000480	match	order	case|punct|umlaut_expand		variant
+S2-00120	S2	M000008	match	abbrev	abbrev	abbr	canon
+S2-00121	S2	M000553	match	exact			canon
+S2-00122	S2	M000377	match	abbrev	abbrev|shorten		canon
+S2-00123	S2	M000024	match	missing		append_country	missing
+S2-00124	S2	M000263	match	abbrev	abbrev|shorten|the_prefix		canon
+S2-00125	S2	M000022	match	missing		drop_pin|drop_state	variant
+S2-00126	S2	M000061	match	abbrev	legal_variant|abbrev|umlaut_expand	state_abbr	canon
+S2-00127	S2	M000026	match	missing	drop_word|the_prefix	drop_street|drop_pin|drop_unit	canon
+S2-00128	S2	M000573	match	typo	typo|vowel_drop		variant
+S2-00129	S2	M000592	match	exact			canon
+S2-00130	S2	M000518	match	order	punct|case|vowel_drop	spaces|sep	canon
+S2-00131	S2	M000118	match	order	punct|spaces|group_suffix	sep	canon
+S2-00132	S2	D000004	decoy_similar_addr_diff_name	abbrev	legal_variant|abbrev|vowel_drop	abbr|unit_lead	canon
+S2-00133	S2	M000508	match	typo	typo	unit_lead	canon
+S2-00134	S2	D000058	decoy_same_name_diff_addr	address		abbr	canon
+S2-00135	S2	M000542	match	typo	typo|legal_variant|group_suffix	typo	canon
+S2-00136	S2	M000149	match	typo	typo	typo|drop_pin	canon
+S2-00137	S2	D000076	decoy_similar_addr_diff_name	typo	typo|vowel_drop	typo	canon
+S2-00138	S2	M000333	match	address	case	numstyle|append_country	variant
+S2-00139	S2	M000047	match	typo	typo|legal_variant	typo	canon
+S2-00140	S2	M000273	match	abbrev	abbrev|shorten	abbr	canon
+S2-00141	S2	M000193	match	typo	typo|umlaut_expand		missing
+S2-00142	S2	D000041	decoy_same_name_diff_addr	exact			canon
+S2-00143	S2	D000023	decoy_same_city_diff_biz	order	case|spaces|the_prefix	punct	canon
+S2-00144	S2	M000223	match	exact			canon
+S2-00145	S2	M000487	match	order	spaces|case|group_suffix	spaces	canon
+S2-00146	S2	D000042	decoy_same_name_diff_addr	complex	punct|typo|legal_variant|initials	upper|reorder|accent|drop_bno	variant
+S2-00147	S2	M000267	match	abbrev	abbrev	abbr|state_abbr|pin_prefix	canon
+S2-00148	S2	M000141	match	abbrev	abbrev		canon
+S2-00149	S2	D000088	decoy_random	missing		pin_prefix	missing
+S2-00150	S2	M000035	match	missing	shorten|umlaut_expand		missing
+S2-00151	S2	M000026	match	exact	case		canon
+S2-00152	S2	M000243	match	order	punct|case	pin_prefix	canon
+S2-00153	S2	M000439	match	typo	typo|legal_variant	append_country	canon
+S2-00154	S2	D000047	decoy_random	missing	legal_drop	drop_street|drop_pin|drop_unit	canon
+S2-00155	S2	M000006	match	address	case|umlaut_expand	drop_unit|abbr|punct|unit_lead	canon
+S2-00156	S2	D000009	decoy_similar_addr_diff_name	abbrev	initials|legal_variant|abbrev|umlaut_expand		canon
+S2-00157	S2	M000124	match	order	punct|reorder	upper|spaces|append_country	canon
+S2-00158	S2	M000266	match	typo	typo|legal_variant		canon
+S2-00159	S2	M000433	match	exact		abbr	canon
+S2-00160	S2	M000511	match	exact	case	drop_pin	canon
+S2-00161	S2	M000364	match	address	case	abbr|punct|drop_pin	canon
+S2-00162	S2	M000122	match	missing	drop_word	missing_addr|pin_prefix	variant
+S2-00163	S2	M000215	match	abbrev	abbrev|legal_variant|vowel_drop		canon
+S2-00164	S2	M000350	match	abbrev	abbrev|legal_variant|group_suffix	abbr|state_abbr	canon
+S2-00165	S2	M000263	match	missing		drop_street|drop_pin|drop_unit|append_country	canon
+S2-00166	S2	M000493	match	abbrev	abbrev	pin_prefix	canon
+S2-00167	S2	M000254	match	order	spaces|punct	sep|punct|append_country	canon
+S2-00168	S2	D000038	decoy_same_name_diff_addr	address		drop_pin	canon
+S2-00169	S2	M000243	match	abbrev	legal_variant|initials	state_abbr	canon
+S2-00170	S2	M000269	match	address	case	abbr|numstyle|punct|append_country	canon
+S2-00171	S2	M000359	match	complex	typo|shorten	numstyle|landmark|reorder	canon
+S2-00172	S2	M000575	match	abbrev	abbrev|legal_variant|umlaut_expand	abbr	variant
+S2-00173	S2	M000050	match	abbrev	abbrev	abbr|unit_lead	canon
+S2-00174	S2	M000422	match	order	case|punct	spaces|punct|drop_pin	canon
+S2-00175	S2	M000365	match	order	punct|spaces	missing_addr	canon
+S2-00176	S2	M000431	match	abbrev	legal_variant|abbrev		canon
+S2-00177	S2	M000237	match	complex	case|shorten|legal_variant	drop_unit|sep	variant
+S2-00178	S2	M000434	match	address		abbr|numstyle	canon
+S2-00179	S2	M000333	match	exact	punct		missing
+S2-00180	S2	M000389	match	missing	drop_word|vowel_drop	missing_addr	canon
+S2-00181	S2	M000119	match	typo	typo		canon
+S2-00182	S2	M000141	match	abbrev	initials|abbrev	append_country	canon
+S2-00183	S2	M000246	match	address		punct|dotted|abbr	canon
+S2-00184	S2	M000103	match	abbrev	legal_variant	abbr	canon
+S2-00185	S2	M000570	match	exact			canon
+S2-00186	S2	M000354	match	typo	typo|legal_variant	append_country	variant
+S2-00187	S2	M000501	match	complex	legal_variant|reorder	abbr|drop_pin|spaces	canon
+S2-00188	S2	D000073	decoy_random	order	case|spaces	punct|append_country	canon
+S2-00189	S2	M000333	match	typo	typo		canon
+S2-00190	S2	M000059	match	abbrev	abbrev	abbr|unit_lead	missing
+S2-00191	S2	D000079	decoy_similar_addr_diff_name	order	reorder|punct|umlaut_expand	punct|upper	canon
+S2-00192	S2	M000298	match	address		dotted	variant
+S2-00193	S2	M000592	match	exact			canon
+S2-00194	S2	M000281	match	typo	typo|group_suffix		canon
+S2-00195	S2	M000220	match	missing		missing_addr	canon
+S2-00196	S2	M000018	match	abbrev	legal_variant|abbrev	abbr|pin_prefix	variant
+S2-00197	S2	M000165	match	typo	typo|legal_variant		canon
+S2-00198	S2	M000170	match	order	case|punct|the_prefix	sep|punct	variant
+S2-00199	S2	M000350	match	abbrev	legal_variant|abbrev	append_country	canon
+S2-00200	S2	M000480	match	abbrev	abbrev|umlaut_expand	abbr	missing
+S2-00201	S2	M000322	match	missing	drop_word|the_prefix	missing_addr	canon
+S2-00202	S2	M000257	match	abbrev	initials|abbrev	abbr	canon
+S2-00203	S2	D000005	decoy_similar_name_diff_addr	order	punct|spaces	pin_prefix	canon
+S2-00204	S2	M000147	match	address	the_prefix	punct|abbr|dotted	canon
+S2-00205	S2	M000068	match	exact		punct	canon
+S2-00206	S2	M000116	match	exact			canon
+S2-00207	S2	D000034	decoy_same_name_diff_addr	abbrev	abbrev	missing_addr	canon
+S2-00208	S2	M000396	match	missing	vowel_drop		missing
+S2-00209	S2	M000325	match	abbrev	shorten|initials|abbrev	abbr|state_abbr	canon
+S2-00210	S2	M000049	match	exact			canon
+S2-00211	S2	M000084	match	complex	case|abbrev|typo	sep|abbr	canon
+S2-00212	S2	D000014	decoy_same_name_diff_addr	complex	typo|abbrev|drop_word|shorten	landmark|reorder|pinfmt|unit_lead	variant
+S2-00213	S2	D000059	decoy_random	abbrev	legal_variant|abbrev	abbr	canon
+S2-00214	S2	M000429	match	abbrev	abbrev|vowel_drop	abbr|pin_prefix	canon
+S2-00215	S2	M000503	match	address		numstyle|drop_pin|abbr|pin_prefix	canon
+S2-00216	S2	M000571	match	exact	punct	abbr	canon
+S2-00217	S2	M000110	match	typo	typo		canon
+S2-00218	S2	M000014	match	missing		drop_street|drop_pin|drop_unit	canon
+S2-00219	S2	M000100	match	address	legal_variant	punct|abbr	canon
+S2-00220	S2	M000367	match	missing	shorten|group_suffix	drop_street|drop_pin|drop_unit	canon
+S2-00221	S2	M000221	match	complex	case|translit|shorten|typo|vowel_drop	drop_pin|upper	variant
+S2-00222	S2	M000025	match	abbrev	initials|the_prefix	state_abbr	canon
+S2-00223	S2	M000130	match	abbrev	initials|legal_variant|vowel_drop	abbr|unit_lead	canon
+S2-00224	S2	M000140	match	missing		drop_street|drop_pin|drop_unit	canon
+S2-00225	S2	M000002	match	typo	typo|legal_variant		variant
+S2-00226	S2	M000529	match	typo	typo	typo	canon
+S2-00227	S2	M000210	match	missing	group_suffix	drop_street|drop_pin|drop_unit	canon
+S2-00228	S2	D000087	decoy_same_city_diff_biz	complex	legal_variant|legal_drop|abbrev	dotted|state_abbr|drop_unit|unit_lead	canon
+S2-00229	S2	M000376	match	complex	drop_word|translit|reorder|punct	drop_bno|punct|append_country	canon
+S2-00230	S2	M000178	match	missing		drop_street|drop_pin|drop_unit	canon
+S2-00231	S2	M000399	match	address		numstyle|abbr|punct|append_country	variant
+S2-00232	S2	M000008	match	abbrev	legal_variant|abbrev	append_country	canon
+S2-00233	S2	M000195	match	address	legal_variant	drop_pin|numstyle|abbr|unit_lead	canon
+S2-00234	S2	D000032	decoy_similar_name_diff_addr	order	case|spaces	punct|sep	canon
+S2-00235	S2	D000095	decoy_same_name_diff_addr	missing			missing
+S2-00236	S2	D000030	decoy_similar_addr_diff_name	abbrev	shorten	state_abbr	missing
+S2-00237	S2	M000170	match	order	case|reorder		canon
+S2-00238	S2	M000577	match	order	punct|spaces	sep	canon
+S2-00239	S2	M000306	match	exact			canon
+S2-00240	S2	M000575	match	complex	legal_variant|punct|legal_drop|the_prefix	abbr|landmark|pinfmt|drop_pin	canon
+S2-00241	S2	M000223	match	abbrev	legal_variant|abbrev		canon
+S2-00242	S2	M000380	match	abbrev	abbrev|legal_variant|the_prefix	abbr	canon
+S2-00243	S2	M000222	match	abbrev	legal_variant|the_prefix	abbr|pin_prefix	canon
+S2-00244	S2	M000405	match	missing		missing_addr|pin_prefix	missing
+S2-00245	S2	M000132	match	address	legal_variant	missing_addr	canon
+S2-00246	S2	M000262	match	exact		punct	canon
+S2-00247	S2	M000254	match	complex	reorder|spaces	drop_pin|numstyle	canon
+S2-00248	S2	M000351	match	complex	shorten|legal_variant|typo|punct	numstyle|spaces|drop_pin	canon
+S2-00249	S2	M000130	match	typo	typo		canon
+S2-00250	S2	M000001	match	abbrev	shorten|abbrev	drop_pin	canon
+S2-00251	S2	M000547	match	address	vowel_drop	abbr|drop_unit	canon
+S2-00252	S2	M000154	match	abbrev	legal_variant|abbrev|the_prefix	abbr|state_abbr	canon
+S2-00253	S2	M000073	match	typo	typo	typo	canon
+S2-00254	S2	M000402	match	order	punct|case	punct	canon
+S2-00255	S2	M000496	match	exact	punct		missing
+S2-00256	S2	M000417	match	address	vowel_drop	abbr|state_abbr|numstyle|unit_lead	canon
+S2-00257	S2	M000389	match	address		drop_pin|unit_lead	canon
+S2-00258	S2	M000274	match	exact			canon
+S2-00259	S2	M000029	match	complex	punct|typo|reorder|the_prefix	drop_city|pinfmt|numstyle|landmark|pin_prefix	canon
+S2-00260	S2	M000134	match	abbrev	initials|vowel_drop		canon
+S2-00261	S2	M000168	match	order	punct|case	sep|spaces	canon
+S2-00262	S2	M000548	match	missing	legal_drop	missing_addr	canon
+S2-00263	S2	M000381	match	typo	typo		canon
+S2-00264	S2	M000063	match	abbrev	legal_variant|abbrev|vowel_drop	abbr|append_country	canon
+S2-00265	S2	M000109	match	exact		abbr	canon
+S2-00266	S2	M000554	match	abbrev	abbrev|legal_variant|group_suffix	abbr|state_abbr	variant
+S2-00267	S2	M000360	match	exact			canon
+S2-00268	S2	M000201	match	order	punct|case|vowel_drop	unit_lead	canon
+S2-00269	S2	M000092	match	abbrev	legal_variant|abbrev|umlaut_expand	abbr|state_abbr|pin_prefix	canon
+S2-00270	S2	M000334	match	complex	typo|abbrev|legal_drop|vowel_drop	sep|numstyle	variant
+S2-00271	S2	M000513	match	address	legal_variant	punct	canon
+S2-00272	S2	D000102	decoy_same_name_diff_addr	exact		abbr	canon
+S2-00273	S2	M000479	match	address	case|umlaut_expand	sep|drop_pin|abbr	variant
+S2-00274	S2	M000306	match	complex	reorder|abbrev|initials	reorder|spaces|drop_bno|drop_pin	variant
+S2-00275	S2	M000393	match	exact	case		canon
+S2-00276	S2	M000134	match	typo	typo|group_suffix	pin_prefix	canon
+S2-00277	S2	M000168	match	complex	case|initials|punct	landmark|typo|abbr|drop_state	variant
+S2-00278	S2	M000418	match	address		punct|sep|state_abbr|append_country	canon
+S2-00279	S2	M000404	match	order	case|punct	spaces|punct|unit_lead	canon
+S2-00280	S2	M000319	match	missing		missing_addr	variant
+S2-00281	S2	D000033	decoy_similar_name_diff_addr	order	spaces|punct|group_suffix	punct|spaces|pin_prefix	variant
+S2-00282	S2	M000383	match	typo	typo|legal_variant	drop_pin	canon
+S2-00283	S2	M000109	match	typo	typo|legal_variant	typo|append_country	canon
+S2-00284	S2	M000528	match	abbrev	legal_variant|shorten|abbrev	unit_lead	canon
+S2-00285	S2	M000234	match	address	case	punct|sep	canon
+S2-00286	S2	M000308	match	typo	typo		missing
+S2-00287	S2	M000184	match	complex	typo|reorder	landmark|dotted|drop_pin	variant
+S2-00288	S2	M000241	match	complex	abbrev|translit|reorder	reorder|typo|drop_state|drop_pin	canon
+S2-00289	S2	M000228	match	complex	abbrev|shorten|legal_drop|punct	drop_state|reorder|pinfmt|accent	canon
+S2-00290	S2	M000049	match	abbrev	legal_variant|abbrev	abbr	canon
+S2-00291	S2	M000256	match	abbrev	legal_variant|abbrev	state_abbr	canon
+S2-00292	S2	M000533	match	address	legal_variant	sep|dotted	variant
+S2-00293	S2	D000068	decoy_same_name_diff_addr	complex	legal_variant|abbrev|case	drop_state|typo|reorder|abbr|append_country	canon
+S2-00294	S2	M000066	match	exact			canon
+S2-00295	S2	M000431	match	address	case|the_prefix	punct|append_country	canon
+S2-00296	S2	M000491	match	order	punct|case|group_suffix	sep	canon
+S2-00297	S2	M000231	match	missing	legal_drop|group_suffix	missing_addr|pin_prefix	canon
+S2-00298	S2	M000530	match	typo	typo		variant
+S2-00299	S2	M000156	match	typo	typo|umlaut_expand		variant
+S2-00300	S2	M000057	match	typo	typo|vowel_drop		canon
+S2-00301	S2	M000314	match	abbrev	legal_variant|abbrev	abbr|unit_lead	canon
+S2-00302	S2	M000336	match	order	case|punct|umlaut_expand		canon
+S2-00303	S2	M000088	match	typo	typo|legal_variant|vowel_drop	pin_prefix	canon
+S2-00304	S2	D000028	decoy_similar_addr_diff_name	complex	punct|abbrev|vowel_drop	reorder|sep|abbr|pin_prefix	variant
+S2-00305	S2	M000341	match	order	case|spaces	upper|unit_lead	canon
+S2-00306	S2	M000337	match	address	case	punct|abbr	variant
+S2-00307	S2	M000099	match	abbrev	initials|abbrev		canon
+S2-00308	S2	M000264	match	missing	the_prefix	missing_addr|append_country	canon
+S2-00309	S2	M000491	match	abbrev	legal_variant	abbr|unit_lead	canon
+S2-00310	S2	M000359	match	exact	punct	punct	variant
+S2-00311	S2	M000134	match	order	case|spaces|the_prefix	sep|punct|append_country	canon
+S2-00312	S2	M000131	match	abbrev	legal_variant|abbrev|the_prefix		canon
+S2-00313	S2	M000505	match	abbrev	abbrev|the_prefix	abbr|unit_lead	canon
+S2-00314	S2	M000517	match	abbrev	shorten|abbrev	abbr|state_abbr	canon
+S2-00315	S2	M000215	match	complex	typo|legal_drop|translit	drop_pin|typo	variant
+S2-00316	S2	M000160	match	complex	legal_drop|reorder|punct|abbrev	drop_pin|abbr	missing
+S2-00317	S2	M000222	match	abbrev	shorten	pin_prefix	canon
+S2-00318	S2	M000473	match	abbrev	legal_variant|abbrev|the_prefix	abbr	variant
+S2-00319	S2	M000546	match	typo	typo		canon
+S2-00320	S2	M000319	match	exact			canon
+S2-00321	S2	M000415	match	abbrev	abbrev|group_suffix	abbr	canon
+S2-00322	S2	M000365	match	typo	typo	unit_lead	canon
+S2-00323	S2	M000255	match	typo	typo|legal_variant		canon
+S2-00324	S2	M000241	match	order	spaces|punct	punct|spaces	canon
+S2-00325	S2	M000212	match	abbrev	legal_variant		variant
+S2-00326	S2	M000071	match	abbrev	abbrev|initials	abbr	canon
+S2-00327	S2	M000391	match	missing	legal_drop	drop_pin	missing
+S2-00328	S2	M000041	match	address	legal_variant	punct|abbr	canon
+S2-00329	S2	M000187	match	exact		abbr	canon
+S2-00330	S2	M000101	match	exact	case		canon
+S2-00331	S2	M000573	match	address	vowel_drop	abbr|numstyle|unit_lead	missing
+S2-00332	S2	M000424	match	abbrev	legal_variant|initials|abbrev	abbr|state_abbr	variant
+S2-00333	S2	D000048	decoy_similar_name_diff_addr	abbrev	abbrev|legal_variant|the_prefix	abbr|append_country	canon
+S2-00334	S2	D000085	decoy_same_city_diff_biz	complex	shorten|translit	typo|drop_bno	canon
+S2-00335	S2	D000083	decoy_random	abbrev	legal_variant|vowel_drop	abbr	canon
+S2-00336	S2	D000024	decoy_same_name_diff_addr	abbrev	abbrev|vowel_drop	abbr|state_abbr	variant
+S2-00337	S2	M000154	match	missing			missing
+S2-00338	S2	M000121	match	order	spaces|punct|group_suffix	punct|sep|drop_pin	canon
+S2-00339	S2	D000020	decoy_same_name_diff_addr	typo	typo		canon
+S2-00340	S2	M000301	match	exact			canon
+S2-00341	S2	M000142	match	abbrev	abbrev	abbr	canon
+S2-00342	S2	M000193	match	abbrev	shorten|legal_variant|abbrev		variant
+S2-00343	S2	M000066	match	exact	punct		canon
+S2-00344	S2	M000294	match	missing	legal_drop|group_suffix	drop_street|drop_pin|drop_unit|append_country	canon
+S2-00345	S2	M000442	match	missing	umlaut_expand	missing_addr|append_country	canon
+S2-00346	S2	M000361	match	exact		drop_pin	canon
+S2-00347	S2	M000327	match	address	legal_variant|vowel_drop	dotted	canon
+S2-00348	S2	M000399	match	typo	typo|legal_variant	append_country	canon
+S2-00349	S2	M000102	match	exact			variant
+S2-00350	S2	M000327	match	address	legal_variant	punct|drop_pin	canon
+S2-00351	S2	M000166	match	abbrev	abbrev|vowel_drop	abbr	canon
+S2-00352	S2	M000505	match	exact	case		canon
+S2-00353	S2	D000050	decoy_similar_name_diff_addr	abbrev	legal_variant|abbrev		canon
+S2-00354	S2	M000450	match	typo	typo|umlaut_expand	missing_addr	canon
+S2-00355	S2	M000540	match	typo	typo		canon
+S2-00356	S2	M000104	match	abbrev	abbrev|legal_variant	abbr	canon
+S2-00357	S2	M000160	match	abbrev	legal_variant|abbrev	drop_pin	canon
+S2-00358	S2	D000070	decoy_similar_addr_diff_name	abbrev	abbrev|legal_variant	abbr	canon
+S2-00359	S2	M000523	match	typo	typo|vowel_drop	pin_prefix	variant
+S2-00360	S2	M000322	match	abbrev	abbrev|legal_variant|vowel_drop	abbr|state_abbr	variant
+S2-00361	S2	M000248	match	missing	group_suffix	missing_addr	canon
+S2-00362	S2	M000378	match	missing	legal_drop		missing
+S2-00363	S2	M000375	match	exact		punct	canon
+S2-00364	S2	M000447	match	missing	legal_drop	drop_pin|drop_state|unit_lead	canon
+S2-00365	S2	M000417	match	exact		punct	canon
+S2-00366	S2	M000032	match	exact			canon
+S2-00367	S2	M000093	match	abbrev	shorten|abbrev	state_abbr	canon
+S2-00368	S2	M000535	match	exact			canon
+S2-00369	S2	M000178	match	abbrev	abbrev|initials		canon
+S2-00370	S2	D000084	decoy_same_name_diff_addr	typo	typo		variant
+S2-00371	S2	M000597	match	typo	typo|group_suffix	typo	canon
+S2-00372	S2	M000073	match	order	punct|case	pin_prefix	variant
+S2-00373	S2	M000459	match	complex	spaces|punct|group_suffix	missing_addr	variant
+S2-00374	S2	M000569	match	complex	drop_word|punct|reorder|case	upper|drop_unit|landmark	canon
+S2-00375	S2	M000018	match	abbrev	legal_variant|abbrev|vowel_drop	state_abbr	canon
+S2-00376	S2	M000218	match	abbrev	abbrev|legal_variant	abbr|state_abbr	variant
+S2-00377	S2	M000174	match	missing	umlaut_expand	missing_addr|append_country	canon
+S2-00378	S2	M000515	match	abbrev	shorten|abbrev|vowel_drop	abbr|state_abbr|unit_lead	canon
+S2-00379	S2	M000338	match	abbrev	legal_variant|abbrev|umlaut_expand	abbr|append_country	canon
+S2-00380	S2	M000028	match	typo	typo		canon
+S2-00381	S2	M000442	match	abbrev	abbrev|legal_variant	unit_lead	variant
+S2-00382	S2	M000498	match	order	spaces|case|group_suffix	punct|upper	canon
+S2-00383	S2	M000144	match	typo	typo|legal_variant|umlaut_expand	unit_lead	canon
+S2-00384	S2	D000052	decoy_same_name_diff_addr	address		numstyle|sep|drop_pin	variant
+S2-00385	S2	M000142	match	abbrev	legal_variant|abbrev	abbr|state_abbr	canon
+S2-00386	S2	M000285	match	abbrev	legal_variant|abbrev		canon
+S2-00387	S2	M000485	match	exact		abbr	canon
+S2-00388	S2	M000181	match	typo	typo|legal_variant|vowel_drop		canon
+S2-00389	S2	D000093	decoy_random	typo	typo|legal_variant	typo|drop_pin	canon
+S2-00390	S2	M000152	match	abbrev	abbrev|legal_variant	abbr|state_abbr|drop_pin	canon
+S2-00391	S2	M000273	match	abbrev	legal_variant|abbrev	append_country	variant
+S2-00392	S2	M000181	match	missing	drop_word|the_prefix	missing_addr	canon
+S2-00393	S2	M000519	match	complex	drop_word|abbrev	typo|reorder|accent|numstyle	variant
+S2-00394	S2	D000040	decoy_similar_name_diff_addr	typo	typo	typo|pin_prefix	variant
+S2-00395	S2	M000483	match	address		sep|drop_unit	canon
+S2-00396	S2	D000063	decoy_similar_addr_diff_name	missing	shorten|group_suffix	drop_pin|drop_state|unit_lead	canon
+S2-00397	S2	M000569	match	address		state_abbr	canon
+S2-00398	S2	D000043	decoy_similar_addr_diff_name	order	spaces|punct	sep	canon
+S2-00399	S2	D000081	decoy_similar_name_diff_addr	exact	case	punct	canon
+S2-00400	S2	M000484	match	address	case|group_suffix	abbr|numstyle	canon
+S2-00401	S2	M000036	match	address	the_prefix	abbr|sep	canon
+S2-00402	S2	M000300	match	abbrev	abbrev	abbr	canon
+S2-00403	S2	M000584	match	address	umlaut_expand	drop_pin|pin_prefix	variant
+S2-00404	S2	M000260	match	abbrev	abbrev	abbr|state_abbr	canon
+S2-00405	S2	D000008	decoy_same_name_diff_addr	exact			canon
+S2-00406	S2	M000392	match	typo	typo	typo	missing
+S2-00407	S2	M000207	match	typo	typo		canon
+S2-00408	S2	M000283	match	address	group_suffix	numstyle|abbr	canon
+S2-00409	S2	M000016	match	address	umlaut_expand	abbr|dotted|drop_pin	canon
+S2-00410	S2	M000530	match	complex	legal_drop|typo|case	missing_addr	canon
+S2-00411	S2	M000249	match	missing	legal_drop	drop_street|drop_pin|drop_unit	canon
+S2-00412	S2	M000105	match	missing	shorten|the_prefix	missing_addr	canon
+S2-00413	S2	D000044	decoy_similar_addr_diff_name	complex	shorten|punct|vowel_drop	drop_state|landmark	canon
+S2-00414	S2	M000033	match	abbrev	legal_variant|abbrev|vowel_drop	abbr|state_abbr	variant
+S2-00415	S2	M000503	match	complex	reorder|legal_variant|typo|abbrev	landmark|reorder|punct|abbr	variant
+S2-00416	S2	M000161	match	address	case|umlaut_expand	sep|state_abbr|drop_pin	canon
+S2-00417	S2	M000494	match	abbrev	abbrev|initials|vowel_drop		variant
+S2-00418	S2	M000092	match	address	legal_variant	state_abbr|punct|drop_pin	canon
+S2-00419	S2	M000434	match	typo	typo|group_suffix	typo	canon
+S2-00420	S2	M000220	match	typo	typo		canon
+S2-00421	S2	D000096	decoy_same_name_diff_addr	typo	typo|legal_variant		variant
+S2-00422	S2	M000085	match	typo	typo|legal_variant		variant
+S2-00423	S2	M000259	match	complex	spaces|translit|legal_variant|punct	drop_unit|landmark|pin_prefix	canon
+S2-00424	S2	M000274	match	order	punct|spaces	pin_prefix|drop_pin	canon
+S2-00425	S2	M000540	match	missing		missing_addr	missing
+S2-00426	S2	M000222	match	missing	drop_word|umlaut_expand		missing
+S2-00427	S2	M000394	match	exact	punct		canon
+S2-00428	S2	M000573	match	order	punct|reorder|the_prefix		canon
+S2-00429	S2	D000105	decoy_same_name_diff_addr	complex	case|abbrev|group_suffix	drop_pin|landmark	variant
+S2-00430	S2	M000200	match	abbrev	legal_variant|abbrev	state_abbr|append_country	variant
+S2-00431	S2	D000010	decoy_same_name_diff_addr	abbrev	legal_variant	pin_prefix	canon
+S2-00432	S2	M000073	match	typo	typo|vowel_drop		canon
+S2-00433	S2	M000199	match	address	case	drop_pin|punct|state_abbr	canon
+S2-00434	S2	M000151	match	abbrev	legal_variant		canon
+S2-00435	S2	M000422	match	address	case	numstyle|abbr|drop_pin	canon
+S2-00436	S2	M000236	match	abbrev	legal_variant|abbrev	abbr	canon
+S2-00437	S2	M000538	match	missing	legal_drop|vowel_drop	drop_street|drop_pin|drop_unit|unit_lead	canon
+S2-00438	S2	M000055	match	abbrev	legal_variant|abbrev	abbr|append_country	canon
+S2-00439	S2	M000422	match	order	spaces|case|vowel_drop	sep	canon
+S2-00440	S2	M000133	match	order	punct|spaces	sep|spaces	canon
+S2-00441	S2	M000592	match	order	punct|reorder	punct|upper	variant
+S2-00442	S2	M000313	match	typo	typo	append_country	canon
+S2-00443	S2	M000444	match	order	spaces|punct|umlaut_expand	spaces|sep	canon
+S2-00444	S2	M000551	match	complex	legal_variant|case	punct|sep	canon
+S2-00445	S2	M000436	match	complex	abbrev|reorder|legal_variant|umlaut_expand	drop_state|abbr|drop_unit|numstyle	variant
+S2-00446	S2	D000002	decoy_similar_name_diff_addr	typo	typo	typo|pin_prefix	canon
+S2-00447	S2	M000119	match	exact		abbr	variant
+S2-00448	S2	M000042	match	exact			canon
+S2-00449	S2	M000211	match	order	spaces|punct	sep	canon
+S2-00450	S2	D000029	decoy_random	typo	typo		canon
+S2-00451	S2	M000057	match	typo	typo|legal_variant		canon
+S2-00452	S2	D000012	decoy_same_city_diff_biz	abbrev	abbrev|legal_variant		canon
+S2-00453	S2	M000457	match	order	punct|reorder	sep|punct|drop_pin	canon
+S2-00454	S2	M000287	match	abbrev	legal_variant|shorten		canon
+S2-00455	S2	D000101	decoy_similar_name_diff_addr	complex	typo|spaces|translit|group_suffix	accent|drop_state	missing
+S2-00456	S2	M000143	match	abbrev	abbrev	missing_addr	canon
+S2-00457	S2	M000162	match	abbrev	abbrev	drop_pin	canon
+S2-00458	S2	M000014	match	typo	typo|vowel_drop		canon
+S2-00459	S2	M000455	match	missing		missing_addr	canon
+S2-00460	S2	M000170	match	abbrev	shorten|abbrev|the_prefix	abbr	missing
+S2-00461	S2	M000443	match	address	case	numstyle|abbr	canon
+S2-00462	S2	M000197	match	abbrev	abbrev	pin_prefix	canon
+S2-00463	S2	M000377	match	exact			missing
+S2-00464	S2	M000484	match	order	punct|spaces		canon
+S2-00465	S2	M000407	match	abbrev	legal_variant|abbrev	abbr	canon
+S2-00466	S2	M000523	match	exact			canon
+S2-00467	S2	M000444	match	complex	reorder|initials	typo|punct|drop_bno|abbr	canon
+S2-00468	S2	M000564	match	order	punct|spaces	punct|pin_prefix	canon
+S2-00469	S2	M000057	match	abbrev	abbrev|legal_variant	abbr	canon
+S2-00470	S2	M000529	match	exact	case	missing_addr	canon
+S2-00471	S2	M000312	match	order	punct|spaces	sep|punct	canon
+S2-00472	S2	M000042	match	missing	legal_drop|group_suffix	missing_addr	variant
+S2-00473	S2	M000525	match	abbrev	abbrev	abbr|drop_pin	canon
+S2-00474	S2	M000061	match	missing	shorten	drop_street|drop_pin|drop_unit	canon
+S2-00475	S2	D000057	decoy_same_name_diff_addr	abbrev	abbrev|vowel_drop		canon
+S2-00476	S2	M000060	match	typo	typo|legal_variant|umlaut_expand	pin_prefix	variant
+S2-00477	S2	M000519	match	abbrev	abbrev		canon
+S2-00478	S2	M000231	match	abbrev	initials	state_abbr	variant
+S2-00479	S2	D000066	decoy_similar_name_diff_addr	missing	drop_word|vowel_drop	drop_street|drop_pin|drop_unit	canon
+S2-00480	S2	M000277	match	exact			canon
+S2-00481	S2	M000555	match	typo	typo	typo|unit_lead	canon
+S2-00482	S2	M000542	match	complex	case|abbrev|translit|reorder|the_prefix	typo|landmark|punct	canon
+S2-00483	S2	M000201	match	abbrev	initials|abbrev	abbr	canon
+S2-00484	S2	M000495	match	exact			canon
+S2-00485	S2	M000517	match	missing	vowel_drop	drop_street|drop_pin|drop_unit	missing
+S2-00486	S2	M000062	match	missing		missing_addr|append_country	canon
+S2-00487	S2	M000568	match	address		abbr	canon
+S2-00488	S2	D000106	decoy_same_name_diff_addr	typo	typo|legal_variant|umlaut_expand		canon
+S2-00489	S2	M000305	match	typo	typo		canon
+S2-00490	S2	M000345	match	address		dotted|abbr	canon
+S2-00491	S2	M000282	match	address	case	drop_unit|abbr	canon
+S2-00492	S2	M000133	match	address		punct|pin_prefix	canon
+S2-00493	S2	D000049	decoy_same_city_diff_biz	order	punct|case	sep|unit_lead	canon
+S2-00494	S2	D000025	decoy_similar_addr_diff_name	address		sep|numstyle|unit_lead|drop_pin	missing
+S2-00495	S2	M000305	match	exact			variant
+S2-00496	S2	M000030	match	abbrev	abbrev|legal_variant	abbr	canon
+S2-00497	S2	M000221	match	order	case|spaces	spaces|sep	missing
+S2-00498	S2	D000016	decoy_similar_name_diff_addr	order	punct|case	sep|upper	canon
+S2-00499	S2	M000428	match	exact			canon
+S2-00500	S2	M000390	match	typo	typo|legal_variant		canon
+S2-00501	S2	M000075	match	abbrev	legal_variant|abbrev	append_country	canon
+S2-00502	S2	M000351	match	abbrev	legal_variant|initials	append_country|drop_pin	canon
+S2-00503	S2	M000229	match	abbrev	abbrev|shorten	abbr|state_abbr	canon
+S2-00504	S2	M000439	match	abbrev	legal_variant|abbrev	abbr|append_country	canon
+S2-00505	S2	M000255	match	missing	the_prefix	pin_prefix	missing
+S2-00506	S2	D000082	decoy_same_name_diff_addr	abbrev	abbrev	abbr|state_abbr	canon
+S2-00507	S2	M000174	match	abbrev	abbrev	append_country	canon
+S2-00508	S2	M000568	match	address	case|group_suffix	sep|drop_unit|abbr	canon
+S2-00509	S2	M000107	match	address	legal_variant|vowel_drop	state_abbr|pin_prefix	canon
+S2-00510	S2	M000535	match	exact		punct	variant
+S2-00511	S2	M000494	match	abbrev	legal_variant|initials|abbrev|umlaut_expand	abbr	missing
+S2-00512	S2	M000519	match	typo	typo		canon
+S2-00513	S2	D000019	decoy_similar_name_diff_addr	exact		punct	variant
+S2-00514	S2	M000341	match	typo	typo|legal_variant	typo	canon
+S2-00515	S2	M000223	match	complex	abbrev|shorten|reorder	drop_pin|upper	canon
+S2-00516	S2	M000066	match	order	case|punct|the_prefix	spaces|sep	variant
+S2-00517	S2	M000285	match	typo	typo		variant
+S2-00518	S2	M000371	match	abbrev	legal_variant|abbrev	abbr|state_abbr	canon
+S2-00519	S2	M000062	match	order	reorder|case		variant
+S2-00520	S2	M000336	match	typo	typo	typo	variant
+S2-00521	S2	M000413	match	order	punct|case		canon
+S2-00522	S2	M000569	match	address	case	abbr|numstyle	canon
+S2-00523	S2	M000529	match	typo	typo|group_suffix	typo	variant
+S2-00524	S2	M000055	match	abbrev	legal_variant|abbrev	abbr	canon
+S2-00525	S2	D000099	decoy_same_name_diff_addr	typo	typo		canon
+S2-00526	S2	M000104	match	complex	punct|shorten|legal_variant|typo	numstyle|drop_pin	missing
+S2-00527	S2	M000311	match	abbrev	abbrev	abbr|unit_lead	canon
+S2-00528	S2	M000366	match	abbrev	abbrev|shorten		missing
+S2-00529	S2	M000439	match	abbrev	initials|umlaut_expand		canon
+S2-00530	S2	M000524	match	typo	typo	pin_prefix	canon
+S2-00531	S2	M000052	match	complex	abbrev|legal_variant|typo|legal_drop|group_suffix	punct|sep	canon
+S2-00532	S2	M000368	match	exact			variant
+S2-00533	S2	M000539	match	typo	typo	unit_lead	canon
+S2-00534	S2	M000454	match	exact			canon
+S2-00535	S2	M000576	match	exact	case	missing_addr	canon
+S2-00536	S2	M000022	match	exact			canon
+S2-00537	S2	M000286	match	order	reorder|spaces|the_prefix	sep|punct|drop_pin	variant
+S2-00538	S2	M000369	match	typo	typo	unit_lead	canon
+S2-00539	S2	M000512	match	complex	case|reorder|initials	state_abbr|dotted	missing
+S2-00540	S2	D000094	decoy_same_city_diff_biz	missing	the_prefix	drop_street|drop_pin|drop_unit	canon
+S2-00541	S2	M000120	match	missing	legal_drop	drop_pin|drop_state|pin_prefix	canon
+S2-00542	S2	M000446	match	missing			missing
+S2-00543	S2	M000125	match	typo	typo|vowel_drop		variant
+S2-00544	S2	M000070	match	abbrev	abbrev		canon
+S2-00545	S2	M000074	match	abbrev	legal_variant|abbrev	abbr|state_abbr	canon
+S2-00546	S2	M000384	match	missing	drop_word|vowel_drop	drop_street|drop_pin|drop_unit	canon
+S2-00547	S2	M000550	match	missing	umlaut_expand	drop_pin|drop_state	variant
+S2-00548	S2	D000056	decoy_similar_name_diff_addr	address		drop_pin|abbr|punct	canon
+S2-00549	S2	M000442	match	missing		missing_addr	canon
+S2-00550	S2	M000393	match	exact		punct	canon
+S2-00551	S2	M000005	match	exact			canon
+S2-00552	S2	M000276	match	address		drop_pin|numstyle	canon
+S2-00553	S2	M000503	match	typo	typo	unit_lead	canon
+S2-00554	S2	M000362	match	complex	legal_drop|translit|case	punct|abbr|drop_pin|drop_state	missing
+S2-00555	S2	M000019	match	exact			canon
+S2-00556	S2	M000383	match	exact		abbr	canon
+S2-00557	S2	M000055	match	address	legal_variant	punct|state_abbr|abbr	canon
+S2-00558	S2	M000319	match	abbrev	legal_variant|abbrev	state_abbr|pin_prefix	canon
+S2-00559	S2	M000022	match	abbrev	legal_variant|initials|abbrev	abbr	canon
+S2-00560	S2	D000103	decoy_similar_addr_diff_name	abbrev	legal_variant|initials	abbr|state_abbr	canon
+S2-00561	S2	M000510	match	complex	typo|spaces|shorten|legal_variant	dotted|drop_city|punct|numstyle	variant
+S2-00562	S2	M000498	match	abbrev	abbrev|legal_variant	abbr	canon
+S2-00563	S2	M000580	match	missing		drop_street|drop_pin|drop_unit	canon
+S2-00564	S2	D000051	decoy_same_city_diff_biz	abbrev	abbrev|legal_variant|vowel_drop	abbr	canon
+S2-00565	S2	M000559	match	order	reorder|case|group_suffix	punct|spaces|drop_pin	canon
+S2-00566	S2	M000305	match	order	case|spaces	punct	canon
+S2-00567	S2	M000029	match	complex	shorten|punct	abbr|drop_pin|drop_state	canon
+S2-00568	S2	M000484	match	address		sep	canon
+S2-00569	S2	M000335	match	typo	typo|umlaut_expand		canon
+S2-00570	S2	M000421	match	typo	typo|group_suffix		canon
+S2-00571	S2	M000267	match	abbrev	legal_variant|abbrev|group_suffix	unit_lead	canon
+S2-00572	S2	M000396	match	order	reorder|spaces|umlaut_expand	upper|unit_lead	canon
+S2-00573	S2	D000091	decoy_random	typo	typo		variant
+S2-00574	S2	D000037	decoy_same_name_diff_addr	missing			missing
+S2-00575	S2	M000196	match	exact	punct	abbr	canon
+S2-00576	S2	M000497	match	abbrev	legal_variant|abbrev|umlaut_expand		canon
+S2-00577	S2	M000315	match	abbrev	abbrev	abbr|state_abbr	canon
+S2-00578	S2	M000560	match	address	case	abbr|dotted|state_abbr	canon
+S2-00579	S2	M000506	match	order	case|reorder|vowel_drop		canon
+S2-00580	S2	M000122	match	address		dotted|drop_unit	canon
+S2-00581	S2	M000254	match	abbrev	abbrev|the_prefix	append_country	canon
+S2-00582	S2	M000125	match	address	case	numstyle|sep	canon
+S2-00583	S2	D000072	decoy_similar_addr_diff_name	abbrev	legal_variant|abbrev		canon
+S2-00584	S2	M000105	match	order	punct|spaces	punct|spaces	variant
+S2-00585	S2	M000002	match	address	legal_variant	sep	canon
+S2-00586	S2	M000289	match	complex	legal_variant|punct|case|typo|vowel_drop	drop_bno|pinfmt|unit_lead	canon
+S2-00587	S2	M000249	match	missing	shorten	drop_pin|drop_state	variant
+S2-00588	S2	M000373	match	complex	legal_variant|reorder|case	reorder|numstyle|accent|sep	canon
+S2-00589	S2	M000148	match	missing	shorten|group_suffix		missing
+S2-00590	S2	M000469	match	missing	drop_word	drop_street|drop_pin|drop_unit	canon
+S2-00591	S2	M000508	match	order	case|reorder|vowel_drop	punct	canon
+S2-00592	S2	M000001	match	address	legal_variant	numstyle	canon
+S2-00593	S2	M000261	match	abbrev	shorten|abbrev|the_prefix	pin_prefix	missing
+S2-00594	S2	M000354	match	address	legal_variant	drop_pin|unit_lead	variant
+S2-00595	S2	D000018	decoy_similar_name_diff_addr	abbrev	abbrev|legal_variant|vowel_drop	missing_addr	canon
+S2-00596	S2	M000497	match	complex	abbrev|translit	punct|drop_unit|abbr|numstyle	canon
+S2-00597	S2	M000149	match	typo	typo		canon
+S2-00598	S2	M000520	match	exact	punct	abbr	canon
+S2-00599	S2	M000428	match	abbrev	abbrev	abbr	canon
+S2-00600	S2	M000214	match	address		numstyle|state_abbr	canon
+S2-00601	S2	M000243	match	abbrev	initials|umlaut_expand	missing_addr	canon
+S2-00602	S2	M000281	match	missing	legal_drop	drop_pin|drop_state	variant
+S2-00603	S2	M000304	match	exact		drop_pin	canon
+S2-00604	S2	M000302	match	address		drop_pin|sep|numstyle	canon
+S2-00605	S2	M000440	match	typo	typo|group_suffix	typo	canon
+S2-00606	S2	M000292	match	typo	typo|legal_variant	typo	canon
+S2-00607	S2	M000193	match	address	case|vowel_drop	abbr|drop_unit	canon
+S2-00608	S2	D000064	decoy_similar_name_diff_addr	missing		drop_street|drop_pin|drop_unit	canon
+S2-00609	S2	D000045	decoy_similar_addr_diff_name	complex	typo|reorder	dotted|sep|drop_pin|typo	canon
+S2-00610	S2	M000007	match	address	case|the_prefix	abbr|drop_unit|sep	canon
+S2-00611	S2	M000263	match	order	reorder|punct		variant
+S2-00612	S2	M000477	match	order	punct|spaces		canon
+S2-00613	S2	M000508	match	typo	typo|legal_variant		variant
+S2-00614	S2	M000537	match	abbrev	abbrev|umlaut_expand	abbr|append_country	canon
+S2-00615	S2	M000452	match	typo	typo|legal_variant|the_prefix	typo|unit_lead	variant
+S2-00616	S2	M000370	match	typo	typo|legal_variant	typo|append_country	canon
+S2-00617	S2	M000306	match	complex	case|typo|legal_variant|abbrev|the_prefix	reorder|dotted|landmark|pin_prefix	variant
+S2-00618	S2	M000266	match	address		abbr|numstyle|drop_unit	missing
+S2-00619	S2	M000232	match	address	case	drop_unit|dotted|drop_pin	canon
+S2-00620	S2	M000386	match	typo	typo|group_suffix		canon
+S2-00621	S2	D000015	decoy_same_name_diff_addr	typo	typo		canon
+S2-00622	S2	D000013	decoy_similar_name_diff_addr	complex	reorder|shorten|translit|legal_drop	state_abbr|dotted|numstyle|abbr|append_country	canon
+S2-00623	S2	M000205	match	order	case|punct|the_prefix	punct	canon
+S2-00624	S2	D000021	decoy_similar_name_diff_addr	missing			missing
+S2-00625	S2	M000587	match	complex	case|spaces|reorder|abbrev|umlaut_expand	drop_state|drop_bno|sep|drop_unit	canon
+S2-00626	S2	M000489	match	missing	drop_word	drop_pin|drop_state|unit_lead	canon
+S2-00627	S2	M000270	match	order	punct|spaces|the_prefix	punct	missing
+S2-00628	S2	M000139	match	missing		drop_pin|drop_state	canon
+S2-00629	S2	M000477	match	abbrev	initials|abbrev|vowel_drop	abbr	canon
+S2-00630	S2	D000046	decoy_similar_name_diff_addr	missing	legal_drop	missing_addr|append_country	canon
+S2-00631	S2	D000035	decoy_same_name_diff_addr	complex	abbrev|legal_drop|punct|typo	punct|drop_pin|reorder|numstyle|append_country	variant
+S2-00632	S2	M000400	match	order	case|punct	sep|spaces	canon
+S2-00633	S2	M000147	match	abbrev	shorten|abbrev|umlaut_expand	abbr	canon
+S2-00634	S2	M000101	match	typo	typo	drop_pin	canon
+S2-00635	S2	M000228	match	complex	typo|drop_word	reorder|drop_pin|punct|spaces	variant
+S2-00636	S2	M000547	match	complex	typo|reorder|drop_word|vowel_drop	drop_unit|typo|drop_state|append_country	canon
+S2-00637	S2	M000408	match	abbrev	abbrev	missing_addr	canon
+S2-00638	S2	M000163	match	abbrev	legal_variant|abbrev		variant
+S2-00639	S2	M000170	match	typo	typo		canon
+S2-00640	S2	M000309	match	abbrev	abbrev|umlaut_expand	state_abbr|pin_prefix	canon
+S2-00641	S2	M000292	match	address		drop_pin|drop_unit|pin_prefix	canon
+S2-00642	S2	M000160	match	exact	punct	drop_pin	canon
+S2-00643	S2	M000558	match	order	punct|spaces|group_suffix	drop_pin	canon
+S2-00644	S2	D000077	decoy_similar_addr_diff_name	abbrev	legal_variant|initials|abbrev|the_prefix	abbr	canon
+S2-00645	S2	M000038	match	order	spaces|case|group_suffix	sep|spaces	canon
+S2-00646	S2	M000220	match	exact	case	drop_pin	canon
+S2-00647	S2	D000069	decoy_similar_name_diff_addr	exact			canon
+S2-00648	S2	M000027	match	abbrev	abbrev|the_prefix		canon
+S2-00649	S2	M000487	match	order	case|punct		canon
+S2-00650	S2	M000399	match	complex	typo|case|initials	punct|reorder	canon
+S2-00651	S2	M000580	match	order	spaces|reorder|group_suffix	spaces|upper	variant
+S2-00652	S2	M000376	match	abbrev	abbrev|legal_variant	abbr|unit_lead	canon
+S2-00653	S2	D000003	decoy_similar_addr_diff_name	exact		abbr	canon
+S2-00654	S2	M000162	match	exact		abbr	canon
+S2-00655	S2	M000308	match	missing	shorten	append_country	missing
+S2-00656	S2	M000502	match	complex	legal_variant|spaces|punct|group_suffix	landmark|state_abbr|typo|pinfmt	canon
+S2-00657	S2	M000015	match	abbrev	abbrev|group_suffix		canon
+S2-00658	S2	M000376	match	abbrev	abbrev|initials|umlaut_expand	drop_pin	canon
+S2-00659	S2	M000126	match	missing	drop_word|the_prefix	drop_street|drop_pin|drop_unit	canon
+S2-00660	S2	M000430	match	abbrev	shorten|abbrev	abbr|state_abbr|unit_lead	missing
+S2-00661	S2	M000101	match	abbrev	shorten|vowel_drop	abbr	canon
+S2-00662	S2	M000492	match	typo	typo		canon
+S2-00663	S2	M000500	match	order	case|reorder|group_suffix	punct|sep	canon
+S2-00664	S2	M000340	match	typo	typo		canon
+S2-00665	S2	M000031	match	address	legal_variant	dotted	canon
+S2-00666	S2	M000140	match	abbrev	abbrev|the_prefix	abbr	canon
+S2-00667	S2	M000312	match	complex	initials|abbrev|typo|umlaut_expand	sep|abbr|dotted	variant
+S2-00668	S2	M000229	match	complex	legal_variant|typo|translit	drop_city|pinfmt|drop_pin|pin_prefix	canon
+S2-00669	S2	M000171	match	address	vowel_drop	numstyle	canon
+S2-00670	S2	M000335	match	missing	the_prefix	drop_street|drop_pin|drop_unit	canon
+S2-00671	S2	M000031	match	exact	case	abbr	canon
+S2-00672	S2	M000020	match	exact	case	abbr|drop_pin	canon
+S2-00673	S2	M000091	match	abbrev	initials|abbrev		variant
+S2-00674	S2	M000568	match	exact			canon
+S2-00675	S2	M000403	match	missing		missing_addr	canon
+S2-00676	S2	M000162	match	abbrev	legal_variant|abbrev|vowel_drop	state_abbr	canon
+S2-00677	S2	M000352	match	exact			canon
+S2-00678	S2	M000213	match	exact			canon
+S2-00679	S2	M000357	match	missing	shorten|the_prefix	missing_addr	canon
+S2-00680	S2	M000432	match	complex	legal_variant|shorten|typo	reorder|punct	canon
+S2-00681	S2	M000470	match	exact			canon
+S2-00682	S2	M000570	match	address		abbr|drop_pin|numstyle	canon
+S2-00683	S2	D000001	decoy_same_name_diff_addr	abbrev	legal_variant|abbrev	state_abbr	canon
+S2-00684	S2	M000513	match	typo	typo|vowel_drop		canon
+S2-00685	S2	M000058	match	exact			canon
+S2-00686	S2	M000069	match	exact			canon
+S2-00687	S2	M000470	match	order	case|spaces	upper	canon
+S2-00688	S2	D000097	decoy_similar_addr_diff_name	abbrev	legal_variant	abbr	canon
+S2-00689	S2	M000443	match	typo	typo	typo	canon
+S2-00690	S2	M000061	match	abbrev	legal_variant|group_suffix	abbr	canon
+S2-00691	S2	M000329	match	address	legal_variant|vowel_drop	drop_unit|numstyle|sep	canon
+S2-00692	S2	M000041	match	abbrev	legal_variant|abbrev	abbr	canon
+S2-00693	S2	M000042	match	missing	vowel_drop		missing
+S2-00694	S2	M000060	match	address	legal_variant|the_prefix	abbr	canon
+S2-00695	S2	M000119	match	address	case|group_suffix	abbr	canon
+S2-00696	S2	M000099	match	missing	the_prefix		missing
+S2-00697	S2	M000248	match	typo	typo|group_suffix	typo	canon
+S2-00698	S2	M000071	match	order	reorder|punct	sep	canon
+S2-00699	S2	M000161	match	abbrev	legal_variant|abbrev|vowel_drop	abbr|state_abbr|unit_lead	variant
+S2-00700	S2	M000454	match	order	punct|spaces	upper|punct	canon
+S2-00701	S2	M000313	match	abbrev	initials|the_prefix	abbr|append_country	canon
+S2-00702	S2	M000419	match	typo	typo	typo	canon
+S2-00703	S2	D000027	decoy_similar_addr_diff_name	typo	typo	drop_pin	canon
+S2-00704	S2	M000389	match	address	case	numstyle|abbr|state_abbr|drop_pin	canon
+S2-00705	S2	M000574	match	order	case|punct	sep	variant
+S2-00706	S2	M000159	match	typo	typo|legal_variant	append_country	variant
+S2-00707	S2	M000110	match	exact	case		variant
+S2-00708	S2	M000327	match	abbrev	abbrev|the_prefix	abbr|state_abbr	canon
+S2-00709	S2	M000431	match	missing	umlaut_expand	missing_addr	canon
+S2-00710	S2	M000302	match	exact		missing_addr	canon
+S2-00711	S2	M000348	match	order	case|reorder|the_prefix	punct	missing
+S2-00712	S2	M000005	match	typo	typo|legal_variant|umlaut_expand		canon
+S2-00713	S2	M000253	match	missing	legal_drop|group_suffix	missing_addr	canon
+S2-00714	S2	M000435	match	abbrev	legal_variant|abbrev		canon
+S2-00715	S2	M000531	match	typo	typo|legal_variant	typo	canon
+S2-00716	S2	M000143	match	typo	typo	typo	canon
+S2-00717	S2	M000196	match	typo	typo|umlaut_expand		canon
+S2-00718	S2	M000488	match	abbrev	legal_variant|initials|abbrev	abbr	canon
+S2-00719	S2	M000061	match	missing	drop_word	drop_street|drop_pin|drop_unit	canon
+S2-00720	S2	M000433	match	missing		drop_street|drop_pin|drop_unit	canon
+S2-00721	S2	M000418	match	order	punct|case|vowel_drop		variant
+S2-00722	S2	M000149	match	missing	drop_word	missing_addr|append_country	canon
+S2-00723	S2	M000112	match	missing	shorten|group_suffix	drop_pin|drop_state	missing
+S2-00724	S2	M000492	match	address		abbr|sep|state_abbr|unit_lead	variant
+S2-00725	S2	M000004	match	typo	typo|vowel_drop	typo	canon
+S2-00726	S2	D000060	decoy_same_name_diff_addr	exact	case		canon
+S2-00727	S2	M000504	match	complex	reorder|case|abbrev|umlaut_expand	numstyle|reorder|upper|abbr|append_country	canon
+S2-00728	S2	M000229	match	address	case|the_prefix	missing_addr	canon
+S2-00729	S2	M000242	match	exact	case		canon
+S2-00730	S2	M000148	match	order	spaces|punct|the_prefix	sep|punct	canon
+S2-00731	S2	D000071	decoy_same_city_diff_biz	exact	punct	missing_addr	canon
+S2-00732	S2	M000580	match	exact			canon
+S2-00733	S2	M000180	match	typo	typo|legal_variant		canon
+S2-00734	S2	M000378	match	abbrev	legal_variant|abbrev	abbr	variant
+S2-00735	S2	M000577	match	abbrev	legal_variant|abbrev|group_suffix	missing_addr	canon
+S2-00736	S2	M000424	match	complex	case|translit|spaces	pinfmt|drop_city|reorder	canon
+S2-00737	S2	M000076	match	address	group_suffix	abbr|dotted|sep|pin_prefix	canon
+S2-00738	S2	M000512	match	address	legal_variant	drop_unit|abbr	canon
+S2-00739	S2	M000108	match	order	case|spaces	punct|upper	variant
+S2-00740	S2	M000310	match	abbrev	legal_variant|abbrev	append_country	canon
+S2-00741	S2	M000046	match	complex	abbrev|punct|reorder|typo	drop_pin|sep	missing
+S2-00742	S2	M000033	match	typo	typo	unit_lead	canon
+S2-00743	S2	M000004	match	typo	typo	typo	canon
+S2-00744	S2	M000502	match	address	case	abbr	canon
+S2-00745	S2	M000043	match	address	case|vowel_drop	abbr|sep	canon
+S2-00746	S2	D000031	decoy_similar_name_diff_addr	abbrev	abbrev|legal_variant	abbr|pin_prefix	canon
+S2-00747	S2	M000407	match	missing	group_suffix	missing_addr	canon
+S2-00748	S2	M000068	match	order	case|spaces|the_prefix	pin_prefix	canon
+S2-00749	S2	M000585	match	abbrev	initials|legal_variant|abbrev|vowel_drop		canon
+S2-00750	S2	M000262	match	complex	punct|case|translit	dotted|typo|pinfmt|drop_pin	missing
+S2-00751	S2	M000557	match	exact	case		canon
+S2-00752	S2	M000538	match	abbrev	abbrev|shorten	abbr|state_abbr	canon
+S2-00753	S2	M000087	match	typo	typo|legal_variant|the_prefix	typo	canon
+S2-00754	S2	D000065	decoy_same_name_diff_addr	order	punct|case	append_country	variant
+S2-00755	S2	M000432	match	typo	typo|legal_variant		canon
+S2-00756	S2	M000529	match	complex	drop_word|typo|legal_variant|punct	drop_state|state_abbr|pinfmt|landmark|drop_pin	canon
+S2-00757	S2	M000521	match	typo	typo		canon
+S2-00758	S2	M000202	match	missing	legal_drop		missing
+S2-00759	S2	M000177	match	address	umlaut_expand	punct|drop_pin|dotted	canon
+S2-00760	S2	M000380	match	abbrev	shorten|legal_variant|the_prefix	abbr	canon
+S2-00761	S2	D000098	decoy_similar_addr_diff_name	exact	case		canon
+S2-00762	S2	D000104	decoy_similar_name_diff_addr	complex	reorder|translit	drop_bno|landmark	canon
+S2-00763	S2	M000218	match	abbrev	abbrev|group_suffix	abbr|append_country	canon
+S2-00764	S2	M000201	match	exact		drop_pin	canon
+S2-00765	S2	M000045	match	typo	typo|umlaut_expand	append_country	canon
+S2-00766	S2	M000019	match	address	legal_variant	abbr|append_country	canon
+S2-00767	S2	M000444	match	abbrev	abbrev|legal_variant|group_suffix	abbr	canon
+S2-00768	S2	M000386	match	typo	typo|the_prefix	typo	variant
+S2-00769	S2	M000570	match	address	case|umlaut_expand	punct|sep|state_abbr	canon
+S2-00770	S2	M000284	match	address	legal_variant	punct	canon
+S2-00771	S2	M000050	match	missing	the_prefix	missing_addr	canon
+S2-00772	S2	M000179	match	address	case	punct|abbr	canon
+S2-00773	S2	M000044	match	address		state_abbr|numstyle|sep|append_country	variant
+S2-00774	S2	M000197	match	abbrev	abbrev|legal_variant	abbr	canon
+S2-00775	S2	M000191	match	abbrev	abbrev|vowel_drop	abbr|state_abbr	canon
+S2-00776	S2	D000067	decoy_similar_name_diff_addr	abbrev	legal_variant|abbrev|umlaut_expand	abbr	canon
+S2-00777	S2	M000308	match	address		numstyle|abbr	canon
+S2-00778	S2	M000493	match	abbrev	initials|shorten|abbrev|group_suffix	drop_pin	variant
+S2-00779	S2	M000421	match	typo	typo		canon
+S2-00780	S2	M000553	match	complex	typo|translit|shorten|punct|group_suffix	reorder|drop_pin	variant
+S2-00781	S2	M000288	match	abbrev	abbrev|legal_variant	abbr|state_abbr	canon
+S2-00782	S2	M000337	match	missing		missing_addr	canon
+S2-00783	S2	M000509	match	order	punct|case|the_prefix	spaces|upper	canon
+S2-00784	S2	D000080	decoy_similar_addr_diff_name	typo	typo	pin_prefix	canon
+S2-00785	S2	M000239	match	complex	initials|reorder|group_suffix	typo|accent	missing
+S2-00786	S2	M000300	match	missing	umlaut_expand	drop_pin|drop_state	canon
+S2-00787	S2	M000017	match	abbrev	abbrev|legal_variant		canon
+S2-00788	S2	M000402	match	abbrev	legal_variant|abbrev|umlaut_expand		canon
+S2-00789	S2	M000194	match	abbrev	legal_variant|abbrev|umlaut_expand	abbr	variant
+S2-00790	S2	M000478	match	typo	typo|group_suffix	pin_prefix	canon
+S2-00791	S2	M000433	match	typo	typo	append_country	canon
+S2-00792	S2	M000125	match	exact			canon
+S2-00793	S2	M000497	match	missing		missing_addr	variant
+S2-00794	S2	M000004	match	abbrev	legal_variant|abbrev|umlaut_expand	abbr	canon
+S2-00795	S2	M000187	match	address	case	dotted	canon
+S2-00796	S2	M000152	match	exact			canon
+S2-00797	S2	M000455	match	abbrev	legal_variant|abbrev|group_suffix	abbr	canon
+S2-00798	S2	M000085	match	abbrev	initials|abbrev|umlaut_expand		canon
+S2-00799	S2	M000159	match	complex	case|punct|typo|legal_variant	drop_city|drop_bno|abbr|reorder	canon
+S2-00800	S2	M000504	match	abbrev	legal_variant|abbrev|umlaut_expand		variant
+S2-00801	S2	M000145	match	exact		abbr	canon
+S2-00802	S2	M000455	match	exact			canon
+S2-00803	S2	M000212	match	exact	case		canon
+S2-00804	S2	M000465	match	typo	typo|legal_variant	append_country	canon
+S2-00805	S2	M000173	match	missing	legal_drop|the_prefix	drop_street|drop_pin|drop_unit	variant
+S2-00806	S2	M000553	match	abbrev	abbrev|vowel_drop	state_abbr	canon
+S2-00807	S2	M000530	match	exact	case	punct	canon
+S2-00808	S2	M000554	match	address	legal_variant	punct|drop_unit	canon
+S2-00809	S2	M000599	match	exact		punct	missing
+S2-00810	S2	M000422	match	exact		punct	missing
+S2-00811	S2	M000433	match	typo	typo	typo|append_country	canon
+S2-00812	S2	D000053	decoy_similar_addr_diff_name	abbrev	legal_variant|abbrev|umlaut_expand	abbr|state_abbr|append_country	canon
+S2-00813	S2	M000343	match	exact			variant
+S2-00814	S2	M000168	match	typo	typo		canon
+S2-00815	S2	M000416	match	exact		abbr	canon
+S2-00816	S2	M000186	match	order	case|reorder|group_suffix	pin_prefix	canon
+S2-00817	S2	M000476	match	typo	typo|vowel_drop		missing
+S2-00818	S2	M000525	match	complex	typo|translit|case	drop_state|reorder|pin_prefix	missing
+S2-00819	S2	M000219	match	exact		punct	canon
+S2-00820	S2	M000597	match	order	case|punct		canon
+S2-00821	S2	M000006	match	abbrev	legal_variant|shorten|abbrev|group_suffix	abbr	missing
+S2-00822	S2	M000116	match	abbrev	legal_variant|the_prefix	abbr|state_abbr|pin_prefix	canon
+S2-00823	S2	M000523	match	abbrev	initials|vowel_drop	state_abbr|unit_lead	variant
+S2-00824	S2	M000312	match	complex	typo|initials|spaces	drop_pin|reorder|state_abbr|drop_city	canon
+S2-00825	S2	M000373	match	typo	typo|vowel_drop	typo|append_country	variant
+S2-00826	S2	M000543	match	abbrev	abbrev|legal_variant	drop_pin	variant
+S2-00827	S2	M000107	match	exact		abbr	canon
+S2-00828	S2	M000585	match	order	punct|case		canon
+S2-00829	S2	M000492	match	address	case|vowel_drop	abbr|append_country	canon
+S2-00830	S2	M000310	match	abbrev	legal_variant|abbrev	missing_addr	variant
+S2-00831	S2	M000396	match	address		drop_pin	canon
+S2-00832	S2	D000054	decoy_similar_name_diff_addr	address	case	numstyle	canon
+S2-00833	S2	M000046	match	typo	typo|umlaut_expand	unit_lead	canon
+S2-00834	S2	M000391	match	abbrev	abbrev	abbr	canon
+S2-00835	S2	M000179	match	abbrev	abbrev|the_prefix	state_abbr	canon
+S2-00836	S2	M000030	match	abbrev	legal_variant|abbrev	abbr|state_abbr	missing
+S2-00837	S2	M000508	match	typo	typo		canon
+S2-00838	S2	M000201	match	abbrev	abbrev|group_suffix	abbr	canon
+S2-00839	S2	M000228	match	abbrev	legal_variant		canon
+S2-00840	S2	M000585	match	typo	typo|legal_variant|the_prefix		canon
+S2-00841	S2	M000339	match	order	spaces|punct	drop_pin	canon
+S2-00842	S2	M000048	match	abbrev	legal_variant	abbr	canon
+S2-00843	S2	M000112	match	complex	abbrev|typo|translit	dotted|upper	canon
+S2-00844	S2	M000548	match	abbrev	legal_variant|vowel_drop	missing_addr	canon
+S2-00845	S2	M000052	match	exact			canon
+S2-00846	S2	M000333	match	exact	punct		canon
+S2-00847	S2	M000340	match	abbrev	abbrev|umlaut_expand		variant
+S2-00848	S2	D000092	decoy_same_name_diff_addr	typo	typo|group_suffix	typo	variant
+S2-00849	S2	M000373	match	exact			canon
+S2-00850	S2	M000570	match	abbrev	legal_variant|abbrev	abbr|state_abbr	canon
+S2-00851	S2	M000506	match	abbrev	abbrev	abbr|state_abbr|append_country	canon
+S2-00852	S2	M000454	match	abbrev	legal_variant|abbrev	abbr|state_abbr	canon
+S2-00853	S2	M000383	match	abbrev	abbrev|shorten	abbr|state_abbr|pin_prefix	variant
+S2-00854	S2	M000130	match	address		drop_pin	variant
+S2-00855	S2	M000419	match	abbrev	initials		canon
+S2-00856	S2	M000436	match	complex	abbrev|punct	spaces|pinfmt|drop_bno	canon
+S2-00857	S2	D000022	decoy_similar_addr_diff_name	missing		drop_street|drop_pin|drop_unit	canon
+S2-00858	S2	M000314	match	typo	typo		canon
+S2-00859	S2	M000528	match	abbrev	legal_variant	abbr	canon
+S2-00860	S2	M000571	match	typo	typo		canon
+S2-00861	S2	M000405	match	typo	typo		canon
+S2-00862	S2	M000141	match	typo	typo|legal_variant|the_prefix		canon
+S2-00863	S2	M000287	match	abbrev	legal_variant|the_prefix	abbr|drop_pin	canon
+S2-00864	S2	M000041	match	missing	shorten|vowel_drop		missing
+S2-00865	S2	M000392	match	abbrev	abbrev|vowel_drop		canon
+S2-00866	S2	M000243	match	typo	typo		variant
+S2-00867	S2	M000294	match	abbrev	abbrev	pin_prefix	canon
+S2-00868	S2	D000055	decoy_same_city_diff_biz	typo	typo|legal_variant		canon
+S2-00869	S2	M000264	match	order	case|spaces	append_country	canon
+S2-00870	S2	M000416	match	exact		abbr	canon
+S2-00871	S2	M000197	match	complex	abbrev|legal_variant|translit	drop_pin|spaces|drop_bno|landmark|pin_prefix	variant
+S2-00872	S2	M000212	match	abbrev	initials	abbr|state_abbr	canon
+S2-00873	S2	M000438	match	exact		abbr	canon
+S2-00874	S2	M000465	match	abbrev	shorten|abbrev	abbr	canon
+S2-00875	S2	M000392	match	order	case|spaces|vowel_drop	missing_addr	canon
+S2-00876	S2	M000578	match	abbrev	abbrev|vowel_drop	pin_prefix	variant
+S2-00877	S2	M000159	match	complex	case|shorten|legal_variant	drop_pin|drop_bno	missing
+S2-00878	S2	M000428	match	address	legal_variant	drop_unit|sep|pin_prefix	canon
+S2-00879	S2	M000040	match	abbrev	abbrev|shorten|the_prefix	abbr|unit_lead	canon
+S2-00880	S2	D000036	decoy_same_name_diff_addr	missing	drop_word	missing_addr|unit_lead	variant
+S2-00881	S2	M000394	match	abbrev	abbrev|umlaut_expand	state_abbr	variant
+S2-00882	S2	M000489	match	missing	drop_word		missing
+S2-00883	S2	M000372	match	typo	typo		canon
+S2-00884	S2	M000363	match	exact			canon
+S2-00885	S2	M000514	match	complex	legal_drop|punct|vowel_drop	drop_pin|sep|spaces	missing
+S2-00886	S2	M000571	match	missing	legal_drop	missing_addr|unit_lead	canon
+S2-00887	S2	M000483	match	exact			variant
+S2-00888	S2	M000317	match	missing			missing
+S2-00889	S2	M000598	match	exact	punct	abbr	canon
+S2-00890	S2	M000050	match	abbrev	initials		canon
+S2-00891	S2	M000213	match	typo	typo|vowel_drop		variant
+S2-00892	S2	M000476	match	address	legal_variant|umlaut_expand	drop_pin	canon
+S2-00893	S2	M000432	match	order	spaces|case|the_prefix		canon
+S2-00894	S2	M000037	match	complex	drop_word|abbrev|translit|legal_variant|vowel_drop	state_abbr|punct|numstyle|drop_pin	canon
+S2-00895	S2	M000559	match	exact			variant
+S2-00896	S2	M000542	match	typo	typo		canon
+S2-00897	S2	M000131	match	typo	typo	unit_lead	canon
+S2-00898	S2	M000235	match	missing		missing_addr	canon
+S2-00899	S2	M000258	match	exact			canon
+S2-00900	S2	M000004	match	exact			variant
+S3-00001	S3	M000144	match	missing	legal_drop	drop_pin|drop_state	canon
+S3-00002	S3	M000020	match	missing	shorten|vowel_drop	missing_addr	variant
+S3-00003	S3	M000285	match	order	punct|case|umlaut_expand	punct|reorder	canon
+S3-00004	S3	M000455	match	exact	punct		canon
+S3-00005	S3	M000025	match	order	punct|reorder|group_suffix		canon
+S3-00006	S3	M000121	match	order	case|reorder|vowel_drop	sep|spaces	canon
+S3-00007	S3	M000396	match	missing	the_prefix	missing_addr	canon
+S3-00008	S3	M000485	match	address		missing_addr	canon
+S3-00009	S3	M000048	match	typo	typo|translit|legal_variant		canon
+S3-00010	S3	M000223	match	order	punct|reorder|the_prefix	punct|sep	canon
+S3-00011	S3	M000524	match	abbrev	shorten	state_abbr	canon
+S3-00012	S3	M000220	match	address	legal_variant	drop_state|landmark|pinfmt	canon
+S3-00013	S3	M000022	match	abbrev	legal_drop|abbrev	state_abbr	canon
+S3-00014	S3	M000465	match	address		drop_pin	variant
+S3-00015	S3	M000158	match	address	legal_variant	drop_state	canon
+S3-00016	S3	M000062	match	address		landmark	variant
+S3-00017	S3	M000575	match	complex	typo|spaces|the_prefix	abbr|landmark|drop_pin|punct	canon
+S3-00018	S3	M000289	match	abbrev	abbrev		missing
+S3-00019	S3	M000180	match	abbrev	abbrev|group_suffix	state_abbr|drop_pin	canon
+S3-00020	S3	M000341	match	order	punct|reorder|umlaut_expand	spaces|sep|reorder	canon
+S3-00021	S3	M000217	match	typo	typo	append_country	canon
+S3-00022	S3	M000191	match	address	legal_variant|umlaut_expand	drop_pin	canon
+S3-00023	S3	M000167	match	abbrev	legal_variant	drop_pin	canon
+S3-00024	S3	M000036	match	abbrev	shorten|abbrev	abbr	canon
+S3-00025	S3	M000523	match	missing		drop_street|drop_pin|drop_unit	canon
+S3-00026	S3	M000220	match	missing	legal_drop|group_suffix	drop_pin|drop_state	canon
+S3-00027	S3	D000157	decoy_same_name_diff_addr	order	punct|spaces	punct	canon
+S3-00028	S3	M000271	match	missing		missing_addr	canon
+S3-00029	S3	M000386	match	address	legal_variant	reorder|landmark	variant
+S3-00030	S3	M000580	match	address	case	drop_pin|drop_unit	variant
+S3-00031	S3	M000043	match	typo	typo|the_prefix		canon
+S3-00032	S3	M000287	match	missing		missing_addr	canon
+S3-00033	S3	M000103	match	complex	drop_word|spaces|group_suffix	drop_state|landmark	variant
+S3-00034	S3	M000124	match	address	case	drop_pin|drop_city|drop_state	canon
+S3-00035	S3	M000176	match	abbrev	legal_variant|shorten	abbr|append_country	canon
+S3-00036	S3	M000043	match	address	the_prefix	drop_state	variant
+S3-00037	S3	M000510	match	address	case	drop_pin|landmark	variant
+S3-00038	S3	M000552	match	missing		drop_pin	missing
+S3-00039	S3	M000337	match	exact		punct	canon
+S3-00040	S3	M000475	match	missing		missing_addr	canon
+S3-00041	S3	M000296	match	order	punct|reorder	sep	variant
+S3-00042	S3	M000224	match	address		drop_city	canon
+S3-00043	S3	M000433	match	missing		missing_addr	missing
+S3-00044	S3	M000171	match	missing	shorten|group_suffix	drop_street|drop_pin|drop_unit|unit_lead	variant
+S3-00045	S3	M000197	match	typo	typo		canon
+S3-00046	S3	M000539	match	address	group_suffix	drop_bno|drop_pin|abbr|pin_prefix	canon
+S3-00047	S3	M000159	match	address	legal_variant	drop_city|drop_pin|drop_state	variant
+S3-00048	S3	M000228	match	order	case|reorder	upper	canon
+S3-00049	S3	M000516	match	abbrev	shorten|abbrev|group_suffix	pin_prefix	canon
+S3-00050	S3	D000131	decoy_similar_name_diff_addr	order	punct|case	sep	missing
+S3-00051	S3	M000336	match	complex	reorder|punct	missing_addr	canon
+S3-00052	S3	M000334	match	address	umlaut_expand	abbr|landmark|drop_bno|pin_prefix	variant
+S3-00053	S3	M000556	match	order	spaces|reorder	punct|spaces|reorder	canon
+S3-00054	S3	M000039	match	complex	shorten|typo|the_prefix	state_abbr|drop_bno|reorder|drop_pin	variant
+S3-00055	S3	M000399	match	complex	case|typo|abbrev	typo|pinfmt|abbr	missing
+S3-00056	S3	M000306	match	abbrev	shorten|abbrev	abbr|append_country	canon
+S3-00057	S3	M000500	match	exact	punct		canon
+S3-00058	S3	M000439	match	typo	typo		canon
+S3-00059	S3	D000090	decoy_similar_name_diff_addr	abbrev	abbrev|shorten		canon
+S3-00060	S3	M000521	match	exact			variant
+S3-00061	S3	M000427	match	exact		drop_pin	canon
+S3-00062	S3	M000481	match	abbrev	legal_drop|abbrev|group_suffix	abbr	canon
+S3-00063	S3	M000108	match	complex	shorten|drop_word|typo|case	typo|drop_pin|drop_unit|abbr|unit_lead	missing
+S3-00064	S3	M000542	match	address	vowel_drop	drop_state|drop_unit	canon
+S3-00065	S3	M000386	match	address	case|group_suffix	abbr|pin_prefix	variant
+S3-00066	S3	M000028	match	exact	punct	punct	canon
+S3-00067	S3	M000299	match	address	legal_variant|umlaut_expand	reorder|drop_bno	canon
+S3-00068	S3	M000145	match	complex	punct|typo|spaces|shorten	drop_unit|drop_state|numstyle|punct	canon
+S3-00069	S3	M000449	match	order	punct|case|the_prefix	missing_addr	canon
+S3-00070	S3	M000279	match	address	case|vowel_drop	drop_bno|landmark	missing
+S3-00071	S3	M000578	match	complex	case|reorder|initials	abbr|pinfmt|sep	canon
+S3-00072	S3	M000528	match	typo	typo|vowel_drop		canon
+S3-00073	S3	M000539	match	missing	drop_word|vowel_drop	missing_addr	canon
+S3-00074	S3	M000001	match	complex	punct|initials	typo|drop_unit|drop_pin	canon
+S3-00075	S3	D000126	decoy_same_name_diff_addr	address	case	drop_state	canon
+S3-00076	S3	M000503	match	complex	legal_variant|translit	landmark|drop_bno|abbr	canon
+S3-00077	S3	M000140	match	typo	typo|group_suffix	unit_lead	missing
+S3-00078	S3	D000050	decoy_similar_name_diff_addr	address	case	landmark|drop_bno|drop_pin	canon
+S3-00079	S3	D000062	decoy_same_name_diff_addr	typo	typo|group_suffix	drop_pin	variant
+S3-00080	S3	M000333	match	address	legal_variant	drop_bno|reorder	variant
+S3-00081	S3	M000570	match	order	reorder|case	spaces|pin_prefix|drop_pin	canon
+S3-00082	S3	M000212	match	order	punct|reorder|umlaut_expand	sep|punct	missing
+S3-00083	S3	M000393	match	complex	legal_drop|legal_variant	drop_bno|reorder	variant
+S3-00084	S3	M000159	match	missing	drop_word|vowel_drop	drop_pin|drop_state	canon
+S3-00085	S3	M000271	match	order	reorder|punct|the_prefix	sep|reorder	canon
+S3-00086	S3	M000259	match	abbrev	legal_drop|initials|abbrev	abbr|state_abbr|pin_prefix	canon
+S3-00087	S3	M000095	match	complex	abbrev|typo|the_prefix	drop_state|dotted|numstyle	canon
+S3-00088	S3	M000035	match	address	case|umlaut_expand	drop_pin|abbr|pinfmt	canon
+S3-00089	S3	D000002	decoy_similar_name_diff_addr	abbrev	shorten|legal_variant|the_prefix	abbr	variant
+S3-00090	S3	M000299	match	typo	typo|translit|legal_variant|the_prefix	typo	canon
+S3-00091	S3	M000580	match	typo	typo|translit		canon
+S3-00092	S3	M000430	match	exact	case		canon
+S3-00093	S3	M000345	match	exact			canon
+S3-00094	S3	M000378	match	typo	typo|legal_variant		canon
+S3-00095	S3	M000191	match	missing		drop_pin|drop_state	canon
+S3-00096	S3	M000510	match	address	legal_variant	drop_pin|reorder|append_country	canon
+S3-00097	S3	M000198	match	order	case|punct|the_prefix	pin_prefix	canon
+S3-00098	S3	M000262	match	abbrev	legal_drop	abbr|state_abbr	canon
+S3-00099	S3	D000006	decoy_same_city_diff_biz	abbrev	initials|legal_variant	abbr|unit_lead	variant
+S3-00100	S3	M000197	match	missing	drop_word	drop_pin|drop_state	canon
+S3-00101	S3	M000021	match	missing	shorten	drop_street|drop_pin|drop_unit	missing
+S3-00102	S3	D000127	decoy_random	address		missing_addr	canon
+S3-00103	S3	M000025	match	exact	punct		canon
+S3-00104	S3	M000508	match	exact			canon
+S3-00105	S3	D000110	decoy_similar_addr_diff_name	address	umlaut_expand	drop_bno|drop_pin|drop_state	canon
+S3-00106	S3	D000108	decoy_random	abbrev	abbrev	unit_lead	canon
+S3-00107	S3	M000093	match	abbrev	abbrev	abbr|state_abbr	missing
+S3-00108	S3	M000550	match	missing	the_prefix	drop_pin	missing
+S3-00109	S3	M000046	match	abbrev	abbrev|legal_variant		variant
+S3-00110	S3	M000059	match	address		drop_state|append_country	variant
+S3-00111	S3	M000229	match	complex	abbrev|spaces|case|translit	missing_addr	variant
+S3-00112	S3	M000318	match	complex	legal_variant|shorten|legal_drop|umlaut_expand	landmark|typo|dotted	variant
+S3-00113	S3	M000592	match	order	reorder|punct	missing_addr	canon
+S3-00114	S3	M000170	match	abbrev	abbrev|legal_variant|umlaut_expand		canon
+S3-00115	S3	M000483	match	address		pinfmt|landmark|drop_pin|unit_lead	canon
+S3-00116	S3	M000028	match	address	the_prefix	drop_unit	canon
+S3-00117	S3	M000578	match	address	case|the_prefix	drop_bno|pin_prefix	variant
+S3-00118	S3	M000071	match	complex	reorder|typo|case	punct|drop_pin|landmark	variant
+S3-00119	S3	M000580	match	address		missing_addr	missing
+S3-00120	S3	M000073	match	exact	case		variant
+S3-00121	S3	M000174	match	missing		missing_addr	missing
+S3-00122	S3	M000560	match	order	reorder|case|umlaut_expand		canon
+S3-00123	S3	M000319	match	address	group_suffix	landmark|append_country	variant
+S3-00124	S3	M000404	match	complex	legal_drop|typo|vowel_drop	drop_pin|dotted|sep|reorder	canon
+S3-00125	S3	M000381	match	order	punct|case|the_prefix	sep|upper|reorder|append_country	canon
+S3-00126	S3	M000252	match	address	legal_variant	drop_unit|drop_state|drop_pin|append_country	variant
+S3-00127	S3	M000527	match	order	punct|reorder|umlaut_expand	upper	canon
+S3-00128	S3	M000595	match	typo	typo|translit		canon
+S3-00129	S3	M000505	match	abbrev	shorten|abbrev|umlaut_expand	state_abbr|pin_prefix	canon
+S3-00130	S3	M000343	match	order	case|punct	sep|punct|reorder	canon
+S3-00131	S3	M000145	match	typo	typo|translit	drop_pin	canon
+S3-00132	S3	M000045	match	exact	case		canon
+S3-00133	S3	M000063	match	missing	drop_word	missing_addr|unit_lead	canon
+S3-00134	S3	M000329	match	complex	reorder|legal_drop|typo	drop_pin|landmark|sep	variant
+S3-00135	S3	M000402	match	typo	typo|umlaut_expand		canon
+S3-00136	S3	M000243	match	complex	translit|punct	sep|drop_unit|abbr|reorder|unit_lead	canon
+S3-00137	S3	M000397	match	order	spaces|case	sep	canon
+S3-00138	S3	D000015	decoy_same_name_diff_addr	exact			canon
+S3-00139	S3	M000331	match	address	case	drop_pin|drop_state	canon
+S3-00140	S3	M000533	match	complex	spaces|translit|legal_variant|abbrev	landmark|pinfmt|dotted|punct	missing
+S3-00141	S3	M000044	match	address	case|vowel_drop	landmark|reorder	canon
+S3-00142	S3	M000226	match	complex	abbrev|legal_drop|group_suffix	landmark|drop_pin|sep	missing
+S3-00143	S3	M000067	match	complex	initials|abbrev|case	drop_pin|dotted|accent|landmark	canon
+S3-00144	S3	M000127	match	order	case|reorder	punct|sep|reorder|append_country	canon
+S3-00145	S3	M000196	match	missing	umlaut_expand	drop_pin|drop_state|append_country	canon
+S3-00146	S3	M000434	match	missing			missing
+S3-00147	S3	M000264	match	missing	legal_drop|umlaut_expand	drop_pin|drop_state	canon
+S3-00148	S3	M000009	match	complex	abbrev|initials|legal_drop	drop_city|landmark	canon
+S3-00149	S3	M000202	match	order	punct|spaces	reorder	canon
+S3-00150	S3	M000264	match	exact		abbr	canon
+S3-00151	S3	M000475	match	address	case	drop_pin|reorder	variant
+S3-00152	S3	M000371	match	abbrev	legal_variant|umlaut_expand	pin_prefix|drop_pin	variant
+S3-00153	S3	M000186	match	complex	abbrev|typo|reorder	dotted|reorder|drop_bno|landmark	variant
+S3-00154	S3	M000460	match	typo	typo|translit	typo	variant
+S3-00155	S3	M000590	match	missing		append_country	missing
+S3-00156	S3	M000597	match	order	reorder|spaces|group_suffix	upper	canon
+S3-00157	S3	M000544	match	order	case|reorder|umlaut_expand	upper	canon
+S3-00158	S3	M000127	match	abbrev	legal_variant|shorten|abbrev	abbr	canon
+S3-00159	S3	M000145	match	address	case	drop_bno|drop_state	canon
+S3-00160	S3	M000587	match	abbrev	shorten|abbrev	abbr	canon
+S3-00161	S3	M000492	match	address	legal_variant	drop_pin	variant
+S3-00162	S3	M000085	match	address	case	landmark|drop_pin|unit_lead	canon
+S3-00163	S3	M000033	match	complex	case|legal_variant|group_suffix	drop_state|numstyle	canon
+S3-00164	S3	M000524	match	address	legal_variant	abbr|drop_pin	canon
+S3-00165	S3	M000288	match	address	legal_variant|umlaut_expand	drop_state|drop_unit|unit_lead	variant
+S3-00166	S3	M000207	match	address		drop_unit	variant
+S3-00167	S3	M000391	match	abbrev	abbrev|initials|vowel_drop	abbr|state_abbr|drop_pin	variant
+S3-00168	S3	M000254	match	exact		drop_pin	variant
+S3-00169	S3	D000017	decoy_similar_name_diff_addr	order	reorder|case	upper|spaces	canon
+S3-00170	S3	M000501	match	address	legal_variant|vowel_drop	drop_pin|landmark|drop_state	canon
+S3-00171	S3	M000171	match	complex	translit|abbrev|typo	drop_city|landmark|numstyle|punct	canon
+S3-00172	S3	M000060	match	missing	legal_drop	drop_street|drop_pin|drop_unit	canon
+S3-00173	S3	M000548	match	exact			variant
+S3-00174	S3	M000104	match	typo	typo|group_suffix	typo|append_country|drop_pin	canon
+S3-00175	S3	M000511	match	order	spaces|reorder|umlaut_expand		canon
+S3-00176	S3	D000071	decoy_same_city_diff_biz	order	reorder|case	spaces|reorder|unit_lead	variant
+S3-00177	S3	M000523	match	exact	case	abbr	variant
+S3-00178	S3	M000495	match	exact		punct	canon
+S3-00179	S3	M000308	match	complex	initials|reorder	state_abbr|landmark	variant
+S3-00180	S3	M000521	match	address	case|the_prefix	drop_bno	missing
+S3-00181	S3	M000599	match	exact	punct		canon
+S3-00182	S3	M000334	match	order	reorder|case	sep	canon
+S3-00183	S3	M000124	match	abbrev	abbrev|shorten	state_abbr	canon
+S3-00184	S3	M000232	match	abbrev	shorten|abbrev	abbr|state_abbr|pin_prefix	canon
+S3-00185	S3	M000229	match	order	case|reorder	punct|upper	canon
+S3-00186	S3	M000150	match	missing	legal_drop	missing_addr	canon
+S3-00187	S3	M000040	match	typo	typo|legal_variant|vowel_drop	unit_lead	canon
+S3-00188	S3	M000282	match	typo	typo|translit|legal_variant		variant
+S3-00189	S3	M000032	match	abbrev	abbrev|vowel_drop	state_abbr|drop_pin	canon
+S3-00190	S3	M000030	match	missing	drop_word		missing
+S3-00191	S3	M000569	match	abbrev	shorten|abbrev	state_abbr|append_country	canon
+S3-00192	S3	M000505	match	missing	drop_word		missing
+S3-00193	S3	M000524	match	exact			canon
+S3-00194	S3	D000134	decoy_similar_addr_diff_name	abbrev	legal_variant|umlaut_expand	abbr|state_abbr	canon
+S3-00195	S3	D000144	decoy_similar_name_diff_addr	address		landmark|pinfmt	canon
+S3-00196	S3	M000317	match	address	case	drop_pin|drop_unit|reorder	variant
+S3-00197	S3	M000509	match	typo	typo	unit_lead	canon
+S3-00198	S3	M000391	match	address	vowel_drop	reorder	canon
+S3-00199	S3	D000151	decoy_similar_name_diff_addr	abbrev	abbrev|shorten	state_abbr|unit_lead	canon
+S3-00200	S3	M000526	match	typo	typo|legal_variant		variant
+S3-00201	S3	M000344	match	address	case	drop_pin|abbr	canon
+S3-00202	S3	M000567	match	missing		missing_addr	canon
+S3-00203	S3	D000044	decoy_similar_addr_diff_name	order	punct|spaces		variant
+S3-00204	S3	M000165	match	complex	reorder|spaces|the_prefix	numstyle|punct|drop_pin	canon
+S3-00205	S3	M000516	match	missing	umlaut_expand	missing_addr	canon
+S3-00206	S3	D000146	decoy_same_city_diff_biz	address		abbr|reorder|pinfmt|drop_pin	canon
+S3-00207	S3	M000356	match	complex	drop_word|legal_drop	punct|landmark|abbr	variant
+S3-00208	S3	M000439	match	order	case|spaces	sep|punct	canon
+S3-00209	S3	M000052	match	typo	typo|legal_variant		canon
+S3-00210	S3	D000112	decoy_same_city_diff_biz	complex	punct|translit|drop_word|abbrev	landmark|reorder|typo	variant
+S3-00211	S3	D000001	decoy_same_name_diff_addr	order	case|reorder|umlaut_expand		canon
+S3-00212	S3	M000110	match	order	reorder|punct|umlaut_expand	sep|punct|pin_prefix	canon
+S3-00213	S3	M000018	match	address	legal_variant	abbr|landmark|drop_state|pin_prefix|drop_pin	missing
+S3-00214	S3	M000014	match	typo	typo|translit		canon
+S3-00215	S3	M000560	match	typo	typo|legal_variant	typo|append_country	variant
+S3-00216	S3	M000266	match	typo	typo|umlaut_expand	typo|pin_prefix	canon
+S3-00217	S3	M000423	match	address	case	landmark|drop_bno|reorder	canon
+S3-00218	S3	M000393	match	missing	drop_word	missing_addr	canon
+S3-00219	S3	M000363	match	exact		missing_addr	canon
+S3-00220	S3	M000239	match	address	case	missing_addr	canon
+S3-00221	S3	M000300	match	typo	typo|the_prefix		variant
+S3-00222	S3	M000285	match	address	legal_variant	drop_unit|drop_state	canon
+S3-00223	S3	M000260	match	missing	shorten	missing_addr	canon
+S3-00224	S3	M000569	match	exact			variant
+S3-00225	S3	M000389	match	address	case|umlaut_expand	reorder|drop_state|abbr	variant
+S3-00226	S3	M000506	match	missing	legal_drop	drop_pin|drop_state	canon
+S3-00227	S3	M000017	match	address	case	drop_unit|landmark|reorder	canon
+S3-00228	S3	M000486	match	missing	shorten	drop_street|drop_pin|drop_unit	variant
+S3-00229	S3	M000329	match	missing	shorten	drop_street|drop_pin|drop_unit	variant
+S3-00230	S3	M000593	match	complex	abbrev|shorten|typo|umlaut_expand	abbr|drop_pin	variant
+S3-00231	S3	M000479	match	complex	shorten|initials|translit	missing_addr	variant
+S3-00232	S3	M000573	match	order	spaces|reorder	reorder|append_country|drop_pin	canon
+S3-00233	S3	M000187	match	exact			variant
+S3-00234	S3	M000254	match	missing			missing
+S3-00235	S3	M000089	match	order	reorder|spaces|group_suffix	spaces|reorder|unit_lead	canon
+S3-00236	S3	M000273	match	typo	typo		canon
+S3-00237	S3	M000460	match	missing	umlaut_expand	drop_pin|drop_state	canon
+S3-00238	S3	M000262	match	address	legal_variant|umlaut_expand	drop_bno|abbr|landmark	variant
+S3-00239	S3	M000055	match	order	spaces|punct|the_prefix	punct|reorder|unit_lead	canon
+S3-00240	S3	M000492	match	exact			canon
+S3-00241	S3	M000292	match	complex	legal_variant|abbrev|translit	state_abbr|accent|pinfmt|drop_pin|pin_prefix	canon
+S3-00242	S3	M000207	match	address	legal_variant	drop_unit|drop_city	canon
+S3-00243	S3	M000521	match	abbrev	initials|abbrev	unit_lead	canon
+S3-00244	S3	M000009	match	address	case|the_prefix	drop_bno|pin_prefix	canon
+S3-00245	S3	M000373	match	order	case|punct		variant
+S3-00246	S3	M000574	match	exact			canon
+S3-00247	S3	M000102	match	complex	legal_variant|shorten	drop_pin|pinfmt	missing
+S3-00248	S3	M000149	match	complex	punct|shorten	drop_city|drop_pin|upper	variant
+S3-00249	S3	M000431	match	complex	initials|translit	drop_unit|accent|reorder|landmark|append_country	canon
+S3-00250	S3	M000432	match	order	case|spaces	pin_prefix	variant
+S3-00251	S3	D000023	decoy_same_city_diff_biz	address		landmark|drop_state|drop_pin	canon
+S3-00252	S3	M000127	match	complex	abbrev|typo	drop_pin|typo	canon
+S3-00253	S3	M000048	match	order	spaces|case	upper|sep|unit_lead	canon
+S3-00254	S3	M000328	match	abbrev	legal_variant|abbrev|group_suffix		missing
+S3-00255	S3	M000102	match	typo	typo|translit|the_prefix	unit_lead	missing
+S3-00256	S3	M000520	match	address		landmark|append_country	canon
+S3-00257	S3	M000239	match	typo	typo|the_prefix		canon
+S3-00258	S3	M000201	match	order	reorder|punct	punct|spaces	canon
+S3-00259	S3	D000140	decoy_same_name_diff_addr	address		landmark|drop_pin|drop_city	canon
+S3-00260	S3	M000487	match	missing		missing_addr	canon
+S3-00261	S3	M000396	match	complex	case|shorten|drop_word	drop_pin|reorder	variant
+S3-00262	S3	M000446	match	address	case	drop_unit|drop_pin	variant
+S3-00263	S3	M000302	match	address	case|vowel_drop	landmark	canon
+S3-00264	S3	M000195	match	abbrev	legal_variant	abbr|unit_lead|drop_pin	canon
+S3-00265	S3	M000103	match	complex	shorten|legal_drop|punct|abbrev	typo|abbr	variant
+S3-00266	S3	M000050	match	missing	umlaut_expand	drop_street|drop_pin|drop_unit	canon
+S3-00267	S3	M000595	match	exact	case	punct	canon
+S3-00268	S3	M000083	match	address	legal_variant	drop_city|drop_pin|drop_bno|unit_lead	canon
+S3-00269	S3	M000475	match	order	case|reorder		canon
+S3-00270	S3	M000030	match	typo	typo|translit|legal_variant	typo	canon
+S3-00271	S3	D000046	decoy_similar_name_diff_addr	complex	translit|legal_variant|vowel_drop	drop_pin|spaces	canon
+S3-00272	S3	M000284	match	address	legal_variant	landmark|drop_pin	variant
+S3-00273	S3	M000082	match	complex	typo|abbrev|punct|spaces|group_suffix	landmark|drop_unit|sep|pin_prefix	canon
+S3-00274	S3	M000543	match	complex	case|drop_word|initials|shorten	drop_pin|landmark|abbr|sep	canon
+S3-00275	S3	M000324	match	missing	legal_drop	drop_pin	missing
+S3-00276	S3	M000562	match	missing	shorten|vowel_drop	missing_addr|pin_prefix	variant
+S3-00277	S3	M000435	match	address	legal_variant	landmark|drop_unit|pin_prefix	canon
+S3-00278	S3	M000264	match	exact	case	abbr|drop_pin	canon
+S3-00279	S3	M000560	match	address		drop_city|reorder|drop_bno|append_country	canon
+S3-00280	S3	M000380	match	typo	typo|legal_variant|group_suffix		variant
+S3-00281	S3	M000266	match	order	reorder|spaces	punct|upper|append_country	canon
+S3-00282	S3	M000440	match	address		drop_state|landmark|drop_pin	variant
+S3-00283	S3	D000150	decoy_random	complex	abbrev|case|shorten|the_prefix	numstyle|drop_bno|drop_state|typo	canon
+S3-00284	S3	M000240	match	abbrev	abbrev|vowel_drop	abbr|unit_lead	canon
+S3-00285	S3	M000315	match	typo	typo|translit|the_prefix	drop_pin	variant
+S3-00286	S3	M000154	match	address	case	drop_city|drop_bno|drop_state|pin_prefix	canon
+S3-00287	S3	M000443	match	typo	typo|translit	typo|drop_pin	canon
+S3-00288	S3	M000160	match	typo	typo|translit	typo	variant
+S3-00289	S3	M000010	match	exact	case	drop_pin	canon
+S3-00290	S3	M000194	match	missing	drop_word		missing
+S3-00291	S3	M000122	match	exact			variant
+S3-00292	S3	M000503	match	address	legal_variant	landmark|drop_pin|drop_state|pin_prefix	variant
+S3-00293	S3	M000518	match	exact		punct	canon
+S3-00294	S3	M000258	match	address	legal_variant	drop_state|drop_city|landmark	canon
+S3-00295	S3	M000197	match	address	legal_variant|vowel_drop	landmark|drop_city|abbr	canon
+S3-00296	S3	M000562	match	missing	shorten	missing_addr	canon
+S3-00297	S3	M000362	match	abbrev	abbrev|shorten		canon
+S3-00298	S3	M000262	match	address	legal_variant	missing_addr	canon
+S3-00299	S3	M000125	match	address	legal_variant	drop_state	canon
+S3-00300	S3	M000549	match	order	case|spaces	sep|punct	canon
+S3-00301	S3	M000132	match	abbrev	legal_variant|shorten		canon
+S3-00302	S3	M000497	match	missing		missing_addr|append_country	missing
+S3-00303	S3	M000585	match	address		landmark|unit_lead|drop_pin	canon
+S3-00304	S3	M000416	match	order	spaces|reorder	sep|append_country|drop_pin	canon
+S3-00305	S3	M000240	match	missing		missing_addr	variant
+S3-00306	S3	M000304	match	abbrev	legal_variant	abbr|state_abbr	canon
+S3-00307	S3	M000246	match	complex	abbrev|shorten	dotted|typo|drop_city	canon
+S3-00308	S3	M000219	match	complex	spaces|shorten|typo	sep|drop_pin|reorder	variant
+S3-00309	S3	M000032	match	address		drop_unit|drop_state|drop_pin	canon
+S3-00310	S3	M000308	match	order	case|punct|group_suffix	spaces|reorder	canon
+S3-00311	S3	M000314	match	address	case	drop_state	canon
+S3-00312	S3	M000299	match	abbrev	shorten|legal_drop	missing_addr	missing
+S3-00313	S3	M000448	match	address	case	reorder	variant
+S3-00314	S3	M000222	match	address		drop_pin|drop_unit|abbr	canon
+S3-00315	S3	M000240	match	address	umlaut_expand	reorder|drop_unit	missing
+S3-00316	S3	M000174	match	exact		abbr	canon
+S3-00317	S3	M000600	match	complex	shorten|legal_variant|typo	abbr|drop_bno|punct|drop_pin|append_country	canon
+S3-00318	S3	M000029	match	order	reorder|case|vowel_drop	reorder|pin_prefix	canon
+S3-00319	S3	D000143	decoy_same_city_diff_biz	abbrev	shorten	abbr	variant
+S3-00320	S3	M000224	match	complex	legal_variant|case	sep|upper|drop_state|spaces|drop_pin	variant
+S3-00321	S3	M000599	match	address	legal_variant	reorder	canon
+S3-00322	S3	M000400	match	order	reorder|case		canon
+S3-00323	S3	M000514	match	address		drop_pin	variant
+S3-00324	S3	M000264	match	abbrev	abbrev|the_prefix	unit_lead	canon
+S3-00325	S3	M000562	match	exact	punct		canon
+S3-00326	S3	M000427	match	address	legal_variant|umlaut_expand	drop_pin|drop_bno|landmark	canon
+S3-00327	S3	M000037	match	exact			canon
+S3-00328	S3	D000148	decoy_random	abbrev	shorten|legal_variant|the_prefix	abbr	canon
+S3-00329	S3	M000270	match	complex	translit|typo	landmark|reorder|pinfmt	variant
+S3-00330	S3	D000145	decoy_similar_name_diff_addr	abbrev	legal_variant|legal_drop|abbrev	abbr|drop_pin	canon
+S3-00331	S3	M000432	match	complex	drop_word|legal_drop|initials|punct|the_prefix	missing_addr	canon
+S3-00332	S3	D000018	decoy_similar_name_diff_addr	exact	punct		missing
+S3-00333	S3	M000533	match	exact			missing
+S3-00334	S3	D000107	decoy_same_name_diff_addr	exact	punct		variant
+S3-00335	S3	M000375	match	missing	legal_drop	missing_addr|pin_prefix	canon
+S3-00336	S3	M000035	match	abbrev	legal_drop|shorten|the_prefix	abbr|unit_lead	canon
+S3-00337	S3	M000315	match	exact	case		canon
+S3-00338	S3	M000046	match	exact		punct	canon
+S3-00339	S3	M000069	match	complex	legal_variant|typo|punct|translit|umlaut_expand	state_abbr|reorder|dotted|landmark|append_country	variant
+S3-00340	S3	M000554	match	abbrev	abbrev|shorten	abbr|unit_lead	canon
+S3-00341	S3	M000075	match	address	vowel_drop	abbr|drop_unit|drop_pin	canon
+S3-00342	S3	M000240	match	missing		drop_street|drop_pin|drop_unit	variant
+S3-00343	S3	M000474	match	missing	shorten	drop_pin|drop_state|append_country	variant
+S3-00344	S3	M000498	match	address	legal_variant	pinfmt|abbr	missing
+S3-00345	S3	D000120	decoy_similar_name_diff_addr	complex	legal_variant|case|drop_word	drop_bno|typo|dotted	canon
+S3-00346	S3	M000228	match	missing		unit_lead	missing
+S3-00347	S3	M000160	match	exact			canon
+S3-00348	S3	M000405	match	address	vowel_drop	drop_pin|pinfmt	canon
+S3-00349	S3	M000180	match	missing		drop_street|drop_pin|drop_unit	canon
+S3-00350	S3	M000421	match	order	case|reorder|group_suffix	spaces	canon
+S3-00351	S3	M000100	match	typo	typo|legal_variant	typo	variant
+S3-00352	S3	M000074	match	missing	shorten|umlaut_expand	missing_addr	variant
+S3-00353	S3	M000035	match	missing	legal_drop		missing
+S3-00354	S3	M000153	match	exact			canon
+S3-00355	S3	M000448	match	abbrev	shorten|legal_drop	abbr|state_abbr|append_country	missing
+S3-00356	S3	M000515	match	exact	punct	drop_pin	canon
+S3-00357	S3	M000186	match	exact			variant
+S3-00358	S3	M000364	match	address		drop_state|drop_pin|landmark	canon
+S3-00359	S3	M000144	match	address	case	drop_state	variant
+S3-00360	S3	M000088	match	abbrev	shorten|abbrev		variant
+S3-00361	S3	D000003	decoy_similar_addr_diff_name	abbrev	abbrev|group_suffix		variant
+S3-00362	S3	M000076	match	missing		drop_pin|drop_state|unit_lead	canon
+S3-00363	S3	M000568	match	address		drop_state|landmark|drop_pin	canon
+S3-00364	S3	M000310	match	address	legal_variant	drop_city|drop_unit	canon
+S3-00365	S3	M000310	match	address	case|the_prefix	drop_pin|pinfmt	missing
+S3-00366	S3	M000542	match	missing	drop_word	pin_prefix	missing
+S3-00367	S3	D000016	decoy_similar_name_diff_addr	typo	typo	typo	canon
+S3-00368	S3	M000593	match	abbrev	initials	abbr|unit_lead	canon
+S3-00369	S3	M000397	match	order	reorder|case		canon
+S3-00370	S3	M000261	match	order	reorder|spaces		canon
+S3-00371	S3	M000235	match	address	case|vowel_drop	reorder|drop_unit|drop_state	variant
+S3-00372	S3	D000075	decoy_same_name_diff_addr	address		reorder|drop_city|drop_pin	canon
+S3-00373	S3	M000481	match	typo	typo|translit		canon
+S3-00374	S3	M000188	match	missing	shorten	missing_addr	missing
+S3-00375	S3	D000139	decoy_same_name_diff_addr	exact	punct		variant
+S3-00376	S3	D000024	decoy_same_name_diff_addr	address		missing_addr	variant
+S3-00377	S3	M000185	match	complex	drop_word|legal_variant	punct|reorder|drop_state|drop_pin	variant
+S3-00378	S3	M000584	match	abbrev	abbrev	abbr|state_abbr	canon
+S3-00379	S3	M000113	match	order	punct|case|umlaut_expand	sep|reorder|append_country	variant
+S3-00380	S3	M000008	match	complex	initials|legal_drop|punct|abbrev|umlaut_expand	abbr|reorder|dotted|pin_prefix	variant
+S3-00381	S3	D000084	decoy_same_name_diff_addr	missing		drop_pin	missing
+S3-00382	S3	M000151	match	order	punct|reorder	reorder	canon
+S3-00383	S3	M000473	match	address	case	landmark|drop_state|reorder	canon
+S3-00384	S3	M000491	match	exact		abbr	canon
+S3-00385	S3	M000062	match	exact	case	abbr	canon
+S3-00386	S3	M000457	match	complex	abbrev|case	sep|abbr|pin_prefix	variant
+S3-00387	S3	M000525	match	exact			canon
+S3-00388	S3	M000273	match	missing		drop_pin|drop_state|unit_lead	variant
+S3-00389	S3	M000165	match	abbrev	legal_variant|shorten|abbrev	append_country	missing
+S3-00390	S3	M000573	match	missing		missing_addr	canon
+S3-00391	S3	D000125	decoy_similar_name_diff_addr	abbrev	legal_drop	missing_addr	canon
+S3-00392	S3	D000153	decoy_random	missing		drop_pin|drop_state	canon
+S3-00393	S3	D000123	decoy_similar_addr_diff_name	exact		missing_addr	variant
+S3-00394	S3	M000192	match	address	legal_variant	pinfmt|landmark|drop_pin	canon
+S3-00395	S3	M000255	match	missing	legal_drop	missing_addr|pin_prefix	canon
+S3-00396	S3	D000086	decoy_similar_name_diff_addr	address	legal_variant|umlaut_expand	drop_bno|drop_pin|drop_unit	canon
+S3-00397	S3	D000029	decoy_random	complex	translit|abbrev|legal_drop|case	reorder|landmark|drop_state|unit_lead	canon
+S3-00398	S3	M000335	match	address	legal_variant	landmark|drop_pin|unit_lead	canon
+S3-00399	S3	M000105	match	address	case	drop_state|pinfmt|reorder|drop_pin	variant
+S3-00400	S3	M000540	match	address		drop_state|drop_unit|drop_pin	canon
+S3-00401	S3	M000119	match	order	punct|spaces	missing_addr	variant
+S3-00402	S3	M000556	match	exact			canon
+S3-00403	S3	M000260	match	typo	typo	pin_prefix	canon
+S3-00404	S3	M000024	match	missing	shorten	missing_addr	canon
+S3-00405	S3	M000357	match	exact			canon
+S3-00406	S3	M000549	match	exact			canon
+S3-00407	S3	M000535	match	typo	typo|translit	typo|unit_lead	canon
+S3-00408	S3	M000051	match	abbrev	abbrev|legal_drop	abbr	canon
+S3-00409	S3	M000350	match	complex	reorder|legal_variant|translit	state_abbr|drop_pin|abbr	missing
+S3-00410	S3	M000273	match	complex	initials|abbrev	drop_bno|reorder|abbr|pin_prefix	variant
+S3-00411	S3	M000130	match	address	case	drop_pin	missing
+S3-00412	S3	M000555	match	missing	umlaut_expand	drop_pin|drop_state|unit_lead	variant
+S3-00413	S3	M000236	match	missing		missing_addr	canon
+S3-00414	S3	M000319	match	typo	typo|umlaut_expand	typo	canon
+S3-00415	S3	M000125	match	exact			variant
+S3-00416	S3	M000165	match	order	reorder|case|vowel_drop	punct	canon
+S3-00417	S3	M000049	match	missing	vowel_drop	drop_street|drop_pin|drop_unit|pin_prefix	variant
+S3-00418	S3	M000544	match	typo	typo|translit	missing_addr	canon
+S3-00419	S3	M000109	match	exact			variant
+S3-00420	S3	D000142	decoy_same_name_diff_addr	typo	typo	append_country	canon
+S3-00421	S3	M000447	match	typo	typo|translit	typo	variant
+S3-00422	S3	M000419	match	abbrev	shorten|abbrev|vowel_drop	unit_lead	variant
+S3-00423	S3	M000226	match	complex	typo|reorder|punct	abbr|drop_state|numstyle|reorder	canon
+S3-00424	S3	M000561	match	complex	punct|abbrev|drop_word|the_prefix	landmark|state_abbr|dotted|typo	missing
+S3-00425	S3	M000415	match	missing	shorten|group_suffix		missing
+S3-00426	S3	M000392	match	abbrev	legal_variant|abbrev	abbr	variant
+S3-00427	S3	M000476	match	abbrev	legal_drop|shorten	abbr	variant
+S3-00428	S3	M000021	match	typo	typo	typo	canon
+S3-00429	S3	M000130	match	address	case	landmark|abbr	variant
+S3-00430	S3	M000241	match	exact			canon
+S3-00431	S3	M000327	match	order	reorder|punct|the_prefix	sep|drop_pin	variant
+S3-00432	S3	M000046	match	address	legal_variant|umlaut_expand	drop_state|abbr|drop_pin	canon
+S3-00433	S3	M000387	match	exact			variant
+S3-00434	S3	M000073	match	complex	punct|case|legal_variant	abbr|drop_city|drop_pin|pinfmt	canon
+S3-00435	S3	M000301	match	abbrev	legal_variant|shorten|abbrev	state_abbr|append_country	canon
+S3-00436	S3	M000530	match	exact			canon
+S3-00437	S3	M000486	match	order	case|punct	missing_addr	canon
+S3-00438	S3	M000192	match	abbrev	shorten|the_prefix	abbr	canon
+S3-00439	S3	M000416	match	exact	punct		canon
+S3-00440	S3	M000038	match	address	case	reorder|landmark	canon
+S3-00441	S3	M000160	match	address		drop_pin|unit_lead	canon
+S3-00442	S3	M000162	match	complex	abbrev|spaces|translit	drop_pin|upper|pin_prefix	missing
+S3-00443	S3	M000576	match	address	legal_variant|the_prefix	reorder|pin_prefix	missing
+S3-00444	S3	M000557	match	complex	typo|abbrev|case	drop_pin|punct|numstyle|drop_state	canon
+S3-00445	S3	M000131	match	missing	group_suffix	drop_street|drop_pin|drop_unit	variant
+S3-00446	S3	M000067	match	missing	shorten	missing_addr|unit_lead	variant
+S3-00447	S3	M000163	match	exact	case	abbr	canon
+S3-00448	S3	M000377	match	missing		missing_addr	canon
+S3-00449	S3	D000118	decoy_similar_name_diff_addr	order	punct|reorder	reorder	variant
+S3-00450	S3	M000543	match	abbrev	shorten|initials|abbrev|umlaut_expand	state_abbr	canon
+S3-00451	S3	M000576	match	abbrev	shorten|abbrev	unit_lead	canon
+S3-00452	S3	M000438	match	complex	shorten|legal_variant|translit|umlaut_expand	typo|abbr|unit_lead	canon
+S3-00453	S3	M000090	match	order	punct|reorder	sep|upper|append_country	canon
+S3-00454	S3	M000374	match	exact		drop_pin	missing
+S3-00455	S3	M000074	match	complex	legal_drop|typo|translit|the_prefix	drop_state|drop_pin	variant
+S3-00456	S3	M000353	match	abbrev	shorten|initials	abbr	variant
+S3-00457	S3	D000141	decoy_same_name_diff_addr	address	case	drop_city	canon
+S3-00458	S3	M000537	match	abbrev	initials	append_country	canon
+S3-00459	S3	M000009	match	complex	translit|initials|punct|reorder|group_suffix	abbr|typo	canon
+S3-00460	S3	M000184	match	order	punct|case	punct|pin_prefix	canon
+S3-00461	S3	M000469	match	complex	punct|legal_variant|typo|case|group_suffix	typo|state_abbr|dotted	canon
+S3-00462	S3	D000128	decoy_random	address	case	drop_unit|pin_prefix	canon
+S3-00463	S3	M000381	match	missing	the_prefix	drop_street|drop_pin|drop_unit|pin_prefix	canon
+S3-00464	S3	M000436	match	missing	shorten		missing
+S3-00465	S3	M000556	match	complex	punct|typo|abbrev|spaces|vowel_drop	landmark|reorder|punct|sep	canon
+S3-00466	S3	M000426	match	exact		punct	canon
+S3-00467	S3	M000270	match	order	punct|reorder|the_prefix		missing
+S3-00468	S3	M000267	match	address	case	landmark|drop_bno|reorder	canon
+S3-00469	S3	M000535	match	exact			canon
+S3-00470	S3	M000540	match	typo	typo|legal_variant|vowel_drop		canon
+S3-00471	S3	M000445	match	missing	shorten	drop_street|drop_pin|drop_unit	variant
+S3-00472	S3	M000119	match	address	legal_variant|umlaut_expand	drop_state|landmark	canon
+S3-00473	S3	M000239	match	address	legal_variant	drop_state	canon
+S3-00474	S3	M000142	match	address		drop_pin|pinfmt	canon
+S3-00475	S3	M000516	match	address		drop_state|landmark	canon
+S3-00476	S3	M000220	match	exact		drop_pin	canon
+S3-00477	S3	M000019	match	missing	legal_drop		missing
+S3-00478	S3	M000173	match	address	case	abbr|drop_pin	variant
+S3-00479	S3	M000405	match	address	legal_variant	drop_pin|drop_unit	canon
+S3-00480	S3	M000454	match	complex	translit|legal_drop|punct|reorder	upper|state_abbr	variant
+S3-00481	S3	M000537	match	address	case	drop_city|reorder|drop_unit	variant
+S3-00482	S3	M000213	match	order	reorder|spaces	spaces|unit_lead	canon
+S3-00483	S3	M000235	match	address	legal_variant	drop_bno|landmark|abbr	canon
+S3-00484	S3	M000559	match	abbrev	shorten	state_abbr	canon
+S3-00485	S3	M000187	match	typo	typo|translit	unit_lead	canon
+S3-00486	S3	M000335	match	abbrev	abbrev|vowel_drop	missing_addr	canon
+S3-00487	S3	M000152	match	exact	case		canon
+S3-00488	S3	M000580	match	order	reorder|spaces	punct|append_country|drop_pin	canon
+S3-00489	S3	M000124	match	address	case|vowel_drop	drop_city|reorder|landmark|pin_prefix	variant
+S3-00490	S3	M000338	match	abbrev	legal_variant	pin_prefix	variant
+S3-00491	S3	D000124	decoy_same_name_diff_addr	complex	initials|translit|reorder|case	typo|landmark|pinfmt	missing
+S3-00492	S3	M000057	match	order	case|spaces|group_suffix	unit_lead	variant
+S3-00493	S3	M000250	match	exact	punct		canon
+S3-00494	S3	M000186	match	address	case|vowel_drop	drop_city|unit_lead	missing
+S3-00495	S3	M000273	match	complex	typo|legal_variant|case|initials	drop_pin|drop_unit|drop_city|landmark|pin_prefix	missing
+S3-00496	S3	M000142	match	complex	punct|abbrev|spaces|umlaut_expand	drop_bno|drop_state|numstyle	missing
+S3-00497	S3	M000416	match	abbrev	legal_drop|abbrev|group_suffix		canon
+S3-00498	S3	M000576	match	address	case	drop_unit	canon
+S3-00499	S3	M000492	match	exact			canon
+S3-00500	S3	M000587	match	typo	typo	append_country	canon
+S3-00501	S3	M000343	match	abbrev	shorten	abbr|unit_lead|drop_pin	canon
+S3-00502	S3	M000058	match	exact	case	punct|drop_pin	variant
+S3-00503	S3	M000555	match	typo	typo|translit|legal_variant|vowel_drop	append_country	canon
+S3-00504	S3	M000570	match	exact			canon
+S3-00505	S3	M000491	match	missing	group_suffix	drop_pin|drop_state	canon
+S3-00506	S3	M000571	match	address	case|the_prefix	landmark	canon
+S3-00507	S3	M000208	match	order	punct|case|umlaut_expand		canon
+S3-00508	S3	M000299	match	typo	typo	pin_prefix	canon
+S3-00509	S3	M000193	match	address	case|umlaut_expand	pinfmt|drop_pin|landmark	canon
+S3-00510	S3	M000183	match	abbrev	shorten|abbrev	pin_prefix	canon
+S3-00511	S3	M000294	match	address	legal_variant|the_prefix	reorder|unit_lead|drop_pin	variant
+S3-00512	S3	M000119	match	missing			missing
+S3-00513	S3	M000438	match	address	case|umlaut_expand	abbr|drop_unit|drop_pin	variant
+S3-00514	S3	M000540	match	complex	spaces|shorten	drop_bno|pinfmt|drop_pin|upper|append_country	canon
+S3-00515	S3	M000500	match	order	spaces|reorder	drop_pin	canon
+S3-00516	S3	M000085	match	order	reorder|spaces|group_suffix	punct	missing
+S3-00517	S3	M000036	match	address	case	reorder	canon
+S3-00518	S3	M000223	match	address	case|umlaut_expand	abbr	variant
+S3-00519	S3	M000484	match	abbrev	abbrev|shorten	state_abbr|unit_lead	canon
+S3-00520	S3	M000363	match	typo	typo	typo|pin_prefix	canon
+S3-00521	S3	M000148	match	missing	shorten	append_country|drop_pin	missing
+S3-00522	S3	M000125	match	address	legal_variant	drop_bno|drop_pin|pinfmt	canon
+S3-00523	S3	M000257	match	address		drop_unit|drop_state|drop_pin|pin_prefix	canon
+S3-00524	S3	M000079	match	typo	typo|translit	typo	variant
+S3-00525	S3	M000577	match	address	case|umlaut_expand	reorder	variant
+S3-00526	S3	M000548	match	abbrev	shorten|abbrev	drop_pin	variant
+S3-00527	S3	M000195	match	exact			canon
+S3-00528	S3	M000158	match	exact	case	abbr	missing
+S3-00529	S3	D000152	decoy_similar_name_diff_addr	complex	reorder|drop_word|the_prefix	typo|state_abbr	variant
+S3-00530	S3	M000550	match	abbrev	shorten|abbrev	abbr	variant
+S3-00531	S3	M000365	match	exact			variant
+S3-00532	S3	D000019	decoy_similar_name_diff_addr	address	case	drop_unit|drop_state|pin_prefix	missing
+S3-00533	S3	M000512	match	address	legal_variant	drop_pin|pinfmt|pin_prefix	variant
+S3-00534	S3	M000378	match	order	reorder|case	punct|pin_prefix	canon
+S3-00535	S3	M000407	match	exact			variant
+S3-00536	S3	M000408	match	order	reorder|case|the_prefix	reorder	missing
+S3-00537	S3	M000578	match	abbrev	shorten|umlaut_expand	abbr|state_abbr	canon
+S3-00538	S3	M000134	match	exact			variant
+S3-00539	S3	M000095	match	missing		pin_prefix	missing
+S3-00540	S3	M000333	match	exact		abbr	canon
+S3-00541	S3	M000352	match	missing		drop_street|drop_pin|drop_unit	canon
+S3-00542	S3	M000050	match	order	punct|reorder	spaces|unit_lead	canon
+S3-00543	S3	M000470	match	order	case|spaces	spaces	canon
+S3-00544	S3	M000025	match	abbrev	abbrev|shorten	abbr|append_country	canon
+S3-00545	S3	M000283	match	order	reorder|spaces|umlaut_expand	punct|drop_pin	canon
+S3-00546	S3	M000413	match	exact			canon
+S3-00547	S3	M000366	match	abbrev	initials|shorten|abbrev	abbr	canon
+S3-00548	S3	M000184	match	address	group_suffix	drop_unit|reorder|drop_state|drop_pin	canon
+S3-00549	S3	M000350	match	typo	typo|translit	unit_lead	canon
+S3-00550	S3	M000417	match	missing		drop_street|drop_pin|drop_unit	canon
+S3-00551	S3	M000445	match	missing	legal_drop	append_country	missing
+S3-00552	S3	D000060	decoy_same_name_diff_addr	abbrev	shorten|vowel_drop	abbr	canon
+S3-00553	S3	M000399	match	complex	case|shorten|drop_word|abbrev	typo|accent|reorder|sep|drop_pin	canon
+S3-00554	S3	M000153	match	exact			variant
+S3-00555	S3	M000011	match	exact			canon
+S3-00556	S3	M000248	match	complex	reorder|spaces	drop_state|reorder	missing
+S3-00557	S3	M000563	match	abbrev	legal_drop|initials	abbr|drop_pin	canon
+S3-00558	S3	M000528	match	address	legal_variant|group_suffix	abbr|landmark	canon
+S3-00559	S3	D000156	decoy_same_city_diff_biz	typo	typo	typo	variant
+S3-00560	S3	M000300	match	address		abbr|append_country	canon
+S3-00561	S3	M000154	match	abbrev	shorten|abbrev	state_abbr|unit_lead	variant
+S3-00562	S3	M000314	match	address	legal_variant	reorder	canon
+S3-00563	S3	M000124	match	typo	typo|translit	unit_lead	variant
+S3-00564	S3	D000149	decoy_similar_addr_diff_name	typo	typo	typo|append_country	canon
+S3-00565	S3	M000462	match	complex	abbrev|legal_variant|translit|case	drop_bno|landmark|abbr	variant
+S3-00566	S3	M000315	match	order	reorder|case|umlaut_expand	sep|reorder	variant
+S3-00567	S3	M000081	match	order	reorder|punct	upper	canon
+S3-00568	S3	M000131	match	address	legal_variant|umlaut_expand	drop_state|drop_bno|drop_unit	variant
+S3-00569	S3	M000442	match	missing	drop_word	drop_street|drop_pin|drop_unit	canon
+S3-00570	S3	M000139	match	address	legal_variant	landmark|append_country|drop_pin	canon
+S3-00571	S3	M000270	match	abbrev	shorten|initials	abbr|pin_prefix|drop_pin	canon
+S3-00572	S3	M000353	match	order	reorder|spaces	punct|sep|append_country	canon
+S3-00573	S3	M000193	match	order	punct|reorder|vowel_drop	spaces|sep	canon
+S3-00574	S3	M000023	match	address	legal_variant|umlaut_expand	drop_pin	canon
+S3-00575	S3	M000171	match	address	legal_variant	drop_unit	canon
+S3-00576	S3	D000119	decoy_same_city_diff_biz	address	legal_variant|umlaut_expand	drop_state|unit_lead	canon
+S3-00577	S3	M000405	match	typo	typo		canon
+S3-00578	S3	M000213	match	abbrev	shorten|abbrev	abbr|unit_lead	variant
+S3-00579	S3	M000569	match	complex	typo|abbrev	abbr|state_abbr|drop_pin	variant
+S3-00580	S3	D000031	decoy_similar_name_diff_addr	missing	legal_drop	missing_addr	variant
+S3-00581	S3	M000107	match	exact			canon
+S3-00582	S3	M000060	match	order	case|reorder|umlaut_expand	punct|spaces	canon
+S3-00583	S3	M000500	match	order	case|reorder	unit_lead	canon
+S3-00584	S3	M000517	match	address	umlaut_expand	abbr|landmark|drop_bno	canon
+S3-00585	S3	M000585	match	address	legal_variant|umlaut_expand	reorder|pin_prefix	canon
+S3-00586	S3	M000190	match	abbrev	legal_drop		variant
+S3-00587	S3	M000237	match	abbrev	shorten|legal_variant|abbrev	abbr|state_abbr	canon
+S3-00588	S3	M000591	match	complex	punct|abbrev|umlaut_expand	drop_bno|dotted|drop_state|landmark|pin_prefix	variant
+S3-00589	S3	M000082	match	complex	translit|typo|drop_word	missing_addr	variant
+S3-00590	S3	M000325	match	order	reorder|case	punct|sep|reorder|pin_prefix	canon
+S3-00591	S3	M000340	match	address	group_suffix	drop_state|reorder|landmark	canon
+S3-00592	S3	M000245	match	abbrev	shorten|initials	drop_pin	canon
+S3-00593	S3	M000100	match	missing	legal_drop	drop_pin|drop_state|unit_lead	missing
+S3-00594	S3	M000278	match	order	punct|reorder	punct	canon
+S3-00595	S3	D000113	decoy_same_name_diff_addr	exact		missing_addr	canon
+S3-00596	S3	M000071	match	complex	drop_word|legal_variant|typo|abbrev|umlaut_expand	reorder|typo|state_abbr|upper	missing
+S3-00597	S3	M000032	match	address		drop_unit	canon
+S3-00598	S3	M000480	match	abbrev	shorten|initials|abbrev	abbr|drop_pin	canon
+S3-00599	S3	M000197	match	missing	shorten|group_suffix	drop_street|drop_pin|drop_unit	canon
+S3-00600	S3	M000101	match	address	case	reorder	canon
+S3-00601	S3	M000559	match	missing	shorten		missing
+S3-00602	S3	M000584	match	complex	legal_variant|abbrev|case|spaces|vowel_drop	drop_bno|typo|drop_pin	variant
+S3-00603	S3	D000136	decoy_similar_name_diff_addr	order	spaces|punct|umlaut_expand		canon
+S3-00604	S3	M000353	match	order	reorder|punct	sep|upper|unit_lead	variant
+S3-00605	S3	M000448	match	complex	typo|case|spaces|vowel_drop	abbr|sep|drop_pin|landmark	variant
+S3-00606	S3	M000261	match	address	case|vowel_drop	drop_state|pinfmt|drop_pin|pin_prefix	canon
+S3-00607	S3	M000407	match	address		pinfmt|drop_city|drop_unit	variant
+S3-00608	S3	M000448	match	typo	typo|translit|legal_variant|vowel_drop	drop_pin	canon
+S3-00609	S3	M000070	match	abbrev	shorten|initials|abbrev		variant
+S3-00610	S3	M000216	match	typo	typo|translit	typo|unit_lead	canon
+S3-00611	S3	M000043	match	exact		abbr|drop_pin	canon
+S3-00612	S3	M000313	match	abbrev	abbrev|legal_variant	missing_addr	canon
+S3-00613	S3	M000266	match	address	legal_variant	drop_bno|abbr	canon
+S3-00614	S3	M000555	match	address	umlaut_expand	pinfmt|drop_unit|landmark	canon
+S3-00615	S3	D000138	decoy_similar_addr_diff_name	missing	the_prefix	drop_pin|drop_state	variant
+S3-00616	S3	M000590	match	order	case|reorder	punct|sep|drop_pin	canon
+S3-00617	S3	D000091	decoy_random	typo	typo|umlaut_expand		missing
+S3-00618	S3	M000289	match	exact	punct	missing_addr	canon
+S3-00619	S3	M000191	match	missing	umlaut_expand	drop_pin|drop_state	canon
+S3-00620	S3	D000067	decoy_similar_name_diff_addr	address	case	reorder|pinfmt	canon
+S3-00621	S3	M000071	match	exact		punct	canon
+S3-00622	S3	M000526	match	complex	punct|drop_word|translit|reorder|umlaut_expand	landmark|dotted	canon
+S3-00623	S3	M000598	match	missing	legal_drop	drop_street|drop_pin|drop_unit	missing
+S3-00624	S3	M000591	match	complex	case|punct|abbrev|initials|the_prefix	typo|state_abbr	missing
+S3-00625	S3	D000130	decoy_same_name_diff_addr	exact	case	drop_pin	canon
+S3-00626	S3	M000282	match	complex	punct|typo|legal_variant|shorten	abbr|numstyle|drop_state|unit_lead	missing
+S3-00627	S3	M000119	match	complex	punct|legal_drop	upper|drop_bno|pinfmt|drop_city|unit_lead	canon
+S3-00628	S3	M000298	match	address	legal_variant	drop_state|drop_pin	variant
+S3-00629	S3	M000473	match	complex	abbrev|typo|reorder|punct	dotted|punct|drop_state	canon
+S3-00630	S3	M000353	match	typo	typo|vowel_drop		variant
+S3-00631	S3	M000412	match	order	punct|reorder	spaces|drop_pin	variant
+S3-00632	S3	D000129	decoy_same_name_diff_addr	address	case	reorder|drop_state|drop_pin	canon
+S3-00633	S3	M000511	match	missing	shorten|vowel_drop	missing_addr|append_country	canon
+S3-00634	S3	M000478	match	address	legal_variant|group_suffix	abbr	canon
+S3-00635	S3	M000168	match	abbrev	legal_variant|initials|abbrev	abbr	variant
+S3-00636	S3	M000107	match	order	reorder|case	missing_addr	canon
+S3-00637	S3	M000092	match	missing	legal_drop|vowel_drop	drop_pin|drop_state|unit_lead	variant
+S3-00638	S3	M000065	match	address	legal_variant|the_prefix	reorder|drop_city|drop_bno|pin_prefix	canon
+S3-00639	S3	M000242	match	address	umlaut_expand	drop_state|abbr	canon
+S3-00640	S3	M000462	match	address	legal_variant|the_prefix	reorder|drop_pin|append_country	canon
+S3-00641	S3	M000120	match	order	case|punct		variant
+S3-00642	S3	M000218	match	abbrev	abbrev	abbr|drop_pin	canon
+S3-00643	S3	M000100	match	address	case|vowel_drop	drop_state|drop_bno	canon
+S3-00644	S3	M000286	match	abbrev	shorten|vowel_drop	abbr	variant
+S3-00645	S3	M000214	match	order	punct|case|umlaut_expand	sep|upper|pin_prefix	variant
+S3-00646	S3	M000470	match	missing	legal_drop		missing
+S3-00647	S3	M000236	match	address		drop_state|drop_pin	canon
+S3-00648	S3	M000202	match	abbrev	legal_variant|shorten|abbrev|group_suffix	abbr	missing
+S3-00649	S3	M000552	match	address	legal_variant|umlaut_expand	drop_unit|drop_pin|pin_prefix	canon
+S3-00650	S3	M000065	match	exact			variant
+S3-00651	S3	M000218	match	address	umlaut_expand	pinfmt|drop_state|drop_bno|unit_lead	canon
+S3-00652	S3	M000082	match	typo	typo|translit|legal_variant|umlaut_expand	append_country|drop_pin	canon
+S3-00653	S3	M000383	match	missing		drop_pin|drop_state	variant
+S3-00654	S3	M000537	match	address		landmark|unit_lead	variant
+S3-00655	S3	D000133	decoy_random	exact	case	punct	canon
+S3-00656	S3	M000020	match	order	punct|reorder	punct|upper|reorder	variant
+S3-00657	S3	M000457	match	address		landmark	variant
+S3-00658	S3	M000140	match	missing	shorten	missing_addr	variant
+S3-00659	S3	M000250	match	abbrev	legal_variant|shorten|abbrev|group_suffix	state_abbr	variant
+S3-00660	S3	M000044	match	missing			missing
+S3-00661	S3	M000105	match	missing		missing_addr|unit_lead	canon
+S3-00662	S3	M000577	match	typo	typo|translit|legal_variant		canon
+S3-00663	S3	D000041	decoy_same_name_diff_addr	complex	typo|abbrev|case|punct	drop_pin|typo|drop_unit	canon
+S3-00664	S3	D000154	decoy_same_city_diff_biz	typo	typo		variant
+S3-00665	S3	M000128	match	missing	drop_word		missing
+S3-00666	S3	M000334	match	missing	group_suffix	missing_addr|unit_lead	canon
+S3-00667	S3	M000454	match	complex	initials|typo|the_prefix	landmark|sep	variant
+S3-00668	S3	M000496	match	address	legal_variant	drop_bno|pin_prefix	variant
+S3-00669	S3	M000215	match	exact			canon
+S3-00670	S3	M000411	match	address	case|group_suffix	drop_unit|landmark	canon
+S3-00671	S3	M000259	match	address		reorder|drop_pin	canon
+S3-00672	S3	M000516	match	complex	punct|legal_drop|vowel_drop	typo|drop_pin|reorder|drop_bno	missing
+S3-00673	S3	M000233	match	missing	shorten	missing_addr|pin_prefix	variant
+S3-00674	S3	D000103	decoy_similar_addr_diff_name	complex	case|legal_variant	landmark|drop_pin|drop_bno|pin_prefix	canon
+S3-00675	S3	M000302	match	address	legal_variant|umlaut_expand	abbr|drop_state	canon
+S3-00676	S3	M000179	match	abbrev	shorten|abbrev|umlaut_expand	abbr|state_abbr	missing
+S3-00677	S3	M000200	match	complex	translit|initials|reorder|abbrev	landmark|numstyle|dotted|pinfmt	canon
+S3-00678	S3	M000335	match	typo	typo|legal_variant		canon
+S3-00679	S3	M000089	match	address	the_prefix	drop_pin	variant
+S3-00680	S3	M000253	match	address	legal_variant|group_suffix	missing_addr	variant
+S3-00681	S3	D000137	decoy_similar_name_diff_addr	order	case|reorder	reorder	variant
+S3-00682	S3	M000578	match	missing		drop_pin|drop_state	canon
+S3-00683	S3	M000389	match	address		drop_pin|landmark|reorder|pin_prefix	canon
+S3-00684	S3	M000499	match	order	reorder|spaces	reorder	canon
+S3-00685	S3	M000424	match	complex	abbrev|case|punct	pinfmt|drop_pin|drop_unit|unit_lead	canon
+S3-00686	S3	M000464	match	abbrev	shorten|group_suffix	state_abbr|drop_pin	canon
+S3-00687	S3	M000502	match	exact		drop_pin	variant
+S3-00688	S3	M000147	match	address	legal_variant|the_prefix	pinfmt|abbr|drop_bno|unit_lead	variant
+S3-00689	S3	M000547	match	missing	shorten|vowel_drop		missing
+S3-00690	S3	M000301	match	abbrev	shorten|legal_variant|abbrev|the_prefix	unit_lead	canon
+S3-00691	S3	D000115	decoy_same_name_diff_addr	abbrev	shorten	append_country	variant
+S3-00692	S3	D000093	decoy_random	address	umlaut_expand	drop_pin|drop_city|drop_unit	canon
+S3-00693	S3	D000104	decoy_similar_name_diff_addr	complex	legal_drop|translit|legal_variant	landmark|drop_pin|drop_unit|drop_bno|pin_prefix	canon
+S3-00694	S3	M000082	match	order	reorder|punct	reorder|pin_prefix	canon
+S3-00695	S3	M000274	match	order	case|reorder|the_prefix	unit_lead	variant
+S3-00696	S3	M000263	match	order	reorder|spaces|vowel_drop	reorder	canon
+S3-00697	S3	M000081	match	abbrev	shorten|abbrev	missing_addr	canon
+S3-00698	S3	M000089	match	exact			canon
+S3-00699	S3	M000043	match	missing	shorten	drop_pin|drop_state	variant
+S3-00700	S3	M000130	match	exact			canon
+S3-00701	S3	M000445	match	order	punct|case		canon
+S3-00702	S3	M000106	match	exact			canon
+S3-00703	S3	M000403	match	missing	legal_drop|umlaut_expand	drop_pin|drop_state|append_country	canon
+S3-00704	S3	M000300	match	typo	typo		canon
+S3-00705	S3	M000061	match	complex	translit|drop_word|umlaut_expand	landmark|abbr|drop_pin|drop_bno	canon
+S3-00706	S3	M000193	match	abbrev	shorten|umlaut_expand	abbr	canon
+S3-00707	S3	M000315	match	exact	punct	abbr	canon
+S3-00708	S3	M000465	match	typo	typo|translit		canon
+S3-00709	S3	M000378	match	address	case|umlaut_expand	missing_addr	canon
+S3-00710	S3	M000501	match	address	umlaut_expand	drop_unit|drop_bno|drop_city	canon
+S3-00711	S3	M000446	match	typo	typo|translit|vowel_drop	missing_addr	canon
+S3-00712	S3	M000436	match	exact			variant
+S3-00713	S3	M000136	match	address	legal_variant	drop_state|pinfmt|drop_pin|append_country	missing
+S3-00714	S3	M000312	match	missing	the_prefix	drop_pin	missing
+S3-00715	S3	M000511	match	missing		missing_addr	missing
+S3-00716	S3	M000149	match	complex	translit|typo|legal_variant	punct|landmark|reorder	variant
+S3-00717	S3	M000103	match	abbrev	shorten	abbr|state_abbr	canon
+S3-00718	S3	M000008	match	complex	legal_variant|case	state_abbr|drop_city|unit_lead	canon
+S3-00719	S3	M000224	match	address	legal_variant|umlaut_expand	drop_unit|reorder	canon
+S3-00720	S3	D000109	decoy_same_name_diff_addr	abbrev	initials|shorten|abbrev	abbr	canon
+S3-00721	S3	M000239	match	exact			variant
+S3-00722	S3	M000147	match	exact		punct	canon
+S3-00723	S3	M000089	match	missing	the_prefix	drop_street|drop_pin|drop_unit	canon
+S3-00724	S3	M000086	match	order	punct|reorder|the_prefix	sep|punct	variant
+S3-00725	S3	M000224	match	exact		abbr	variant
+S3-00726	S3	D000135	decoy_same_city_diff_biz	complex	case|abbrev|reorder|umlaut_expand	accent|landmark|drop_pin|pin_prefix	variant
+S3-00727	S3	M000170	match	address	case|group_suffix	drop_unit|drop_pin	variant
+S3-00728	S3	D000010	decoy_same_name_diff_addr	address	legal_variant	drop_city|landmark|drop_pin|append_country	canon
+S3-00729	S3	M000269	match	typo	typo|the_prefix	pin_prefix	canon
+S3-00730	S3	M000005	match	order	spaces|punct	punct|reorder|drop_pin	variant
+S3-00731	S3	M000324	match	address	legal_variant	drop_unit|drop_pin|drop_state	missing
+S3-00732	S3	M000270	match	missing	shorten	drop_street|drop_pin|drop_unit	canon
+S3-00733	S3	M000342	match	exact			canon
+S3-00734	S3	M000551	match	typo	typo|translit	pin_prefix	variant
+S3-00735	S3	M000109	match	address	legal_variant	landmark|drop_pin|reorder	canon
+S3-00736	S3	M000018	match	address		drop_pin|landmark|drop_bno|pin_prefix	canon
+S3-00737	S3	M000289	match	address	case	reorder|drop_unit	canon
+S3-00738	S3	M000430	match	address	umlaut_expand	pinfmt|drop_unit|drop_bno|drop_pin	canon
+S3-00739	S3	M000163	match	complex	translit|initials|case|legal_variant|vowel_drop	dotted|numstyle	variant
+S3-00740	S3	M000068	match	order	reorder|case|umlaut_expand		canon
+S3-00741	S3	M000560	match	missing		missing_addr	canon
+S3-00742	S3	D000102	decoy_same_name_diff_addr	missing	the_prefix	missing_addr|unit_lead	canon
+S3-00743	S3	M000477	match	missing	group_suffix	drop_street|drop_pin|drop_unit	canon
+S3-00744	S3	M000126	match	typo	typo|translit|legal_variant|group_suffix		variant
+S3-00745	S3	M000101	match	address		drop_state	canon
+S3-00746	S3	M000431	match	exact		drop_pin	canon
+S3-00747	S3	M000188	match	abbrev	shorten|legal_drop|abbrev|umlaut_expand		canon
+S3-00748	S3	M000551	match	address	case|group_suffix	drop_pin|drop_state	canon
+S3-00749	S3	M000196	match	abbrev	initials|abbrev|group_suffix	abbr|drop_pin	canon
+S3-00750	S3	M000253	match	complex	punct|shorten|legal_variant|abbrev|vowel_drop	state_abbr|drop_bno	canon
+S3-00751	S3	M000304	match	abbrev	initials	missing_addr	variant
+S3-00752	S3	M000574	match	abbrev	legal_variant|shorten|group_suffix		canon
+S3-00753	S3	M000457	match	address	legal_variant	drop_pin|drop_state|drop_city	canon
+S3-00754	S3	D000122	decoy_same_name_diff_addr	address	case|umlaut_expand	abbr|unit_lead	variant
+S3-00755	S3	D000147	decoy_similar_name_diff_addr	order	reorder|punct|group_suffix	reorder|append_country	canon
+S3-00756	S3	D000155	decoy_similar_name_diff_addr	exact			canon
+S3-00757	S3	M000347	match	address	case|group_suffix	drop_pin	variant
+S3-00758	S3	M000518	match	abbrev	legal_drop|abbrev	abbr|append_country	variant
+S3-00759	S3	M000219	match	abbrev	abbrev|vowel_drop	unit_lead|drop_pin	canon
+S3-00760	S3	M000077	match	exact			canon
+S3-00761	S3	M000055	match	exact		missing_addr	canon
+S3-00762	S3	M000600	match	address		landmark|drop_state	canon
+S3-00763	S3	M000035	match	abbrev	abbrev	pin_prefix	canon
+S3-00764	S3	M000335	match	abbrev	legal_drop	abbr|state_abbr	missing
+S3-00765	S3	M000515	match	abbrev	abbrev|the_prefix	missing_addr	canon
+S3-00766	S3	M000085	match	abbrev	shorten|vowel_drop		canon
+S3-00767	S3	M000561	match	typo	typo|legal_variant		missing
+S3-00768	S3	M000548	match	missing	group_suffix	missing_addr	canon
+S3-00769	S3	M000059	match	missing		drop_pin|drop_state	missing
+S3-00770	S3	M000584	match	missing		drop_street|drop_pin|drop_unit	canon
+S3-00771	S3	M000519	match	missing	legal_drop	drop_pin|drop_state	canon
+S3-00772	S3	M000531	match	complex	typo|shorten|punct|reorder	typo|drop_bno|reorder|append_country	canon
+S3-00773	S3	M000526	match	abbrev	initials|abbrev		canon
+S3-00774	S3	M000288	match	abbrev	abbrev		canon
+S3-00775	S3	M000049	match	missing			missing
+S3-00776	S3	M000063	match	address	legal_variant	drop_state	variant
+S3-00777	S3	M000066	match	address	legal_variant	missing_addr	canon
+S3-00778	S3	M000339	match	address	group_suffix	landmark|pin_prefix|drop_pin	canon
+S3-00779	S3	M000512	match	address	legal_variant|umlaut_expand	drop_state|pinfmt	variant
+S3-00780	S3	M000449	match	abbrev	shorten	abbr	canon
+S3-00781	S3	M000083	match	order	reorder|punct	spaces	canon
+S3-00782	S3	M000412	match	exact		missing_addr	canon
+S3-00783	S3	M000338	match	address	legal_variant	missing_addr	variant
+S3-00784	S3	M000131	match	order	case|punct|umlaut_expand	sep|punct	canon
+S3-00785	S3	M000513	match	exact			canon
+S3-00786	S3	M000534	match	missing		drop_street|drop_pin|drop_unit	canon
+S3-00787	S3	D000114	decoy_same_name_diff_addr	exact		missing_addr	canon
+S3-00788	S3	M000533	match	missing	group_suffix	drop_street|drop_pin|drop_unit|append_country	variant
+S3-00789	S3	M000338	match	missing	the_prefix	unit_lead	missing
+S3-00790	S3	M000422	match	exact		drop_pin	canon
+S3-00791	S3	M000039	match	abbrev	abbrev|legal_variant|vowel_drop	abbr	variant
+S3-00792	S3	M000598	match	address	case|umlaut_expand	drop_bno|drop_pin|drop_city	canon
+S3-00793	S3	M000069	match	abbrev	legal_variant		variant
+S3-00794	S3	M000287	match	complex	shorten|spaces|abbrev|drop_word|the_prefix	punct|state_abbr|drop_pin	missing
+S3-00795	S3	M000446	match	exact			variant
+S3-00796	S3	M000563	match	exact	case		variant
+S3-00797	S3	M000026	match	address	legal_variant	missing_addr	canon
+S3-00798	S3	D000121	decoy_similar_name_diff_addr	address	the_prefix	drop_unit	variant
+S3-00799	S3	M000267	match	address		landmark	variant
+S3-00800	S3	M000500	match	complex	case|punct|group_suffix	typo|drop_city	variant
+S3-00801	S3	M000156	match	typo	typo|translit|legal_variant|vowel_drop	drop_pin	canon
+S3-00802	S3	M000212	match	address	case	drop_pin|reorder|drop_bno	canon
+S3-00803	S3	M000368	match	complex	abbrev|legal_variant|punct|reorder	drop_unit|drop_pin|drop_city	canon
+S3-00804	S3	M000429	match	order	punct|reorder	spaces|unit_lead	canon
+S3-00805	S3	M000182	match	exact	case		canon
+S3-00806	S3	M000046	match	exact			canon
+S3-00807	S3	M000466	match	complex	case|drop_word|legal_drop	drop_bno|abbr|drop_state|punct	canon
+S3-00808	S3	M000215	match	abbrev	abbrev|shorten		missing
+S3-00809	S3	M000483	match	address	umlaut_expand	missing_addr	variant
+S3-00810	S3	M000336	match	exact		missing_addr	variant
+S3-00811	S3	M000577	match	complex	typo|translit|initials	reorder|drop_unit|append_country	canon
+S3-00812	S3	M000555	match	exact			variant
+S3-00813	S3	M000277	match	missing	group_suffix	missing_addr	canon
+S3-00814	S3	M000443	match	order	reorder|case	punct	canon
+S3-00815	S3	M000235	match	complex	shorten|legal_drop	numstyle|drop_unit|pin_prefix	variant
+S3-00816	S3	M000155	match	order	punct|reorder|group_suffix	missing_addr	missing
+S3-00817	S3	M000193	match	exact			canon
+S3-00818	S3	M000504	match	abbrev	shorten|abbrev|vowel_drop	abbr	canon
+S3-00819	S3	M000363	match	exact	punct		canon
+S3-00820	S3	M000014	match	exact	case		variant
+S3-00821	S3	M000143	match	missing	umlaut_expand		missing
+S3-00822	S3	M000592	match	exact			canon
+S3-00823	S3	M000378	match	missing		drop_street|drop_pin|drop_unit|unit_lead	canon
+S3-00824	S3	M000132	match	address		drop_pin|pinfmt|drop_unit|append_country	variant
+S3-00825	S3	M000331	match	missing	umlaut_expand	unit_lead	missing
+S3-00826	S3	M000062	match	address	legal_variant	drop_unit	canon
+S3-00827	S3	M000021	match	exact		abbr	variant
+S3-00828	S3	M000222	match	complex	shorten|drop_word|abbrev|legal_drop	drop_bno|reorder|abbr	variant
+S3-00829	S3	M000041	match	typo	typo	pin_prefix	variant
+S3-00830	S3	M000593	match	order	reorder|case	punct|unit_lead	canon
+S3-00831	S3	M000489	match	complex	punct|shorten|umlaut_expand	pinfmt|drop_pin|spaces	canon
+S3-00832	S3	D000069	decoy_similar_name_diff_addr	address		landmark|drop_city|drop_bno	variant
+S3-00833	S3	M000563	match	order	case|reorder|the_prefix	missing_addr	canon
+S3-00834	S3	M000312	match	abbrev	legal_variant|shorten|abbrev	abbr|drop_pin	canon
+S3-00835	S3	M000394	match	missing		missing_addr	canon
+S3-00836	S3	M000403	match	abbrev	legal_variant|initials	state_abbr	canon
+S3-00837	S3	D000056	decoy_similar_name_diff_addr	typo	typo	typo	missing
+S3-00838	S3	D000111	decoy_similar_addr_diff_name	abbrev	legal_drop|abbrev	state_abbr	canon
+S3-00839	S3	M000233	match	address	case	reorder|landmark|drop_city	canon
+S3-00840	S3	M000430	match	complex	punct|reorder	punct|drop_pin|landmark|pinfmt	canon
+S3-00841	S3	M000444	match	abbrev	shorten|abbrev	abbr	canon
+S3-00842	S3	M000019	match	exact		punct|drop_pin	canon
+S3-00843	S3	M000443	match	exact	case	drop_pin	canon
+S3-00844	S3	M000015	match	address	group_suffix	pinfmt|drop_state	variant
+S3-00845	S3	M000014	match	complex	case|typo|abbrev|umlaut_expand	landmark|abbr|drop_pin|reorder	canon
+S3-00846	S3	M000235	match	order	case|punct	spaces|punct	canon
+S3-00847	S3	M000095	match	exact	punct	punct	canon
+S3-00848	S3	M000521	match	missing	vowel_drop	missing_addr	variant
+S3-00849	S3	M000016	match	missing	shorten|umlaut_expand	drop_pin|drop_state	canon
+S3-00850	S3	D000132	decoy_similar_addr_diff_name	address	legal_variant	landmark|drop_city|pin_prefix	variant
+S3-00851	S3	M000337	match	typo	typo|translit|legal_variant	drop_pin	canon
+S3-00852	S3	M000573	match	address		landmark|drop_state	canon
+S3-00853	S3	D000049	decoy_same_city_diff_biz	typo	typo|legal_variant	pin_prefix	canon
+S3-00854	S3	M000557	match	complex	legal_variant|typo|abbrev	state_abbr|abbr|append_country	variant
+S3-00855	S3	M000341	match	order	case|punct|vowel_drop	reorder|append_country	variant
+S3-00856	S3	M000480	match	missing	the_prefix	missing_addr	canon
+S3-00857	S3	M000047	match	exact		abbr	canon
+S3-00858	S3	M000039	match	abbrev	legal_drop|legal_variant	abbr	canon
+S3-00859	S3	D000116	decoy_same_name_diff_addr	address	case	drop_pin|drop_unit|drop_city	variant
+S3-00860	S3	M000368	match	complex	abbrev|punct|legal_variant	abbr|drop_state	missing
+S3-00861	S3	M000084	match	address	legal_variant	landmark	canon
+S3-00862	S3	M000342	match	address		abbr	canon
+S3-00863	S3	M000327	match	exact			variant
+S3-00864	S3	M000400	match	exact	case		canon
+S3-00865	S3	M000459	match	abbrev	abbrev	abbr|state_abbr	variant
+S3-00866	S3	M000059	match	order	punct|reorder		variant
+S3-00867	S3	M000095	match	exact		punct	canon
+S3-00868	S3	D000117	decoy_same_name_diff_addr	address		reorder|drop_unit	variant
+S3-00869	S3	M000449	match	exact	case	abbr|drop_pin	canon
+S3-00870	S3	M000415	match	address	case|umlaut_expand	drop_pin|drop_city	canon
+S3-00871	S3	M000538	match	missing	shorten	drop_street|drop_pin|drop_unit	variant
+S3-00872	S3	M000018	match	typo	typo|translit|group_suffix		canon
+S3-00873	S3	M000128	match	abbrev	shorten		variant
+S3-00874	S3	M000018	match	exact		drop_pin	canon
+S3-00875	S3	M000252	match	typo	typo|translit	typo	canon
+S3-00876	S3	M000241	match	missing			missing
+S3-00877	S3	M000163	match	abbrev	abbrev	abbr|unit_lead	variant
+S3-00878	S3	M000283	match	address	group_suffix	reorder|drop_pin|drop_state	variant
+S3-00879	S3	M000465	match	exact			canon
+S3-00880	S3	M000277	match	missing	shorten	missing_addr	missing
+S3-00881	S3	M000201	match	exact			variant
+S3-00882	S3	M000178	match	complex	abbrev|translit|drop_word|reorder	dotted|landmark|abbr	canon
+S3-00883	S3	M000333	match	typo	typo|translit		canon
+S3-00884	S3	M000139	match	order	punct|reorder|group_suffix	punct|spaces	canon
+S3-00885	S3	M000010	match	address	case	drop_bno|drop_pin|pinfmt	canon
+S3-00886	S3	M000558	match	missing	drop_word|group_suffix	drop_pin|drop_state	canon
+S3-00887	S3	M000357	match	abbrev	shorten|initials|vowel_drop	drop_pin	canon
+S3-00888	S3	M000313	match	order	punct|case|the_prefix	punct|pin_prefix	canon
+S3-00889	S3	M000518	match	order	reorder|case	missing_addr	canon
+S3-00890	S3	M000313	match	address		landmark|drop_bno	canon
+S3-00891	S3	M000356	match	complex	case|typo	drop_city|accent	missing
+S3-00892	S3	M000494	match	complex	translit|punct|legal_variant	abbr|drop_pin|numstyle	canon
+S3-00893	S3	M000269	match	exact	punct		canon
+S3-00894	S3	M000370	match	address	case	drop_state	canon
+S3-00895	S3	M000518	match	address	legal_variant|the_prefix	drop_pin	canon
+S3-00896	S3	M000077	match	address	the_prefix	drop_state|unit_lead	canon
+S3-00897	S3	M000475	match	typo	typo|translit|group_suffix		variant
+S3-00898	S3	M000024	match	typo	typo|vowel_drop	missing_addr	variant
+S3-00899	S3	M000576	match	missing	legal_drop	missing_addr	variant
+S3-00900	S3	M000121	match	abbrev	shorten|legal_variant|vowel_drop	missing_addr	canon
+S1-00001	S1	M000073	base				
+S1-00002	S1	M000379	base				
+S1-00003	S1	M000321	base				
+S1-00004	S1	M000306	base				
+S1-00005	S1	M000070	base				
+S1-00006	S1	M000356	base				
+S1-00007	S1	M000209	base				
+S1-00008	S1	M000205	chain_branch				
+S1-00009	S1	M000150	base				
+S1-00010	S1	M000534	base				
+S1-00011	S1	M000316	base				
+S1-00012	S1	M000189	base				
+S1-00013	S1	M000211	base				
+S1-00014	S1	M000259	sibling_similar_name				
+S1-00015	S1	M000086	base				
+S1-00016	S1	M000395	base				
+S1-00017	S1	M000301	base				
+S1-00018	S1	M000036	base				
+S1-00019	S1	M000093	base				
+S1-00020	S1	M000249	sibling_similar_name				
+S1-00021	S1	M000346	chain_branch				
+S1-00022	S1	M000106	base				
+S1-00023	S1	M000341	base				
+S1-00024	S1	M000008	sibling_similar_name				
+S1-00025	S1	M000561	base				
+S1-00026	S1	M000253	base				
+S1-00027	S1	M000030	base				
+S1-00028	S1	M000575	base				
+S1-00029	S1	M000388	base				
+S1-00030	S1	M000263	base				
+S1-00031	S1	M000519	base				
+S1-00032	S1	M000118	base				
+S1-00033	S1	M000063	sibling_similar_address				
+S1-00034	S1	M000358	base				
+S1-00035	S1	M000501	base				
+S1-00036	S1	M000120	base				
+S1-00037	S1	M000416	base				
+S1-00038	S1	M000550	base				
+S1-00039	S1	M000574	base				
+S1-00040	S1	M000048	base				
+S1-00041	S1	M000510	base				
+S1-00042	S1	M000170	base				
+S1-00043	S1	M000446	base				
+S1-00044	S1	M000116	base				
+S1-00045	S1	M000200	base				
+S1-00046	S1	M000196	base				
+S1-00047	S1	M000478	base				
+S1-00048	S1	M000309	base				
+S1-00049	S1	M000449	base				
+S1-00050	S1	M000083	base				
+S1-00051	S1	M000131	base				
+S1-00052	S1	M000370	base				
+S1-00053	S1	M000433	base				
+S1-00054	S1	M000085	base				
+S1-00055	S1	M000336	base				
+S1-00056	S1	M000445	base				
+S1-00057	S1	M000171	base				
+S1-00058	S1	M000579	base				
+S1-00059	S1	M000322	base				
+S1-00060	S1	M000218	base				
+S1-00061	S1	M000133	base				
+S1-00062	S1	M000506	base				
+S1-00063	S1	M000227	base				
+S1-00064	S1	M000511	base				
+S1-00065	S1	M000074	chain_branch				
+S1-00066	S1	M000393	base				
+S1-00067	S1	M000412	base				
+S1-00068	S1	M000293	base				
+S1-00069	S1	M000214	base				
+S1-00070	S1	M000256	base				
+S1-00071	S1	M000013	base				
+S1-00072	S1	M000355	base				
+S1-00073	S1	M000163	base				
+S1-00074	S1	M000555	base				
+S1-00075	S1	M000135	base				
+S1-00076	S1	M000179	base				
+S1-00077	S1	M000149	base				
+S1-00078	S1	M000127	base				
+S1-00079	S1	M000586	base				
+S1-00080	S1	M000546	chain_branch				
+S1-00081	S1	M000402	base				
+S1-00082	S1	M000314	base				
+S1-00083	S1	M000094	base				
+S1-00084	S1	M000360	base				
+S1-00085	S1	M000413	base				
+S1-00086	S1	M000420	base				
+S1-00087	S1	M000037	base				
+S1-00088	S1	M000166	base				
+S1-00089	S1	M000363	base				
+S1-00090	S1	M000267	base				
+S1-00091	S1	M000144	base				
+S1-00092	S1	M000400	base				
+S1-00093	S1	M000450	base				
+S1-00094	S1	M000471	base				
+S1-00095	S1	M000303	base				
+S1-00096	S1	M000333	base				
+S1-00097	S1	M000141	base				
+S1-00098	S1	M000404	base				
+S1-00099	S1	M000529	base				
+S1-00100	S1	M000277	base				
+S1-00101	S1	M000164	base				
+S1-00102	S1	M000087	base				
+S1-00103	S1	M000472	base				
+S1-00104	S1	M000524	base				
+S1-00105	S1	M000516	base				
+S1-00106	S1	M000009	base				
+S1-00107	S1	M000302	sibling_similar_name				
+S1-00108	S1	M000103	base				
+S1-00109	S1	M000558	base				
+S1-00110	S1	M000207	base				
+S1-00111	S1	M000217	base				
+S1-00112	S1	M000587	chain_branch				
+S1-00113	S1	M000411	base				
+S1-00114	S1	M000567	base				
+S1-00115	S1	M000419	sibling_similar_name				
+S1-00116	S1	M000521	chain_branch				
+S1-00117	S1	M000436	base				
+S1-00118	S1	M000178	base				
+S1-00119	S1	M000384	base				
+S1-00120	S1	M000269	base				
+S1-00121	S1	M000300	base				
+S1-00122	S1	M000075	base				
+S1-00123	S1	M000129	base				
+S1-00124	S1	M000271	base				
+S1-00125	S1	M000067	base				
+S1-00126	S1	M000383	base				
+S1-00127	S1	M000342	base				
+S1-00128	S1	M000513	base				
+S1-00129	S1	M000297	base				
+S1-00130	S1	M000469	base				
+S1-00131	S1	M000240	base				
+S1-00132	S1	M000236	base				
+S1-00133	S1	M000276	chain_branch				
+S1-00134	S1	M000173	base				
+S1-00135	S1	M000010	base				
+S1-00136	S1	M000353	base				
+S1-00137	S1	M000477	base				
+S1-00138	S1	M000215	base				
+S1-00139	S1	M000491	base				
+S1-00140	S1	M000289	base				
+S1-00141	S1	M000096	base				
+S1-00142	S1	M000182	base				
+S1-00143	S1	M000335	base				
+S1-00144	S1	M000015	chain_branch				
+S1-00145	S1	M000339	base				
+S1-00146	S1	M000533	base				
+S1-00147	S1	M000328	base				
+S1-00148	S1	M000052	base				
+S1-00149	S1	M000414	base				
+S1-00150	S1	M000266	base				
+S1-00151	S1	M000578	base				
+S1-00152	S1	M000219	base				
+S1-00153	S1	M000406	base				
+S1-00154	S1	M000098	base				
+S1-00155	S1	M000140	base				
+S1-00156	S1	M000509	base				
+S1-00157	S1	M000488	base				
+S1-00158	S1	M000146	base				
+S1-00159	S1	M000220	base				
+S1-00160	S1	M000377	base				
+S1-00161	S1	M000246	base				
+S1-00162	S1	M000061	sibling_similar_name				
+S1-00163	S1	M000571	base				
+S1-00164	S1	M000017	base				
+S1-00165	S1	M000462	chain_branch				
+S1-00166	S1	M000418	chain_branch				
+S1-00167	S1	M000202	base				
+S1-00168	S1	M000502	base				
+S1-00169	S1	M000204	base				
+S1-00170	S1	M000014	chain_branch				
+S1-00171	S1	M000104	base				
+S1-00172	S1	M000254	base				
+S1-00173	S1	M000408	base				
+S1-00174	S1	M000194	base				
+S1-00175	S1	M000323	base				
+S1-00176	S1	M000381	base				
+S1-00177	S1	M000187	base				
+S1-00178	S1	M000544	base				
+S1-00179	S1	M000438	base				
+S1-00180	S1	M000520	base				
+S1-00181	S1	M000138	base				
+S1-00182	S1	M000585	base				
+S1-00183	S1	M000105	base				
+S1-00184	S1	M000005	sibling_similar_address				
+S1-00185	S1	M000195	base				
+S1-00186	S1	M000188	base				
+S1-00187	S1	M000151	base				
+S1-00188	S1	M000326	base				
+S1-00189	S1	M000020	base				
+S1-00190	S1	M000225	base				
+S1-00191	S1	M000486	chain_branch				
+S1-00192	S1	M000174	base				
+S1-00193	S1	M000545	sibling_similar_name				
+S1-00194	S1	M000216	base				
+S1-00195	S1	M000145	base				
+S1-00196	S1	M000475	base				
+S1-00197	S1	M000565	base				
+S1-00198	S1	M000498	chain_branch				
+S1-00199	S1	M000599	base				
+S1-00200	S1	M000060	base				
+S1-00201	S1	M000180	chain_branch				
+S1-00202	S1	M000337	base				
+S1-00203	S1	M000296	base				
+S1-00204	S1	M000062	base				
+S1-00205	S1	M000165	base				
+S1-00206	S1	M000531	base				
+S1-00207	S1	M000581	base				
+S1-00208	S1	M000394	base				
+S1-00209	S1	M000386	base				
+S1-00210	S1	M000025	base				
+S1-00211	S1	M000365	base				
+S1-00212	S1	M000181	base				
+S1-00213	S1	M000136	base				
+S1-00214	S1	M000494	base				
+S1-00215	S1	M000518	sibling_similar_address				
+S1-00216	S1	M000457	base				
+S1-00217	S1	M000435	base				
+S1-00218	S1	M000553	base				
+S1-00219	S1	M000522	base				
+S1-00220	S1	M000526	base				
+S1-00221	S1	M000403	base				
+S1-00222	S1	M000329	base				
+S1-00223	S1	M000258	sibling_similar_name				
+S1-00224	S1	M000160	base				
+S1-00225	S1	M000290	base				
+S1-00226	S1	M000479	base				
+S1-00227	S1	M000305	chain_branch				
+S1-00228	S1	M000580	base				
+S1-00229	S1	M000112	chain_branch				
+S1-00230	S1	M000167	base				
+S1-00231	S1	M000442	base				
+S1-00232	S1	M000350	base				
+S1-00233	S1	M000041	base				
+S1-00234	S1	M000291	base				
+S1-00235	S1	M000564	base				
+S1-00236	S1	M000556	base				
+S1-00237	S1	M000237	base				
+S1-00238	S1	M000281	base				
+S1-00239	S1	M000537	base				
+S1-00240	S1	M000576	base				
+S1-00241	S1	M000035	base				
+S1-00242	S1	M000242	base				
+S1-00243	S1	M000184	base				
+S1-00244	S1	M000487	base				
+S1-00245	S1	M000057	base				
+S1-00246	S1	M000124	base				
+S1-00247	S1	M000407	base				
+S1-00248	S1	M000243	base				
+S1-00249	S1	M000192	base				
+S1-00250	S1	M000034	chain_branch				
+S1-00251	S1	M000176	sibling_similar_address				
+S1-00252	S1	M000512	base				
+S1-00253	S1	M000169	base				
+S1-00254	S1	M000352	base				
+S1-00255	S1	M000143	base				
+S1-00256	S1	M000375	base				
+S1-00257	S1	M000283	chain_branch				
+S1-00258	S1	M000199	base				
+S1-00259	S1	M000213	base				
+S1-00260	S1	M000517	base				
+S1-00261	S1	M000387	chain_branch				
+S1-00262	S1	M000527	base				
+S1-00263	S1	M000284	sibling_similar_name				
+S1-00264	S1	M000159	base				
+S1-00265	S1	M000540	sibling_similar_name				
+S1-00266	S1	M000593	base				
+S1-00267	S1	M000473	sibling_similar_address				
+S1-00268	S1	M000248	base				
+S1-00269	S1	M000560	base				
+S1-00270	S1	M000229	base				
+S1-00271	S1	M000374	base				
+S1-00272	S1	M000095	base				
+S1-00273	S1	M000485	base				
+S1-00274	S1	M000091	chain_branch				
+S1-00275	S1	M000514	base				
+S1-00276	S1	M000440	base				
+S1-00277	S1	M000228	base				
+S1-00278	S1	M000221	base				
+S1-00279	S1	M000345	chain_branch				
+S1-00280	S1	M000001	base				
+S1-00281	S1	M000439	chain_branch				
+S1-00282	S1	M000551	sibling_similar_name				
+S1-00283	S1	M000285	base				
+S1-00284	S1	M000568	sibling_similar_name				
+S1-00285	S1	M000110	base				
+S1-00286	S1	M000043	base				
+S1-00287	S1	M000539	base				
+S1-00288	S1	M000573	base				
+S1-00289	S1	M000137	base				
+S1-00290	S1	M000245	base				
+S1-00291	S1	M000437	chain_branch				
+S1-00292	S1	M000528	base				
+S1-00293	S1	M000064	base				
+S1-00294	S1	M000126	base				
+S1-00295	S1	M000099	base				
+S1-00296	S1	M000077	base				
+S1-00297	S1	M000082	base				
+S1-00298	S1	M000004	base				
+S1-00299	S1	M000109	base				
+S1-00300	S1	M000380	base				
+S1-00301	S1	M000044	base				
+S1-00302	S1	M000045	sibling_similar_address				
+S1-00303	S1	M000261	base				
+S1-00304	S1	M000532	base				
+S1-00305	S1	M000040	base				
+S1-00306	S1	M000059	base				
+S1-00307	S1	M000203	base				
+S1-00308	S1	M000208	base				
+S1-00309	S1	M000304	base				
+S1-00310	S1	M000348	base				
+S1-00311	S1	M000197	base				
+S1-00312	S1	M000022	base				
+S1-00313	S1	M000448	base				
+S1-00314	S1	M000466	base				
+S1-00315	S1	M000376	base				
+S1-00316	S1	M000401	base				
+S1-00317	S1	M000268	base				
+S1-00318	S1	M000318	base				
+S1-00319	S1	M000382	base				
+S1-00320	S1	M000177	base				
+S1-00321	S1	M000274	base				
+S1-00322	S1	M000154	base				
+S1-00323	S1	M000492	base				
+S1-00324	S1	M000155	base				
+S1-00325	S1	M000113	base				
+S1-00326	S1	M000282	base				
+S1-00327	S1	M000570	base				
+S1-00328	S1	M000591	base				
+S1-00329	S1	M000392	base				
+S1-00330	S1	M000598	base				
+S1-00331	S1	M000330	base				
+S1-00332	S1	M000031	base				
+S1-00333	S1	M000453	base				
+S1-00334	S1	M000366	base				
+S1-00335	S1	M000050	base				
+S1-00336	S1	M000504	base				
+S1-00337	S1	M000018	base				
+S1-00338	S1	M000212	chain_branch				
+S1-00339	S1	M000234	base				
+S1-00340	S1	M000049	chain_branch				
+S1-00341	S1	M000490	base				
+S1-00342	S1	M000222	base				
+S1-00343	S1	M000130	chain_branch				
+S1-00344	S1	M000280	chain_branch				
+S1-00345	S1	M000185	base				
+S1-00346	S1	M000312	base				
+S1-00347	S1	M000460	base				
+S1-00348	S1	M000324	sibling_similar_address				
+S1-00349	S1	M000409	base				
+S1-00350	S1	M000134	base				
+S1-00351	S1	M000497	sibling_similar_name				
+S1-00352	S1	M000584	base				
+S1-00353	S1	M000424	chain_branch				
+S1-00354	S1	M000100	sibling_similar_address				
+S1-00355	S1	M000549	base				
+S1-00356	S1	M000287	base				
+S1-00357	S1	M000427	base				
+S1-00358	S1	M000168	base				
+S1-00359	S1	M000101	base				
+S1-00360	S1	M000295	base				
+S1-00361	S1	M000390	base				
+S1-00362	S1	M000425	base				
+S1-00363	S1	M000090	base				
+S1-00364	S1	M000503	base				
+S1-00365	S1	M000172	sibling_similar_address				
+S1-00366	S1	M000270	base				
+S1-00367	S1	M000543	sibling_similar_address				
+S1-00368	S1	M000319	base				
+S1-00369	S1	M000247	base				
+S1-00370	S1	M000128	base				
+S1-00371	S1	M000012	base				
+S1-00372	S1	M000308	base				
+S1-00373	S1	M000443	base				
+S1-00374	S1	M000600	base				
+S1-00375	S1	M000275	base				
+S1-00376	S1	M000132	base				
+S1-00377	S1	M000089	chain_branch				
+S1-00378	S1	M000003	base				
+S1-00379	S1	M000117	base				
+S1-00380	S1	M000235	base				
+S1-00381	S1	M000097	base				
+S1-00382	S1	M000362	base				
+S1-00383	S1	M000361	base				
+S1-00384	S1	M000123	chain_branch				
+S1-00385	S1	M000122	base				
+S1-00386	S1	M000315	base				
+S1-00387	S1	M000152	base				
+S1-00388	S1	M000210	base				
+S1-00389	S1	M000500	base				
+S1-00390	S1	M000056	chain_branch				
+S1-00391	S1	M000257	base				
+S1-00392	S1	M000421	base				
+S1-00393	S1	M000153	base				
+S1-00394	S1	M000405	base				
+S1-00395	S1	M000231	base				
+S1-00396	S1	M000535	base				
+S1-00397	S1	M000307	base				
+S1-00398	S1	M000265	base				
+S1-00399	S1	M000288	base				
+S1-00400	S1	M000055	base				
+S1-00401	S1	M000033	base				
+S1-00402	S1	M000190	base				
+S1-00403	S1	M000452	sibling_similar_name				
+S1-00404	S1	M000046	base				
+S1-00405	S1	M000107	base				
+S1-00406	S1	M000468	base				
+S1-00407	S1	M000158	base				
+S1-00408	S1	M000367	base				
+S1-00409	S1	M000430	base				
+S1-00410	S1	M000563	base				
+S1-00411	S1	M000340	sibling_similar_name				
+S1-00412	S1	M000489	sibling_similar_name				
+S1-00413	S1	M000368	sibling_similar_address				
+S1-00414	S1	M000385	base				
+S1-00415	S1	M000255	base				
+S1-00416	S1	M000072	base				
+S1-00417	S1	M000224	base				
+S1-00418	S1	M000542	base				
+S1-00419	S1	M000019	base				
+S1-00420	S1	M000398	base				
+S1-00421	S1	M000357	base				
+S1-00422	S1	M000428	base				
+S1-00423	S1	M000372	base				
+S1-00424	S1	M000594	base				
+S1-00425	S1	M000119	base				
+S1-00426	S1	M000369	base				
+S1-00427	S1	M000080	base				
+S1-00428	S1	M000552	base				
+S1-00429	S1	M000201	base				
+S1-00430	S1	M000596	base				
+S1-00431	S1	M000396	chain_branch				
+S1-00432	S1	M000241	base				
+S1-00433	S1	M000183	base				
+S1-00434	S1	M000111	base				
+S1-00435	S1	M000480	base				
+S1-00436	S1	M000230	base				
+S1-00437	S1	M000548	base				
+S1-00438	S1	M000023	base				
+S1-00439	S1	M000279	base				
+S1-00440	S1	M000206	chain_branch				
+S1-00441	S1	M000175	sibling_similar_address				
+S1-00442	S1	M000142	base				
+S1-00443	S1	M000338	base				
+S1-00444	S1	M000507	base				
+S1-00445	S1	M000193	base				
+S1-00446	S1	M000039	base				
+S1-00447	S1	M000251	sibling_similar_name				
+S1-00448	S1	M000006	base				
+S1-00449	S1	M000470	base				
+S1-00450	S1	M000499	base				
+S1-00451	S1	M000458	base				
+S1-00452	S1	M000347	base				
+S1-00453	S1	M000125	base				
+S1-00454	S1	M000515	base				
+S1-00455	S1	M000071	chain_branch				
+S1-00456	S1	M000298	base				
+S1-00457	S1	M000311	base				
+S1-00458	S1	M000426	base				
+S1-00459	S1	M000317	base				
+S1-00460	S1	M000115	base				
+S1-00461	S1	M000024	base				
+S1-00462	S1	M000554	base				
+S1-00463	S1	M000084	base				
+S1-00464	S1	M000325	sibling_similar_name				
+S1-00465	S1	M000589	chain_branch				
+S1-00466	S1	M000373	chain_branch				
+S1-00467	S1	M000454	base				
+S1-00468	S1	M000588	base				
+S1-00469	S1	M000042	base				
+S1-00470	S1	M000244	base				
+S1-00471	S1	M000391	base				
+S1-00472	S1	M000566	base				
+S1-00473	S1	M000455	base				
+S1-00474	S1	M000121	base				
+S1-00475	S1	M000156	base				
+S1-00476	S1	M000482	base				
+S1-00477	S1	M000434	base				
+S1-00478	S1	M000415	base				
+S1-00479	S1	M000068	base				
+S1-00480	S1	M000465	base				
+S1-00481	S1	M000114	base				
+S1-00482	S1	M000011	base				
+S1-00483	S1	M000583	base				
+S1-00484	S1	M000467	base				
+S1-00485	S1	M000359	base				
+S1-00486	S1	M000538	base				
+S1-00487	S1	M000157	base				
+S1-00488	S1	M000343	base				
+S1-00489	S1	M000493	base				
+S1-00490	S1	M000239	base				
+S1-00491	S1	M000238	base				
+S1-00492	S1	M000508	base				
+S1-00493	S1	M000002	base				
+S1-00494	S1	M000459	base				
+S1-00495	S1	M000081	base				
+S1-00496	S1	M000102	base				
+S1-00497	S1	M000032	base				
+S1-00498	S1	M000429	base				
+S1-00499	S1	M000272	base				
+S1-00500	S1	M000364	chain_branch				
+S1-00501	S1	M000262	base				
+S1-00502	S1	M000027	base				
+S1-00503	S1	M000299	base				
+S1-00504	S1	M000161	base				
+S1-00505	S1	M000389	base				
+S1-00506	S1	M000147	base				
+S1-00507	S1	M000505	base				
+S1-00508	S1	M000456	chain_branch				
+S1-00509	S1	M000569	base				
+S1-00510	S1	M000417	chain_branch				
+S1-00511	S1	M000047	sibling_similar_name				
+S1-00512	S1	M000334	base				
+S1-00513	S1	M000250	base				
+S1-00514	S1	M000016	base				
+S1-00515	S1	M000327	base				
+S1-00516	S1	M000496	base				
+S1-00517	S1	M000590	base				
+S1-00518	S1	M000483	sibling_similar_name				
+S1-00519	S1	M000484	base				
+S1-00520	S1	M000310	base				
+S1-00521	S1	M000557	base				
+S1-00522	S1	M000461	base				
+S1-00523	S1	M000021	sibling_similar_address				
+S1-00524	S1	M000028	sibling_similar_name				
+S1-00525	S1	M000198	chain_branch				
+S1-00526	S1	M000378	base				
+S1-00527	S1	M000523	base				
+S1-00528	S1	M000597	sibling_similar_name				
+S1-00529	S1	M000108	chain_branch				
+S1-00530	S1	M000332	base				
+S1-00531	S1	M000572	base				
+S1-00532	S1	M000252	base				
+S1-00533	S1	M000054	sibling_similar_name				
+S1-00534	S1	M000079	chain_branch				
+S1-00535	S1	M000444	chain_branch				
+S1-00536	S1	M000474	base				
+S1-00537	S1	M000232	base				
+S1-00538	S1	M000292	base				
+S1-00539	S1	M000541	base				
+S1-00540	S1	M000065	base				
+S1-00541	S1	M000595	base				
+S1-00542	S1	M000264	base				
+S1-00543	S1	M000422	chain_branch				
+S1-00544	S1	M000344	base				
+S1-00545	S1	M000410	base				
+S1-00546	S1	M000313	base				
+S1-00547	S1	M000447	sibling_similar_name				
+S1-00548	S1	M000076	base				
+S1-00549	S1	M000092	base				
+S1-00550	S1	M000191	base				
+S1-00551	S1	M000495	base				
+S1-00552	S1	M000351	base				
+S1-00553	S1	M000431	base				
+S1-00554	S1	M000226	sibling_similar_address				
+S1-00555	S1	M000088	base				
+S1-00556	S1	M000582	base				
+S1-00557	S1	M000007	base				
+S1-00558	S1	M000026	base				
+S1-00559	S1	M000371	base				
+S1-00560	S1	M000029	base				
+S1-00561	S1	M000260	chain_branch				
+S1-00562	S1	M000463	base				
+S1-00563	S1	M000451	base				
+S1-00564	S1	M000148	base				
+S1-00565	S1	M000058	base				
+S1-00566	S1	M000399	base				
+S1-00567	S1	M000273	sibling_similar_name				
+S1-00568	S1	M000547	base				
+S1-00569	S1	M000331	base				
+S1-00570	S1	M000066	base				
+S1-00571	S1	M000069	base				
+S1-00572	S1	M000053	base				
+S1-00573	S1	M000162	chain_branch				
+S1-00574	S1	M000464	base				
+S1-00575	S1	M000530	base				
+S1-00576	S1	M000294	base				
+S1-00577	S1	M000051	base				
+S1-00578	S1	M000577	base				
+S1-00579	S1	M000349	base				
+S1-00580	S1	M000525	chain_branch				
+S1-00581	S1	M000278	base				
+S1-00582	S1	M000186	sibling_similar_address				
+S1-00583	S1	M000397	base				
+S1-00584	S1	M000592	base				
+S1-00585	S1	M000559	chain_branch				
+S1-00586	S1	M000038	base				
+S1-00587	S1	M000476	base				
+S1-00588	S1	M000441	base				
+S1-00589	S1	M000354	base				
+S1-00590	S1	M000481	base				
+S1-00591	S1	M000562	chain_branch				
+S1-00592	S1	M000432	base				
+S1-00593	S1	M000078	base				
+S1-00594	S1	M000233	chain_branch				
+S1-00595	S1	M000536	base				
+S1-00596	S1	M000223	base				
+S1-00597	S1	M000286	base				
+S1-00598	S1	M000320	base				
+S1-00599	S1	M000139	base				
+S1-00600	S1	M000423	base				

@@ -1,0 +1,22 @@
+[
+  "name_exact",
+  "name_ratio",
+  "name_partial_ratio",
+  "name_token_ratio",
+  "name_jaccard",
+  "address_exact",
+  "address_ratio",
+  "address_partial_ratio",
+  "address_jaccard",
+  "country_match",
+  "name_length_difference",
+  "address_length_difference",
+  "common_name_tokens",
+  "common_address_tokens",
+  "source1_name_missing",
+  "candidate_name_missing",
+  "source1_address_missing",
+  "candidate_address_missing",
+  "source1_country_missing",
+  "candidate_country_missing"
+]

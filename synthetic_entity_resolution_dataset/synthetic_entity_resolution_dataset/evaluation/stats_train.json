@@ -1,0 +1,380 @@
+{
+ "train": {
+  "records": {
+   "S1": 2000,
+   "S2": 3001,
+   "S3": 3000
+  },
+  "unique_underlying_businesses_S1": 2000,
+  "unique_underlying_businesses_incl_decoys": 2258,
+  "positive_matches": 5671,
+  "positives_S2": 2851,
+  "positives_S3": 2820,
+  "singleton_s1": 300,
+  "single_match_s1": 173,
+  "multi_match_s1": 1527,
+  "max_matches_one_s1": 8,
+  "cross_source_multi": 1301,
+  "orphan_records": {
+   "S2": 150,
+   "S3": 180
+  },
+  "decoy_kinds": {
+   "decoy_same_name_diff_addr": 121,
+   "decoy_same_city_diff_biz": 51,
+   "decoy_similar_name_diff_addr": 82,
+   "decoy_similar_addr_diff_name": 54,
+   "decoy_random": 22
+  },
+  "s1_origins": {
+   "base": 1740,
+   "sibling_similar_address": 52,
+   "chain_branch": 150,
+   "sibling_similar_name": 58
+  },
+  "s1_countries": {
+   "India": 780,
+   "Canada": 150,
+   "Germany": 85,
+   "France": 105,
+   "United States": 533,
+   "United Kingdom": 139,
+   "Australia": 135,
+   "Singapore": 73
+  },
+  "missing": {
+   "S2": {
+    "address_missing_pct": 3.9,
+    "country_missing_pct": 5.3,
+    "pin_missing_pct": 13.46
+   },
+   "S3": {
+    "address_missing_pct": 7.5,
+    "country_missing_pct": 9.2,
+    "pin_missing_pct": 34.9
+   },
+   "S1": {
+    "address_missing_pct": 0.0,
+    "country_missing_pct": 0.0,
+    "pin_missing_pct": 0.0
+   }
+  },
+  "noise_profile": {
+   "S2": {
+    "abbrev": 35.0,
+    "exact": 20.1,
+    "typo": 19.0,
+    "order": 9.2,
+    "address": 6.7,
+    "missing": 6.4,
+    "complex": 3.5
+   },
+   "S3": {
+    "address": 25.9,
+    "exact": 19.7,
+    "abbrev": 14.5,
+    "order": 13.3,
+    "missing": 12.8,
+    "typo": 7.4,
+    "complex": 6.4
+   }
+  },
+  "noise_profile_overall": {
+   "abbrev": 24.7,
+   "exact": 19.9,
+   "address": 16.3,
+   "typo": 13.2,
+   "order": 11.2,
+   "missing": 9.6,
+   "complex": 4.9
+  },
+  "name_op_freq_pct": {
+   "S2": {
+    "abbrev": 30.3,
+    "legal_variant": 28.3,
+    "typo": 20.2,
+    "case": 12.4,
+    "punct": 9.1,
+    "initials": 8.0,
+    "shorten": 5.5,
+    "spaces": 4.8,
+    "reorder": 3.1,
+    "legal_drop": 1.4,
+    "drop_word": 1.2,
+    "translit": 0.8
+   },
+   "S3": {
+    "case": 19.7,
+    "legal_variant": 15.2,
+    "abbrev": 12.6,
+    "punct": 12.1,
+    "shorten": 10.8,
+    "reorder": 10.3,
+    "typo": 10.1,
+    "translit": 4.8,
+    "legal_drop": 4.7,
+    "spaces": 4.0,
+    "initials": 3.7,
+    "drop_word": 2.4
+   }
+  },
+  "addr_op_freq_pct": {
+   "S2": {
+    "abbr": 28.8,
+    "state_abbr": 11.4,
+    "drop_pin": 9.3,
+    "punct": 8.8,
+    "typo": 6.1,
+    "sep": 4.7,
+    "missing_addr": 3.9,
+    "drop_unit": 3.0,
+    "numstyle": 2.1,
+    "upper": 1.9,
+    "drop_state": 1.7,
+    "dotted": 1.5,
+    "drop_street": 1.5,
+    "spaces": 1.2,
+    "landmark": 1.1,
+    "reorder": 0.8,
+    "pinfmt": 0.5,
+    "drop_bno": 0.4,
+    "drop_city": 0.4,
+    "accent": 0.2
+   },
+   "S3": {
+    "drop_pin": 25.1,
+    "abbr": 17.1,
+    "reorder": 11.3,
+    "landmark": 10.8,
+    "drop_unit": 9.7,
+    "drop_state": 9.4,
+    "punct": 8.1,
+    "missing_addr": 7.5,
+    "drop_bno": 5.7,
+    "state_abbr": 5.0,
+    "sep": 4.7,
+    "pinfmt": 4.5,
+    "typo": 3.5,
+    "drop_street": 3.4,
+    "drop_city": 3.3,
+    "spaces": 2.9,
+    "upper": 2.8,
+    "dotted": 0.9,
+    "numstyle": 0.8,
+    "accent": 0.6
+   }
+  },
+  "country_variant_pct": {
+   "S2": 15.0,
+   "S3": 25.2
+  },
+  "pairs_total": 17671,
+  "pairs_pos": 5671,
+  "pairs_neg": 12000,
+  "pairs_hard_neg": 1287,
+  "pairs_same_name_diff_biz": 510,
+  "pairs_same_addr_diff_biz": 0,
+  "pairs_by_source": {
+   "S2": 8881,
+   "S3": 8790
+  }
+ },
+ "test": {
+  "records": {
+   "S1": 600,
+   "S2": 900,
+   "S3": 900
+  },
+  "unique_underlying_businesses_S1": 600,
+  "unique_underlying_businesses_incl_decoys": 757,
+  "positive_matches": 1609,
+  "positives_S2": 794,
+  "positives_S3": 815,
+  "singleton_s1": 108,
+  "single_match_s1": 58,
+  "multi_match_s1": 434,
+  "max_matches_one_s1": 7,
+  "cross_source_multi": 366,
+  "orphan_records": {
+   "S2": 106,
+   "S3": 85
+  },
+  "decoy_kinds": {
+   "decoy_same_name_diff_addr": 63,
+   "decoy_random": 19,
+   "decoy_similar_addr_diff_name": 33,
+   "decoy_same_city_diff_biz": 21,
+   "decoy_similar_name_diff_addr": 55
+  },
+  "s1_origins": {
+   "base": 510,
+   "chain_branch": 50,
+   "sibling_similar_name": 25,
+   "sibling_similar_address": 15
+  },
+  "s1_countries": {
+   "Singapore": 61,
+   "United States": 133,
+   "United Kingdom": 70,
+   "Germany": 64,
+   "Canada": 49,
+   "Australia": 38,
+   "India": 123,
+   "France": 62
+  },
+  "missing": {
+   "S2": {
+    "address_missing_pct": 6.56,
+    "country_missing_pct": 8.0,
+    "pin_missing_pct": 22.56
+   },
+   "S3": {
+    "address_missing_pct": 9.78,
+    "country_missing_pct": 10.89,
+    "pin_missing_pct": 40.56
+   },
+   "S1": {
+    "address_missing_pct": 0.0,
+    "country_missing_pct": 0.0,
+    "pin_missing_pct": 0.0
+   }
+  },
+  "noise_profile": {
+   "S2": {
+    "abbrev": 25.8,
+    "typo": 16.1,
+    "exact": 13.1,
+    "address": 12.7,
+    "missing": 11.4,
+    "order": 11.0,
+    "complex": 9.9
+   },
+   "S3": {
+    "address": 24.1,
+    "missing": 14.2,
+    "exact": 13.9,
+    "abbrev": 13.8,
+    "complex": 12.8,
+    "order": 12.3,
+    "typo": 8.9
+   }
+  },
+  "noise_profile_overall": {
+   "abbrev": 19.8,
+   "address": 18.4,
+   "exact": 13.5,
+   "missing": 12.8,
+   "typo": 12.5,
+   "order": 11.7,
+   "complex": 11.3
+  },
+  "name_op_freq_pct": {
+   "S2": {
+    "abbrev": 25.3,
+    "legal_variant": 25.2,
+    "typo": 20.4,
+    "case": 15.9,
+    "punct": 12.2,
+    "vowel_drop": 9.4,
+    "the_prefix": 8.6,
+    "group_suffix": 7.9,
+    "umlaut_expand": 7.1,
+    "shorten": 6.6,
+    "spaces": 6.6,
+    "initials": 6.1,
+    "reorder": 5.3,
+    "legal_drop": 3.8,
+    "drop_word": 2.8,
+    "translit": 2.7
+   },
+   "S3": {
+    "case": 20.2,
+    "legal_variant": 17.8,
+    "shorten": 13.7,
+    "abbrev": 13.7,
+    "typo": 13.1,
+    "punct": 12.1,
+    "reorder": 11.1,
+    "umlaut_expand": 10.4,
+    "translit": 7.4,
+    "the_prefix": 7.1,
+    "group_suffix": 6.9,
+    "vowel_drop": 6.6,
+    "legal_drop": 6.4,
+    "spaces": 5.1,
+    "initials": 4.4,
+    "drop_word": 3.6
+   }
+  },
+  "addr_op_freq_pct": {
+   "S2": {
+    "abbr": 24.2,
+    "drop_pin": 15.7,
+    "punct": 10.3,
+    "state_abbr": 9.9,
+    "append_country": 8.7,
+    "sep": 7.6,
+    "pin_prefix": 7.0,
+    "typo": 6.9,
+    "missing_addr": 6.6,
+    "unit_lead": 6.2,
+    "drop_unit": 6.1,
+    "numstyle": 5.4,
+    "drop_state": 3.6,
+    "spaces": 3.1,
+    "dotted": 3.0,
+    "drop_street": 2.9,
+    "reorder": 2.4,
+    "landmark": 2.3,
+    "upper": 2.2,
+    "drop_bno": 1.7,
+    "pinfmt": 1.4,
+    "accent": 1.1,
+    "drop_city": 0.8
+   },
+   "S3": {
+    "drop_pin": 27.8,
+    "abbr": 15.1,
+    "drop_state": 12.0,
+    "landmark": 11.4,
+    "reorder": 11.1,
+    "missing_addr": 9.8,
+    "drop_unit": 9.6,
+    "unit_lead": 8.7,
+    "pin_prefix": 8.0,
+    "punct": 7.1,
+    "drop_bno": 6.6,
+    "append_country": 6.3,
+    "state_abbr": 5.3,
+    "typo": 5.0,
+    "sep": 4.8,
+    "pinfmt": 4.4,
+    "drop_city": 4.3,
+    "drop_street": 2.9,
+    "spaces": 2.6,
+    "upper": 2.3,
+    "dotted": 2.0,
+    "numstyle": 1.6,
+    "accent": 0.7
+   }
+  },
+  "country_variant_pct": {
+   "S2": 15.7,
+   "S3": 26.4
+  }
+ },
+ "baselines": {
+  "exact_name": {
+   "predicted": 3824,
+   "true_positive": 3196,
+   "precision": 0.836,
+   "recall": 0.564
+  },
+  "exact_name_and_address": {
+   "predicted": 1431,
+   "true_positive": 1431,
+   "precision": 1.0,
+   "recall": 0.252
+  }
+ }
+}

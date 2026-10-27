@@ -1,0 +1,8 @@
+{
+    "threshold": 0.7,
+    "metric": "macro_entity_f0_5",
+    "validation_macro_f0_5": 0.9835,
+    "pair_f0_5": 0.9829,
+    "pair_precision": 0.9848,
+    "pair_recall": 0.9753
+}
